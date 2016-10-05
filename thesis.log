@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.21)  23 SEP 2016 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.21)  5 OCT 2016 20:52
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -914,7 +914,7 @@ LaTeX Info: Redefining \nameref on input line 17.
  (thesis.out)
 (thesis.out)
 \@outlinefile=\write3
- (front.tex <fig/rams.pdf, id=110, 97.80238pt x 44.8345pt>
+ (front.tex <fig/rams.pdf, id=122, 97.80238pt x 44.8345pt>
 File: fig/rams.pdf Graphic file (type pdf)
 
 <use fig/rams.pdf>
@@ -982,53 +982,28 @@ been already used, duplicate ignored
 l.27 \include{chapter01}
                          [1] (chapter01.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 16.
-[2
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 6.
+
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 24.
+
+(D:\Programme\MiKTeX\tex\latex\fourier\ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+) [2
 
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 25.
-
- (D:\Programme\MiKTeX\tex\latex\fourier\ts1futs.fd
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 32.
+ [3]) (chapter02.tex
+Chapter 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 29.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 30.
-
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 8.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
 (D:\Programme\MiKTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 30.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 30.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 30.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 30.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 30.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 30.
-
-Overfull \hbox (61.20372pt too wide) in paragraph at lines 29--31
-$\FMS/futm/m/n/12 n$\T1/cmtt/m/n/12 usepackage{natbib} \T1/futs/m/n/12 and un-c
-omment the cor-re-spond-ing com-mand $\FMS/futm/m/n/12 n$\T1/cmtt/m/n/12 usepac
-kage[numbers]{natbib}\T1/futs/m/n/12 .[][][][][] 
- []
-
-
-Overfull \hbox (2.55225pt too wide) in paragraph at lines 36--38
-\T1/futs/b/it/12 Remark\T1/futs/m/n/12 : Hy-per-links are in-cluded by the com-
-mand $\FMS/futm/m/n/12 n$\T1/cmtt/m/n/12 usepackage{hyperref\T1/futs/m/n/12 } i
-n \T1/cmtt/m/n/12 ramsstyle.sty\T1/futs/m/n/12 .
- []
-
-[3] [4]) [5] (chapter02.tex
-Chapter 2.
-
 Overfull \hbox (23.45486pt too wide) in paragraph at lines 14--15
 \T1/futs/m/n/12 Mathematical sym-bols and equa-tions can writ-ten in the text a
 s $\FML/futmi/m/it/12 $\T1/futs/m/n/12 , $\FML/futmi/m/it/12 F\T1/futs/m/n/12 
@@ -1038,7 +1013,7 @@ s/m/n/12 (\FMS/futm/m/n/12  \FML/futmi/m/it/12 x\T1/futs/m/n/12 ) \FML/futmi/m
 /it/12 dx$\T1/futs/m/n/12 ,
  []
 
-[6
+[4
 
 
 
@@ -1049,7 +1024,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-[7] <fig/NTNU.pdf, id=232, 241.90375pt x 53.19875pt>
+[5] <fig/NTNU.pdf, id=222, 241.90375pt x 53.19875pt>
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
 Package pdftex.def Info: fig/NTNU.pdf used on input line 64.
@@ -1061,7 +1036,19 @@ n/12 [h] \T1/futs/m/n/12 (here) im-me-di-ately af-ter $\FMS/futm/m/n/12 n$\T1/c
 mtt/m/n/12 begin{figure}\T1/futs/m/n/12 .
  []
 
-[8 <./fig/NTNU.pdf>]
+[6 <./fig/NTNU.pdf>]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 74.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 74.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 74.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 74.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 74.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 74.
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
 Package pdftex.def Info: fig/NTNU.pdf used on input line 77.
@@ -1081,37 +1068,37 @@ raphics \T1/futs/m/n/12 for fig-ures, and above the com-mand $\FMS/futm/m/n/12
 n$\T1/cmtt/m/n/12 begin{tabular*}
  []
 
-[9] [10] [11]) [12] (chapter0n.tex
+[7] [8] [9]) [10] (chapter0n.tex
 Chapter 3.
-[13
+[11
 
 
 
-]) [14] (acronyms.tex
+]) [12] (acronyms.tex
 Appendix A.
-) [15
+) [13
 
 
 
 ] (appendix-b.tex
 Appendix B.
-) [16
+) [14
 
 
 
-] (thesis.bbl) [17
+] (thesis.bbl) [15
 
 
 ] (vitae.tex
-<fig/me.pdf, id=300, 238.8925pt x 283.0575pt>
+<fig/me.pdf, id=287, 238.8925pt x 283.0575pt>
 File: fig/me.pdf Graphic file (type pdf)
  <use fig/me.pdf>
 Package pdftex.def Info: fig/me.pdf used on input line 24.
 (pdftex.def)             Requested size: 71.66829pt x 84.9179pt.
- [18
+ [16
 
 
- <./fig/me.pdf>]) [19]
+ <./fig/me.pdf>]) [17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (thesis.aux (front.aux) (preface.aux) (acknowledgment.aux)
@@ -1119,27 +1106,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 (appendix-b.aux) (vitae.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: ECAADAACB1C9AF2025855584F014FCF4;1628
-(rerunfilecheck)             After:  DD3961A7CAC2451869D86FAA935A1541;1663.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 88D9DA49E4378A3E6F7F709BA17B7D06;2012.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 8328 strings out of 493673
- 113532 string characters out of 3147223
- 204434 words of memory out of 3000000
+ 8321 strings out of 493673
+ 113478 string characters out of 3147223
+ 205401 words of memory out of 3000000
  11342 multiletter control sequences out of 15000+200000
  115231 words of font info for 121 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,10n,34p,846b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ectt1200.pk>{D:/Programme/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/Programme
+{D:/Programme/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Fabian\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk><D:/Programme
 /MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><D:/Programme/MiKTeX/fonts/t
 ype1/public/fourier/fourier-mlit.pfb><D:/Programme/MiKTeX/fonts/type1/public/fo
 urier/fourier-ms.pfb><D:/Programme/MiKTeX/fonts/type1/public/marvosym/marvosym.
@@ -1147,9 +1127,9 @@ pfb><D:/Programme/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><D:/Programme/MiKT
 eX/fonts/type1/adobe/utopia/putbi8a.pfb><D:/Programme/MiKTeX/fonts/type1/adobe/
 utopia/putr8a.pfb><D:/Programme/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><D:/
 Programme/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on thesis.pdf (24 pages, 195640 bytes).
+Output written on thesis.pdf (22 pages, 187002 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
