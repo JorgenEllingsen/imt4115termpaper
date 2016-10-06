@@ -1,14 +1,25 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 
-\bibitem[\protect\astroncite{Ferrara et~al.}{2015}]{ferrara15}
-Ferrara, E., Varol, O., Davis, C., Menczer, F., and Flammini, A. (2015).
+\bibitem{ferrara15}
+E.~Ferrara, O.~Varol, C.~Davis, F.~Menczer, and A.~Flammini.
 \newblock The rise of social bots.
-\newblock {\em arXiv preprint arXiv:1407.5225v3}.
+\newblock {\em arXiv preprint arXiv:1407.5225v3}, 2015.
 
-\bibitem[\protect\astroncite{Rausand and H{\o}yland}{2004}]{rausand04}
-Rausand, M. and H{\o}yland, A. (2004).
+\bibitem{rausand04}
+M.~Rausand and A.~H{\o}yland.
 \newblock {\em System Reliability Theory: Models, Statistical Methods, and
   Applications}.
-\newblock Wiley, Hoboken, NJ, 2nd edition.
+\newblock Wiley, Hoboken, NJ, 2nd edition, 2004.
+
+\bibitem{turing}
+A.~M. Turing.
+\newblock Computing machinery and intelligence.
+\newblock {\em Mind}, 59(236):433--460, 1950.
+
+\bibitem{eliza}
+J.~Weizenbaum.
+\newblock Eliza—a computer program for the study of natural language
+  communication between man and machine.
+\newblock {\em Communications of the ACM}, 9(1):36--45, 1966.
 
 \end{thebibliography}
