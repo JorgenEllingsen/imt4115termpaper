@@ -1,20 +1,42 @@
 \begin{thebibliography}{1}
 
+\bibitem{boshmaf12}
+Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
+\newblock Key challenges in defending against malicious socialbots.
+\newblock In {\em Presented as part of the 5th USENIX Workshop on Large-Scale
+  Exploits and Emergent Threats}, 2012.
+
+\bibitem{boshmaf13}
+Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
+\newblock Design and analysis of a social botnet.
+\newblock {\em Computer Networks}, 57(2):556--578, 2013.
+
+\bibitem{sybil}
+J.~R. Douceur.
+\newblock The sybil attack.
+\newblock In {\em International Workshop on Peer-to-Peer Systems}, pages
+  251--260. Springer, 2002.
+
 \bibitem{ferrara15}
 E.~Ferrara, O.~Varol, C.~Davis, F.~Menczer, and A.~Flammini.
 \newblock The rise of social bots.
 \newblock {\em arXiv preprint arXiv:1407.5225v3}, 2015.
 
-\bibitem{rausand04}
-M.~Rausand and A.~H{\o}yland.
-\newblock {\em System Reliability Theory: Models, Statistical Methods, and
-  Applications}.
-\newblock Wiley, Hoboken, NJ, 2nd edition, 2004.
+\bibitem{hwang12}
+T.~Hwang, I.~Pearce, and M.~Nanis.
+\newblock Socialbots: Voices from the fronts.
+\newblock {\em interactions}, 19(2):38--45, 2012.
 
 \bibitem{turing}
 A.~M. Turing.
 \newblock Computing machinery and intelligence.
 \newblock {\em Mind}, 59(236):433--460, 1950.
+
+\bibitem{socnetanalysis}
+B.~Viswanath, A.~Post, K.~P. Gummadi, and A.~Mislove.
+\newblock An analysis of social network-based sybil defenses.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374,
+  2010.
 
 \bibitem{eliza}
 J.~Weizenbaum.

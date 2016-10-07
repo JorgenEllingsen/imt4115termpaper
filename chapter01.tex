@@ -5,13 +5,13 @@
 \newpage
 \chapter{Approaches for Detecting Robots \\ in Social Media}
 \section*{Management Summary}
-
+This is the management summary blablabla mhmhm...
 
 \section{Introduction}
-Software robots are often called bot.
+Software robots are often called bot. <- muss hier irgendwie rein 
 
 \section{Definition and History of Social Bots} 
-This section will introduce the term social bot formally and give a short overview about the history of this topic.
+This section will introduce the term social bot formally and give a short overview about the beginning and the development of this topic.
 
 In order to be able to discuss social media bot detection, we need a clear understanding of what social bots actually are.  For that, we use the definition given by Ferrara et al. in their article The Rise of Social Bots:
 \begin{quote}
@@ -20,29 +20,50 @@ In order to be able to discuss social media bot detection, we need a clear under
 
 The root of of social bots, or just bots how we will sometimes call them here as well, can probably be found in the Turing test, developed by Alan Turing in 1950 \cite{turing}. It involves three parties, two of which are human and one is a computer program. While one human is having a conversation with the software, it is the task of the other human to identify the program. If he is not able to do so, the software is passing the Turing test. This led to the development of a lot of so called chatbots, which just aimed to appear as human as possible in a conversation.  
 
-A rather famous and often cited example for such a chatbot is ELIZA, introduced by Joseph Weizenbaum 1966 in \cite{eliza}. It mimicked a psychotherapist and showed \mbox{that -- at} least some kind\mbox{ of -- communication} between a human and a computer is possible.
+A rather famous and often cited example for such a chatbot is ELIZA, introduced by Joseph Weizenbaum 1966 in \cite{eliza}. It mimicked a psychotherapist and showed \mbox{that -- at} least some kind\\ \mbox{ of -- communication} between a human and a computer is possible.
 
-Since then, a lot of things have changed. Today, bots are a lot more than bare entertainment or proof of concept. With the rise of social networks like Facebook and Twitter the possibilities for social bots increased dramatically.  As we will see in the next section, nowadays bots are used to spread messages, for marketing, to generate clicks and for a lot more.  %%IST DAS WIRKLICH SO? CHECKEN WENN SECTION GESCHRIEBEN!!
+Since then, a lot of things have changed. Today, bots are a lot more than bare entertainment or proof of concept. With the triumph of the Internet and especially social networks like Facebook and Twitter, the possible use cases for social bots have increased dramatically. While they were initially mostly used to simply post content, today they are able to credibly interact with each other and even humans \cite{boshmaf13, hwang12}. As we will see in the next section, nowadays bots are used to spread messages, for marketing and a lot more.
 
 
-\section{Why is Bot Detection in Social Media Important?}%Better "Bot-Detection"?
+\section{Why is Bot Detection in Social Media Important?}
 \begin{itemize}
 	\item Information flood -> need to get the message through
 	\item influence political mood
 	\item marketing
+	\item false information (boston marathon: cassa 2013)
+	\item seem fame
+	\item stock exch..
 \end{itemize}
+---> section "engineered social tampering" and following in the rise of social bots!! 
 
-\section{Social Media Bot Detection Approaches}
++ Key Challenges in Defending Against Malicious Socialbots \cite{boshmaf12}
+\section{Social Bot Detection Approaches}
+In this chapter we want to introduce several techniques for detecting social bots. Based on Ferrara et al. \cite{ferrara15} we distinguish between three detection approach classes. 
 
+The first category of detection approaches is based on social network information. They are also called graph-based, since they map users and their relations into a graph and then try to identify bots in the hereby obtained social network by means of graph theory. 
+
+Afterwards we will discuss crowd-sourcing based social bot detection approaches. They use actual humans to detect bots, assuming that the human ability to notice details in communication will make this an easy task.
+
+The last category we want to elaborate on are detection approaches based on machine learning. Mechanisms that make use of this approach try to observe behavioral patterns that are typical for social bots. Since these patterns are encoded in so called patterns, this approach is also known as feature-based \cite{ferrara15}. %%IS THIS CITATION NEEDED? ALREADY SAID IN FIRST PARAGRAPH(BASED ON...)
+
+
+In the following sub sections, we will go into detail about each of these three approaches and illustrate them using real detection systems.
 
 \subsection{Based on Social Network Information}
+A term that is often used in combination with detection of bots by using social networks is sybil or the sybil attack, which was presented as a thread to distributed systems by John R. Douceur in \cite{sybil}. In the specific context of social media platforms, when conducting a sybil attack, an attacker creates a large amount of fake identities in a system to the point where these identities make up a considerable fraction of the systems whole user based. When this is achieved, the attacker can influence the whole system and control its contents to a certain degree. A sybil, sybil node or sybil account is therefor simply one of the fake entities or, depending on the attack architecture, a social bot. It is not hard to see that social bot detection can, more specifically, be viewed as a defense against the sybil attack.   
+
+The general proceeding of social network based bot detection approaches is rather simple. They map the social platform they aim to defend into a social graph, where a node is corresponding to a user and an edge between two nodes exists if there is a specific kind of relationships between the two respective users on the platform. The nodes can be hereby partitioned in sybil nodes and non-sybil nodes, respectively legitimate users. The goal of the detection approach is now, to identify whether a given node is a sybil or not. \cite{socnetanalysis}
+
+An Analysis of Social Network-Based Sybil Defenses
+
+SoK: The Evolution of Sybil Defense via Social Networks
 
 
 \subsection{Based on Crowd-Sourcing}
 
 
 \subsection{Based on Machine Learning Methods}
-
+wie misuse based ids!
 
 \section{Summary and Outlook}
 
