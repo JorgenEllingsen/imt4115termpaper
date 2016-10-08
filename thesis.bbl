@@ -60,6 +60,11 @@ B.~Viswanath, A.~Post, K.~P. Gummadi, and A.~Mislove.
 \newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374,
   2010.
 
+\bibitem{wangcrowd}
+G.~Wang, M.~Mohanlal, C.~Wilson, X.~Wang, M.~Metzger, H.~Zheng, and B.~Y. Zhao.
+\newblock Social turing tests: Crowdsourcing sybil detection.
+\newblock {\em arXiv preprint arXiv:1205.3856}, 2012.
+
 \bibitem{eliza}
 J.~Weizenbaum.
 \newblock Eliza—a computer program for the study of natural language

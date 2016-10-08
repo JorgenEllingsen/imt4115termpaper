@@ -68,8 +68,24 @@ A well known example for a bot detection approach that is based on social networ
 An example for this could be a newly created Facebook account, that sends a lot of friendship requests. These are used in Facebook to establish relationships between users. A legitimate user starts sending friendship requests usually mainly to people he knows and vice versa, that is, people that are likely to accept his friendship request. If a lot of these requests are now declined, this could be a indication for the system that the sending user might not be legitimate.  The IMS also makes heavy use of machine learning, which we will discuss later on, and generates training data automatically in order to adapt to the fast changing attacks and user behavior \cite{fis}.
 
 \subsection{Based on Crowd-Sourcing}
+A rather straight forward approach for social bot detection is based on crowd-sourcing. In contrast to the above described social network information based approaches, a connection between bots and legitimate users is not a problem for schemes based on this approach -- at least not a direct one. The basic idea of crowd-sourcing based social bot detection is, to engage actual human workers to study user profiles and subsequently to decide whether it belongs to an actual user or a sybil.
+
+In \cite{wangcrowd}, Wang et al. presented a study on the effectiveness of this approach and introduce a sample for a crowd-sourcing based social bot detection system.  For their tests they use sample data from Renren, China's most popular social media platform, Facebook US and Facebook India. They subdivide their human investigators, or simply testers, in expert workers, and crowd-sourced workers.  Each of the testers is presented a number of social media profiles and has to decide, whether it is a real one, or a sybil. While the experts achieve a detection rate at about 90\%, the crowd-sourced workers perform not as good individually. If their single votes are aggregated and used for a majority decision though, the results can significantly increased. If this is done for the expert workers, their results can be increased even more, too.   
+
+Wang et al. conclude, that it is very hard for sybil creators, to assemble social bots respectively profiles that are able to pass a "social turing test" and that crowd-sourcing based approaches can perform very well. They proceed with introducing a practical system that is illustrated in figure \ref{label}.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6,angle=15]{fig/NTNU}
+	\caption{This is the logo of NTNU (rotated 15 degrees).}
+	\label{fig1}
+\end{figure}
 
 
+
+"reverse turing test"
+
+abhängig von plattform (->infos in profil!)
 \subsection{Based on Machine Learning Methods}
 wie misuse based ids!
 
