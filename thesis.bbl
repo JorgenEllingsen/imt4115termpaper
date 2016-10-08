@@ -1,4 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{boshmaf11}
+Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
+\newblock The socialbot network: when bots socialize for fame and money.
+\newblock In {\em Proceedings of the 27th Annual Computer Security Applications
+  Conference}, pages 93--102. ACM, 2011.
 
 \bibitem{boshmaf12}
 Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
@@ -10,6 +16,11 @@ Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
 Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
 \newblock Design and analysis of a social botnet.
 \newblock {\em Computer Networks}, 57(2):556--578, 2013.
+
+\bibitem{sybilinfer}
+G.~Danezis and P.~Mittal.
+\newblock Sybilinfer: Detecting sybil nodes using social networks.
+\newblock In {\em NDSS}. San Diego, CA, 2009.
 
 \bibitem{sybil}
 J.~R. Douceur.
@@ -27,12 +38,23 @@ T.~Hwang, I.~Pearce, and M.~Nanis.
 \newblock Socialbots: Voices from the fronts.
 \newblock {\em interactions}, 19(2):38--45, 2012.
 
+\bibitem{fis}
+T.~Stein, E.~Chen, and K.~Mangla.
+\newblock Facebook immune system.
+\newblock In {\em Proceedings of the 4th Workshop on Social Network Systems},
+  page~8. ACM, 2011.
+
+\bibitem{sumup}
+D.~N. Tran, B.~Min, J.~Li, and L.~Subramanian.
+\newblock Sybil-resilient online content voting.
+\newblock In {\em NSDI}, volume~9, pages 15--28, 2009.
+
 \bibitem{turing}
 A.~M. Turing.
 \newblock Computing machinery and intelligence.
 \newblock {\em Mind}, 59(236):433--460, 1950.
 
-\bibitem{socnetanalysis}
+\bibitem{comparison}
 B.~Viswanath, A.~Post, K.~P. Gummadi, and A.~Mislove.
 \newblock An analysis of social network-based sybil defenses.
 \newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374,
@@ -43,5 +65,11 @@ J.~Weizenbaum.
 \newblock Eliza—a computer program for the study of natural language
   communication between man and machine.
 \newblock {\em Communications of the ACM}, 9(1):36--45, 1966.
+
+\bibitem{sybilguard}
+H.~Yu, M.~Kaminsky, P.~B. Gibbons, and A.~Flaxman.
+\newblock Sybilguard: defending against sybil attacks via social networks.
+\newblock In {\em ACM SIGCOMM Computer Communication Review}, volume~36, pages
+  267--278. ACM, 2006.
 
 \end{thebibliography}
