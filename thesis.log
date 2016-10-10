@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.21)  8 OCT 2016 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.21)  10 OCT 2016 15:46
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -790,11 +790,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip50
 )) (thesis.aux
 (front.aux) (preface.aux) (acknowledgment.aux) (summary.aux) (chapter01.aux)
-(chapter02.aux
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-) (chapter0n.aux) (acronyms.aux) (appendix-b.aux) (vitae.aux))
+(chapter02.aux) (chapter0n.aux) (acronyms.aux) (appendix-b.aux) (vitae.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -1000,18 +996,28 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 32.
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 ) [3]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 54.
- [4] [5]
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 55.
+ [4] [5] [6]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 76.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 76.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 76.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 76.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 76.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 76.
 
-LaTeX Warning: Reference `label' on page 6 undefined on input line 75.
+<fig/crowdsys.png, id=247, 804.75656pt x 441.14813pt>
+File: fig/crowdsys.png Graphic file (type png)
+ <use fig/crowdsys.png>
+Package pdftex.def Info: fig/crowdsys.png used on input line 80.
+(pdftex.def)             Requested size: 321.89691pt x 176.45612pt.
 
-[6] <fig/NTNU.pdf, id=245, 241.90375pt x 53.19875pt>
-File: fig/NTNU.pdf Graphic file (type pdf)
- <use fig/NTNU.pdf>
-Package pdftex.def Info: fig/NTNU.pdf used on input line 79.
-(pdftex.def)             Requested size: 145.14336pt x 31.91948pt.
-
-[7 <./fig/NTNU.pdf>]) (chapter02.tex
+[7 <./fig/crowdsys.png>] [8]) (chapter02.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 8.
@@ -1028,7 +1034,7 @@ s/m/n/12 (\FMS/futm/m/n/12  \FML/futmi/m/it/12 x\T1/futs/m/n/12 ) \FML/futmi/m
 /it/12 dx$\T1/futs/m/n/12 ,
  []
 
-[8
+[9
 
 
 
@@ -1039,7 +1045,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-[9]
+[10] <fig/NTNU.pdf, id=283, 241.90375pt x 53.19875pt>
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
 Package pdftex.def Info: fig/NTNU.pdf used on input line 64.
@@ -1051,19 +1057,7 @@ n/12 [h] \T1/futs/m/n/12 (here) im-me-di-ately af-ter $\FMS/futm/m/n/12 n$\T1/c
 mtt/m/n/12 begin{figure}\T1/futs/m/n/12 .
  []
 
-[10]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 74.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 74.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 74.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 74.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 74.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 74.
+[11 <./fig/NTNU.pdf>]
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
 Package pdftex.def Info: fig/NTNU.pdf used on input line 77.
@@ -1084,49 +1078,49 @@ n$\T1/cmtt/m/n/12 begin{tabular*}
  []
 
 
-Package natbib Warning: Citation `rausand04' on page 11 undefined on input line
+Package natbib Warning: Citation `rausand04' on page 12 undefined on input line
  110.
 
 
-Package natbib Warning: Citation `rausand04' on page 11 undefined on input line
+Package natbib Warning: Citation `rausand04' on page 12 undefined on input line
  112.
 
-[11] [12] [13]
+[12] [13] [14]
 
-Package natbib Warning: Citation `rausand04' on page 14 undefined on input line
+Package natbib Warning: Citation `rausand04' on page 15 undefined on input line
  135.
 
-) [14] (chapter0n.tex
+) [15] (chapter0n.tex
 Chapter 3.
-[15
+[16
 
 
 
-]) [16] (acronyms.tex
+]) [17] (acronyms.tex
 Appendix A.
-) [17
+) [18
 
 
 
 ] (appendix-b.tex
 Appendix B.
-) [18
+) [19
 
 
 
-] (thesis.bbl [19
+] (thesis.bbl [20
 
 
-]) [20] (vitae.tex
-<fig/me.pdf, id=338, 238.8925pt x 283.0575pt>
+]) [21] (vitae.tex
+<fig/me.pdf, id=348, 238.8925pt x 283.0575pt>
 File: fig/me.pdf Graphic file (type pdf)
  <use fig/me.pdf>
 Package pdftex.def Info: fig/me.pdf used on input line 24.
 (pdftex.def)             Requested size: 71.66829pt x 84.9179pt.
- [21
+ [22
 
 
- <./fig/me.pdf>]) [22]
+ <./fig/me.pdf>]) [23]
 
 Package natbib Warning: There were undefined citations.
 
@@ -1139,23 +1133,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B03956B0497F559FFB7A450EFC9C16AF;2006.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 8377 strings out of 493673
- 114241 string characters out of 3147223
- 205587 words of memory out of 3000000
- 11380 multiletter control sequences out of 15000+200000
+ 8384 strings out of 493673
+ 114357 string characters out of 3147223
+ 205651 words of memory out of 3000000
+ 11384 multiletter control sequences out of 15000+200000
  115231 words of font info for 121 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,10n,34p,970b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,34p,1219b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Fabian\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk><D:/Programme
 /MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><D:/Programme/MiKTeX/fonts/t
@@ -1165,9 +1152,9 @@ pfb><D:/Programme/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><D:/Programme/MiKT
 eX/fonts/type1/adobe/utopia/putbi8a.pfb><D:/Programme/MiKTeX/fonts/type1/adobe/
 utopia/putr8a.pfb><D:/Programme/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><D:/
 Programme/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on thesis.pdf (27 pages, 210713 bytes).
+Output written on thesis.pdf (28 pages, 316001 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

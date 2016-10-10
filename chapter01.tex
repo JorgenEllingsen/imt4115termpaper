@@ -30,17 +30,18 @@ Since then, a lot of things have changed. Today, bots are a lot more than bare e
 \section{Why is Bot Detection in Social Media Important?}
 \begin{itemize}
 	\item Information flood -> need to get the message through
-	\item influence political mood
+	\item influence political mood (smoke screening in Dissecting a Social Botnet: Growth, Content	and Influence in Twitter)
 	\item marketing
 	\item false information (boston marathon: cassa 2013)
 	\item seem fame
 	\item stock exch..
+	\item https://sysomos.com/inside-twitter/most-active-twitter-user-data 32\% of tweets by bots!
 \end{itemize}
 ---> section "engineered social tampering" and following in the rise of social bots!! 
 
 + Key Challenges in Defending Against Malicious Socialbots \cite{boshmaf12}
 \section{Social Bot Detection Approaches}
-In this chapter we want to introduce several techniques for detecting social bots. Based on Ferrara et al. \cite{ferrara15} we distinguish between three detection approach classes. 
+In this chapter we want to introduce several techniques for detecting social bots. Based on Ferrara et al. \cite{ferrara15} we distinguish three detection approach classes. 
 
 The first category of detection approaches is based on social network information. They are also called graph-based, since they map users and their relations into a graph and then try to identify bots in the hereby obtained social network by means of graph theory. 
 
@@ -70,23 +71,31 @@ An example for this could be a newly created Facebook account, that sends a lot 
 \subsection{Based on Crowd-Sourcing}
 A rather straight forward approach for social bot detection is based on crowd-sourcing. In contrast to the above described social network information based approaches, a connection between bots and legitimate users is not a problem for schemes based on this approach -- at least not a direct one. The basic idea of crowd-sourcing based social bot detection is, to engage actual human workers to study user profiles and subsequently to decide whether it belongs to an actual user or a sybil.
 
-In \cite{wangcrowd}, Wang et al. presented a study on the effectiveness of this approach and introduce a sample for a crowd-sourcing based social bot detection system.  For their tests they use sample data from Renren, China's most popular social media platform, Facebook US and Facebook India. They subdivide their human investigators, or simply testers, in expert workers, and crowd-sourced workers.  Each of the testers is presented a number of social media profiles and has to decide, whether it is a real one, or a sybil. While the experts achieve a detection rate at about 90\%, the crowd-sourced workers perform not as good individually. If their single votes are aggregated and used for a majority decision though, the results can significantly increased. If this is done for the expert workers, their results can be increased even more, too.   
+In \cite{wangcrowd}, Wang et al. presented a study on the effectiveness of this approach and introduce a sample for a crowd-sourcing based social bot detection system.  For their tests they use sample data from Renren, China's most popular social media platform, Facebook US and Facebook India. They subdivide their human investigators, or simply testers, in expert workers, and crowd-sourced workers.  Each of the testers is presented a number of social media profiles and has to decide, whether it is a real one, or a sybil. While the experts achieve a detection rate at about 90\%, the crowd-sourced workers perform not as good individually. If their single votes are aggregated and used for a majority decision though, the results can significantly increased. If this is done for the expert workers, their results can be increased even more, too. A very desirable result of their studies is also that the false positive rate, that is the amount of profiles that are falsely classified as sybils, is in all groups very close to zero. This ensures, that the probability that legitimate users are accused to be social bots, what will probably offend them, is very low.
 
-Wang et al. conclude, that it is very hard for sybil creators, to assemble social bots respectively profiles that are able to pass a "social turing test" and that crowd-sourcing based approaches can perform very well. They proceed with introducing a practical system that is illustrated in figure \ref{label}.
+Wang et al. conclude, that it is very hard for sybil creators, to assemble social bots respectively profiles that are able to pass a "social turing test" and that crowd-sourcing based approaches can perform very well. They proceed with introducing a general practical system that is illustrated in figure \ref{crowdsys} \footnote{Turkers are in this case the former mentioned crowd-sourced workers.}.
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.6,angle=15]{fig/NTNU}
-	\caption{This is the logo of NTNU (rotated 15 degrees).}
-	\label{fig1}
+	\includegraphics[scale=0.4]{fig/crowdsys}
+	\caption{A crowd-sourced sybil detection system introduced by Wang et al. \cite{wangcrowd}.}
+	\label{crowdsys}
 \end{figure}
 
+The system is working like this: The social network respectively social media platform that is to be defended generates suspicious profiles. This can either happen through explicit reports from users or through automatically applied filters that detect abnormal behavior. The so obtained profiles are then checked by crowd-sourced workers, which are subdivided in accurate and very accurate. To establish this differentiation, some of the suspicious profiles are mixed with some profiles that are known to be sybils. They are presented to all workers and their results allow a classification and to filter out unreliable workers. In the actual checking process, the profiles are first presented to the accurate workers which make a majority vote. If their decision is not clear, the profiles are presented to the very accurate workers which once again make a majority vote. 
+The authors claim, that a system like this is very reliable and cost effective. 
+
+Though such a social bot detection approach based on crowd-sourcing seems very promising at first sight, several problems become obvious on closer examination. First of all, this approach works optimal if every newly created profile can be reviewed in the above described way. However, young social media platforms will probably not be able or willing to pay for this bot detection scheme. A factor that may influence this could be also, that those platforms probably do not have huge issues with the social bot problem in their early stages. Once the platform has grown an the issue arises though, their is usually already a huge user base that has to be reviewed retrospectively. This is not optimal and may take a considerable amount of time.
+
+Another point that mus be taken into consideration is that this approach might not be suitable for all types of social media platforms. While it might be well suited for platforms like Facebook or Renren, where profile pages can be customized a lot and contain usually plenty of information, other networks, like for example Twitter could be less appropriate. Generally it can be said that this detection approach is highly based on the information given in the users' profiles. If the information contained in the profiles is low, human investigators will probably not be able to distinguish as precisely as in the tests of Wang et al.
+
+The last and probably most difficult issue that has to be mentioned is connected to this. Human investigators that are charged with distinguishing between bots and legitimate users have to have access to the profiles of the users. While those profiles are sometimes publicly available anyways, detailed profiles, which are more interesting for this approach, are, as discussed above, usually only visible for certain users. It is not hard to see the privacy issue that arises here, especially when keeping in mind, that the investigators are -- at least to a great extent -- only crowd-sourced workers, that can not be supervised as easily as ordinary employees \cite{ferrara15}.
 
 
-"reverse turing test"
-
-abhängig von plattform (->infos in profil!)
 \subsection{Based on Machine Learning Methods}
+
+synchrotrap, copycatch -> clustering
+
 wie misuse based ids!
 
 \section{Summary and Outlook}
