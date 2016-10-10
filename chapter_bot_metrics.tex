@@ -2,14 +2,14 @@
 %!TEX root = thesis.tex
 % !TEX spellcheck = en-US
 %%=========================================
-\chapter[Bot Metrics]{Does bots make click, text and behavior metrics irrelevant?}
+\chapter[Bot Metrics]{Does bots,  make click, text and behavior metrics irrelevant?}
 
 
-\section*{What are bots and how are they used?}
-In general, bots are types of software which run automated tasks(which are repetitive and allows for the program to be faster at doing some tasks than what normal humans would be able to. There are many types of bots, for example gaming bots which can be programmed to efficiently react faster than what a human would be able to on certain events in the game, thus allowing players to use time on something else. Others examples include auction bots, which hunt for bargains. Ebay went to court in 2000( \cite{Computerworld:Ebay}) in order to stop this type of behavior, the federal courts in turn then decided to block Bidders Edge and their bots from accessing Ebays API. 
+\section{What are bots and how are they used?}
+In general, bots are types of software which run automated tasks(which are repetitive and allows for the program to be faster at doing some tasks than what normal humans would be able to. There are many types of bots, for example gaming bots which can be programmed to efficiently react faster than what a human would be able to on certain events in the game, thus making the humans better players. Others examples include auction bots, which hunt for bargains. Ebay went to court in 2000( \cite{Computerworld:Ebay}) in order to stop this type of behavior, the federal courts in turn then decided to block Bidders Edge and their bots from accessing Ebays API. 
 \\
 \\
-Furthermore bots are used to mimic human activity, in for example service applications which appear to be human interaction but is instead a bot which for example tries to "help" you based on keywords. Bots are used in many areas, but are probably most known for their maliciousness in areas such as spam, bandwidth-thiefs, scrapers, worms and viruses as well as as nodes in a larger scale bot-nets which in tern is used for example for DDOS. These bots can be part of bigger bot-nets in order to for example generate revenue through for example click fraud. 
+Furthermore bots are used to mimic human activity, in for example service applications which appear to be human interaction but is instead a bot which for example tries to "help" you based on keywords. Bots are used in many areas, but are probably most known for their maliciousness in areas such as spam, bandwidth-thiefs, scrapers, worms and viruses as well as as nodes in a larger scale bot-nets is used for example for DDOS. These bots can be part of bigger bot-nets in order to for example generate revenue through for example click fraud. 
 %%
 \newpage 
 %%
@@ -21,3 +21,40 @@ In fact, the system is so broken that, for some publishers, knowingly buying tra
 \newline \mbox{} \hfill \citet{Observer:FakeTRAF}
 \end{quote}
 This quote from comScore highlights a important point in todays society. How does click metrics influence us, and how are they used? Are they useless, can they be used to measure something even though results most likely have been contaminated? and how does this type of behavior influence the buyers decision? These and some others are the question I will answer during this chapter. 
+\\
+\\
+I will also look into bots in social media, how they interact and how they spread in order to seem like normal users as well as interact as normal users. 
+
+
+\newpage
+\section{What is  social media statistics, and how is it utilized?}
+With the rise of social media use, social media marketing got a bigger foothold, allowing marketeers to interact with their buyers to a bigger degree, and it allowed the buyers to interact with their brands. Following this trend, many companies have big social media presences. Social media statistics allows the companies to closely monitor and narrow down their demographic and easily make specific content for a specific demographic. Furthermore, it allows for the company to get free publicity through what is called "organic reach" (getting exposure through users' activity in order to generate more clicks from users' contact) as well as for example paid reach(ads sent to a predefined demographic)
+Social media statistics allows for all of this to happen, as \cite{Singh2013} mentions:
+\begin{quotation}
+Social Media statistics about audience likes and dislikes makes it plausible to employ “push marketing” techniques to target audiences with advertisements that are relevant to their interests. Also, parameters such as click through rates or CTR can further quantify the success (or failure) of an advertising campaign. 
+\end{quotation}
+This type of push marketing, utilizes the information the users' themselves have provided to the mother service(e.g. Facebook), like for example metadata which gives a certain characteristic which allows them to be targeted by the broad filters which services like e.g. Facebook uses. 
+\\
+Businesses also utilizes what is called pull marketing, which is a little more subtle, e.g. referrals, social competitions("like and share" and get the \textit{chance} to win X") these methods can generate traction in social media, and be spread by word of mouth. 
+\\
+\\
+But most notably, these types of metrics can be abused by bots, as we will see in the next section. 
+
+\newpage
+\subsubsection*{An example of this type of scam}
+So what happens to this type of data in a business when bots(self inflicted or otherwise) enter the fray? Depending on how the bot is designed(i.e if its a crawler, adding all friends of friends, it can greatly impact marketing if this bot also uses all metadata(e.g. companies person X likes) in order to obfuscate its true purpose - liking somepage. 
+\\
+\\
+A good real-life example is \cite{Symantec:Narang}, which had a set of inter chained accounts posing as real accounts in order to spread their own links about some dubious dietpills. The accounts stole metadata from real accounts. Instead of using compromised
+accounts to tweet spam links, they were using accounts that impersonated brands and
+celebrities. Symantec goes on to describe how they defined three types of accounts involved in this scam:
+\begin{itemize}
+\item {\textbf{Mockingbird}: Used real data from real celebrities for impersonating these individuals}
+\item{\textbf{Parrot}: Fake accounts using stolen tweets and photographs of real women}
+\item{\textbf{Egg}: New users with no set avatar}
+\end{itemize}
+
+Mockingbirds have the goal of promoting the weight loss tricks. These mockingbird-tweets would get thousands of likes from Parrot-accounts which spiders through the real accounts of the mockingbirds. Parrots then follow any and everyone in the hope that users will follow them back because they are using avatars of attractive women, a tactic that has proven very efficient. The Parrots have real content that they post each day which is fake, an not only the content of the Mockingbird, in order to seem more real. These tweets are usually stolen from real accounts in order to seem real.  The parrots will also engage in discussions and post "reviews" of the diet pills in order to make the diet pills seem more real while the egg accounts just inflate the like counts in order to make the mockingbirds as well as the parrots seem trustworthy. The egg accounts do not post any content, they just follow parrots.
+\\
+\\ The link provided by the mockingbirds seem real(with pictures of famous people). When a customer orders a free trial, they register the credit card and subsequently lose their money. 
+
