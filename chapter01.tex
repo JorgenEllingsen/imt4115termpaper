@@ -6,6 +6,7 @@
 \chapter{Approaches for Detecting Robots \\ in Social Media}
 %% NOCH EIN KAPITEL: "VIEWED SOCIAL MEDIA PLATTFORMS"? -> erkläre hier betrachtete social media plattformen kurz damit man später weiß wovon man redet?
 
+
 \section*{Management Summary}
 This is the management summary blablabla mhmhm...
 
@@ -29,15 +30,18 @@ Since then, a lot of things have changed. Today, bots are a lot more than bare e
 
 \section{Why is Bot Detection in Social Media Important?}
 \begin{itemize}
+	\item social media sometimes substitutes personal contact
 	\item Information flood -> need to get the message through
-	\item influence political mood (smoke screening in Dissecting a Social Botnet: Growth, Content	and Influence in Twitter)
+	\item influence political mood (smoke screening in Dissecting a Social Botnet: Growth, Content	and Influence in Twitter), astroturfing
 	\item marketing
 	\item false information (boston marathon: cassa 2013)
 	\item seem fame
 	\item stock exch..
 	\item https://sysomos.com/inside-twitter/most-active-twitter-user-data 32\% of tweets by bots!
+	\item harvest publicly inavailable data (through friendship you can see more!) (voices from the fronts..)
 \end{itemize}
 ---> section "engineered social tampering" and following in the rise of social bots!! 
+\textbf{Im Prinzip angriffsübersicht?}
 
 + Key Challenges in Defending Against Malicious Socialbots \cite{boshmaf12}
 \section{Social Bot Detection Approaches}
@@ -47,10 +51,10 @@ The first category of detection approaches is based on social network informatio
 
 Afterwards we will discuss crowd-sourcing based social bot detection approaches. They use actual humans to detect bots, assuming that the human ability to notice details in communication will make this an easy task.
 
-The last category we want to elaborate on are detection approaches based on machine learning. Mechanisms that make use of this approach try to observe behavioral patterns that are typical for social bots. Since these patterns are encoded in so called patterns, this approach is also known as feature-based \cite{ferrara15}. %%IS THIS CITATION NEEDED? ALREADY SAID IN FIRST PARAGRAPH(BASED ON...)
+The last category we want to elaborate on are detection approaches based on behavioral features. Mechanisms that make use of this approach try to observe behavioral patterns that are typical for social bots. By doing so they aim to distinguish bots from human users. \cite{ferrara15}. %%IS THIS CITATION NEEDED? ALREADY SAID IN FIRST PARAGRAPH(BASED ON...)
 
 
-In the following sub sections, we will go into detail about each of these three approaches and illustrate them using real detection systems.
+In the following sub sections, we will go into detail about each of these three approaches and illustrate them using real detection systems. It has to be noted though, that the borders between the individual approaches is not always very clear, so that some examples could also be mentioned in a different category. Many schemes for example, use some kind of graph theory. However, we try to categorize them by their core traits.
 
 \subsection{Based on Social Network Information}
 A term that is often used in combination with detection of bots by using social networks is sybil or the sybil attack. It was presented as a thread to distributed systems by John R. Douceur in \cite{sybil}. In the specific context of social media platforms when conducting a sybil attack, an attacker creates a large amount of fake identities in a system to the point where these identities make up a considerable fraction of the system's whole user base. When this is achieved, the attacker can influence the whole system and control its contents to a certain degree. A sybil, sybil node or sybil account is therefor simply one of the fake entities, or, depending on the attack architecture, just a social bot. It is not hard to see that social bot detection can, more specifically, be viewed as a defense against the sybil attack.   
@@ -66,7 +70,7 @@ They tried to infiltrate the social media platform Facebook with a large number 
 
 A well known example for a bot detection approach that is based on social network information is the Facebook Immune System (IMS) \cite{fis}. This system aims to defend the social media platform Facebook and its users not only against sybil attacks but also to prevent spam, malware distribution, phishing and so on.  To achieve this goal, it takes a lot more actions than the above described general approach for social network based detection schemes. The IMS runs checks on every action performed on Facebook in realtime in order to give attackers as less time as possible to accomplish there goals and to react. It classifies these actions according to predefined policies and makes it thereby possible to judge them and the corresponding users.
 
-An example for this could be a newly created Facebook account, that sends a lot of friendship requests. These are used in Facebook to establish relationships between users. A legitimate user starts sending friendship requests usually mainly to people he knows and vice versa, that is, people that are likely to accept his friendship request. If a lot of these requests are now declined, this could be a indication for the system that the sending user might not be legitimate.  The IMS also makes heavy use of machine learning, which we will discuss later on, and generates training data automatically in order to adapt to the fast changing attacks and user behavior \cite{fis}.
+An example for this could be a newly created Facebook account, that sends a lot of friendship requests. These are used in Facebook to establish relationships between users. A legitimate user starts sending friendship requests usually mainly to people he knows and vice versa, that is, people that are likely to accept his friendship request. If a lot of these requests are now declined, this could be a indication for the system that the sending user might not be legitimate.  The IMS also makes heavy use of machine learning, to which we will come back in later on, and generates training data automatically in order to adapt to the fast changing attacks and user behavior \cite{fis}.
 
 \subsection{Based on Crowd-Sourcing}
 A rather straight forward approach for social bot detection is based on crowd-sourcing. In contrast to the above described social network information based approaches, a connection between bots and legitimate users is not a problem for schemes based on this approach -- at least not a direct one. The basic idea of crowd-sourcing based social bot detection is, to engage actual human workers to study user profiles and subsequently to decide whether it belongs to an actual user or a sybil.
@@ -92,13 +96,34 @@ Another point that mus be taken into consideration is that this approach might n
 The last and probably most difficult issue that has to be mentioned is connected to this. Human investigators that are charged with distinguishing between bots and legitimate users have to have access to the profiles of the users. While those profiles are sometimes publicly available anyways, detailed profiles, which are more interesting for this approach, are, as discussed above, usually only visible for certain users. It is not hard to see the privacy issue that arises here, especially when keeping in mind, that the investigators are -- at least to a great extent -- only crowd-sourced workers, that can not be supervised as easily as ordinary employees \cite{ferrara15}.
 
 
-\subsection{Based on Machine Learning Methods}
+\subsection{Based on Features}
+The last detection approach for social bots is based on features. Features hereby means observable characteristics of posted information, profiles and possibly everything else that can be associated to the account in question. Schemes that make use of this approach often also use machine learning algorithms. That are algorithms that are able to make decisions based on learned patterns. They basically consist of two phases. In the first phase, the so called training phase, the algorithm processes training data which is labeled with the decision that should be made on this piece of data. By processing a lot of training data, the algorithm learns the features that are indicators for a certain decision. In the second phase, real data is processed and the algorithm is able to make decisions based on the learned data. Thus, schemes that make use of this detection approach can be compared to anomaly based intrusion detection systems. In the social bot detection topic, the decision being made is usually whether a specific account is controlled by a bot or a human. Since it is not easy to make a clear decision in many cases, there are often multiple decision options that each express a degree of certainty.
 
-synchrotrap, copycatch -> clustering
+A well known example for this kind of social bot detection is the Bot or Not? system, presented by Davis et al. in \cite{botornot}. It is a publicly available\footnote{http://truthy.indiana.edu/botornot} system that allows a feature based social bot detection for accounts on the social media platform Twitter. Bot or Not? was trained with about 31.000 account samples of both, human and social bot accounts. For classification makes use of more than 1.000 features that can be assigned to six feature-classes. In the following we want to mention these classes shortly:
+\begin{itemize}
+	\item \textbf{Network} features reflect on the spreading of information, for example citations of different users or the like.
+	\item \textbf{User} features take the information given in the actual account into consideration. Meta-data, that is basically data about data, is especially relevant in this feature. 
+	\item \textbf{Friends} features are about the social relationships the account in question has.
+	\item \textbf{Temporal} features analyze issues like the rate in which content is produced and the like.
+	\item \textbf{Content} features are about wording characteristics in the texts produced by the relevant account.
+	\item \textbf{Sentiment} features reflect on emotional aspects and are obtained by using specific algorithms \cite{botornot}.
+\end{itemize}  
+If a Twitter account name is entered in the Bot or Not? system, it checks all of those features and afterwards decides, based on the former mentioned training data, whether this account is a human or bot account.
 
-wie misuse based ids!
+Another social bot detection approach that can be classified as, kind of, feature based relies on detecting the coordinated behavior between social bots. Schemes that make use of this approach focus generally on the above described network, content and temporal features and often incorporate some graph theory as well. They usually aim at detecting attacks which try to distract from unpleasant facts or to distribute fake facts, like in the above described astroturf attack.  An example for such a scheme is SynchroTrap, presented by Cao et al. in \cite{synchrotrap}. Again, comparable to anomaly based intrusion detection systems, SynchroTrap makes use of clustering algorithms. These algorithms try to group values, that are similar in some aspects into distinct sets. 
+
+The system monitors all user activity on a social media platform over an extended time period and monitors aggregated user actions. Then, the pairwise similarity between actions is determined and a hierarchical clustering algorithm is used to group users that show similar behavior at approximately the same time. If a cluster is growing too big, it can be assumed as malicious, since legitimate users tend to behave diverse \cite{synchrotrap}.
+
+An issue with this detection method is though, that it is for example not able to detect bot accounts that show a mixture of bot and human behavior. Thus, the detection systems have to be developed further in order to keep up with the fast evolving social bots and their evermore sophisticated behavior \cite{ferrara15}.
+
 
 \section{Summary and Outlook}
+
+short summary of everything we discussed above
+
+combination of approaches best
+
+social bots are not necessarily evil
 
 
 

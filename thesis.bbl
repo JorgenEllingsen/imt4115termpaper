@@ -17,10 +17,24 @@ Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
 \newblock Design and analysis of a social botnet.
 \newblock {\em Computer Networks}, 57(2):556--578, 2013.
 
+\bibitem{synchrotrap}
+Q.~Cao, X.~Yang, J.~Yu, and C.~Palow.
+\newblock Uncovering large groups of active malicious accounts in online social
+  networks.
+\newblock In {\em Proceedings of the 2014 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 477--488. ACM, 2014.
+
 \bibitem{sybilinfer}
 G.~Danezis and P.~Mittal.
 \newblock Sybilinfer: Detecting sybil nodes using social networks.
 \newblock In {\em NDSS}. San Diego, CA, 2009.
+
+\bibitem{botornot}
+C.~A. Davis, O.~Varol, E.~Ferrara, A.~Flammini, and F.~Menczer.
+\newblock Botornot: A system to evaluate social bots.
+\newblock In {\em Proceedings of the 25th International Conference Companion on
+  World Wide Web}, pages 273--274. International World Wide Web Conferences
+  Steering Committee, 2016.
 
 \bibitem{sybil}
 J.~R. Douceur.

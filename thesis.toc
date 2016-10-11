@@ -8,23 +8,23 @@
 \contentsline {section}{\numberline {1.4}Social Bot Detection Approaches}{4}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Based on Social Network Information}{4}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Based on Crowd-Sourcing}{6}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Based on Machine Learning Methods}{8}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Summary and Outlook}{8}{section.1.5}
-\contentsline {chapter}{\numberline {2}Equations, etc}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Simple Equations}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Including Figures}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Including Tables}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Copying Figures and Tables}{12}{section.2.4}
-\contentsline {section}{\numberline {2.5}References to Figures and Tables}{14}{section.2.5}
-\contentsline {section}{\numberline {2.6}A Word About Font-encoding}{14}{section.2.6}
-\contentsline {section}{\numberline {2.7}Plagiarism}{14}{section.2.7}
-\contentsline {chapter}{\numberline {3}Summary}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Summary and Conclusions}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Discussion}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{17}{section.3.3}
-\contentsline {chapter}{\numberline {A}Acronyms}{18}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information}{19}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{19}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{19}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{20}{subsection.B.1.1}
-\contentsline {chapter}{Curriculum Vitae}{22}{appendix*.9}
+\contentsline {subsection}{\numberline {1.4.3}Based on Features}{9}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Summary and Outlook}{10}{section.1.5}
+\contentsline {chapter}{\numberline {2}Equations, etc}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Simple Equations}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Including Figures}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Including Tables}{15}{section.2.3}
+\contentsline {section}{\numberline {2.4}Copying Figures and Tables}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}References to Figures and Tables}{17}{section.2.5}
+\contentsline {section}{\numberline {2.6}A Word About Font-encoding}{17}{section.2.6}
+\contentsline {section}{\numberline {2.7}Plagiarism}{17}{section.2.7}
+\contentsline {chapter}{\numberline {3}Summary}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Summary and Conclusions}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Discussion}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{20}{section.3.3}
+\contentsline {chapter}{\numberline {A}Acronyms}{21}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information}{22}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{22}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{22}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{23}{subsection.B.1.1}
+\contentsline {chapter}{Curriculum Vitae}{25}{appendix*.9}
