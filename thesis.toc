@@ -6,10 +6,10 @@
 \contentsline {section}{\numberline {1.2}Definition and History of Social Bots}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Why is Bot Detection in Social Media Important?}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Social Bot Detection Approaches}{4}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Based on Social Network Information}{4}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Based on Crowd-Sourcing}{6}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.1}Based on Social Network Information}{5}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Based on Crowd-Sourcing}{7}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Based on Features}{9}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Summary and Outlook}{10}{section.1.5}
+\contentsline {section}{\numberline {1.5}Summary and Outlook}{11}{section.1.5}
 \contentsline {chapter}{\numberline {2}Equations, etc}{12}{chapter.2}
 \contentsline {section}{\numberline {2.1}Simple Equations}{12}{section.2.1}
 \contentsline {section}{\numberline {2.2}Including Figures}{14}{section.2.2}
