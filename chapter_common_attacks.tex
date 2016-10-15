@@ -2,7 +2,7 @@
 % !TEX root = thesis.tex
 % !TEX spellcheck = en-US
 %%=========================================
-\chapter[Web Applications in 2016]{Common vulnerabilities and attack surfaces for Web Applications in 2016}
+\chapter[Web Application vulnerabilities in 2016]{Common vulnerabilities and attack surfaces for Web Applications in 2016}
 
 \subsection*{Management summary}
 Management summary incomming
@@ -14,9 +14,24 @@ Abstract incomming
 
 %%=========================================
 \section{Introduction}
-\subsection{Trending vulnerabilities and attack vectors}
+Over the last years web application hacking has increased, and as many as 75\% of cyber attacks are done at web applications level or via the web [www.acunetix.com/company]. The introduction in the Acunetix report states that 55\% of web applications has atleast one high-severity vulnerability - and thats up 9\% since 2015.
+
+The web stack has evolved to serve feature rich and dynamic experiences within the browser by expanding on the legacy applications. This has widened the attackers oppertunities, and the amount of vulnerable applications on the web is ever increasing. [Acunetix Web Application Vulnerability Report 2016, page 2]. In recent years an alarming number of high profile web service providers has lost huge amounts of personal data, including weakly hashed passwords. \\ This chapter aims to find the most common vulnerabilities and attack surfaces for web applications in 2016, and hopefully a hint to why so many web applications are still vulnerable.
+\section{Trending vulnerabilities and attack vectors}
+Several reports and documents are released every year documenting the lates trends and vulnerabilities in web application security. In this chapter there will be emphasis on the three most relevant vulnerabilities based on the documents listed below. The focus will be on widspread sever vulnerabilities trending in 2016. 
+\pagebreak
+\subsubsection{OWASP Top 10}
+Open Web Application Security Project is a international charitable non-profit organization, and is a colaberation between a varity of security experts around the world. The primary aim of the OWASP Top 10 is to raise awareness for web application security, and so far the report has been released twice, in 2010 and 2013.
 \subsubsection{Acunetix Web Application Vulnerability Report 2016}
-Acunetix is a company spacializing in automated tools to scan servers for vulnerabilities, and have many Fortune 500 companies as clients. They release a annual report on statistics from their many scans.  
+Acunetix is a company spacializing in automated tools to scan servers for vulnerabilities, and have many Fortune 500 companies as clients. They released an annual report on statistics from their scans throughout the period of 1st April 2015 to 31st March 2016. Acunetix has gathered, aggretated and analyzed data from over 61.000 scans over a two year period, and are in a great position to observe trends in the field. 
+\subsubsection{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}
+\subsubsection{Symantec Internet Security Threat Report 2016}
+\section{Cross-site Scripting}
+If an attacker is able to submit malicious HTML such as JavaScript to a dynamic web application, they are able to execute a Cross-Site Scripting attack \cite{Kirda2011}. \\
+Unlike traditional distributed systems security where access control equals authentication and authorisation, a web application uses the same-origin policy \cite{Gollmann2011}. This policy is exploited by a Cross-Site Scripting attack, when the vulnerable site is viewed by a victim the malicious content seems to come from the trused site, and the attacker can steal cookies, session identefiers and other sensetive information that the web site has access to \cite{Kirda2011}.
+\section{Vulnerable JavaScript Libraries}
+\section{SQL Injection}
+\section{Exploit Kits}
 \section{Conclusion}
 
 
