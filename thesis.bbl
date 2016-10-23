@@ -1,16 +1,16 @@
 \begin{thebibliography}{10}
 
+\bibitem{abokhodair}
+N.~Abokhodair, D.~Yoo, and D.~W. McDonald.
+\newblock Dissecting a social botnet: Growth, content and influence in twitter.
+\newblock In {\em Proceedings of the 18th ACM Conference on Computer Supported
+  Cooperative Work \& Social Computing}, pages 839--851. ACM, 2015.
+
 \bibitem{boshmaf11}
 Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
 \newblock The socialbot network: when bots socialize for fame and money.
 \newblock In {\em Proceedings of the 27th Annual Computer Security Applications
   Conference}, pages 93--102. ACM, 2011.
-
-\bibitem{boshmaf12}
-Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
-\newblock Key challenges in defending against malicious socialbots.
-\newblock In {\em Presented as part of the 5th USENIX Workshop on Large-Scale
-  Exploits and Emergent Threats}, 2012.
 
 \bibitem{boshmaf13}
 Y.~Boshmaf, I.~Muslukhov, K.~Beznosov, and M.~Ripeanu.
@@ -23,6 +23,12 @@ Q.~Cao, X.~Yang, J.~Yu, and C.~Palow.
   networks.
 \newblock In {\em Proceedings of the 2014 ACM SIGSAC Conference on Computer and
   Communications Security}, pages 477--488. ACM, 2014.
+
+\bibitem{cassa}
+C.~A. Cassa, R.~Chunara, K.~Mandl, and J.~S. Brownstein.
+\newblock Twitter as a sentinel in emergency situations: lessons from the
+  boston marathon explosions.
+\newblock {\em PLOS Currents Disasters}, 2013.
 
 \bibitem{sybilinfer}
 G.~Danezis and P.~Mittal.

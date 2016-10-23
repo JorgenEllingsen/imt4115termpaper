@@ -32,25 +32,34 @@ Since then, a lot of things have changed. Today, bots are a lot more than bare e
 
 
 \section{Why is Bot Detection in Social Media Important?}
-Another point that is important to be looked at before we go into detail about the actual detection methods is, why social media bot detection is important at all. In this section we will motivate why this is a, especially today, important topic. 
+Another point that is important to be looked at before we go into detail about the actual detection methods is, why social media bot detection is important at all. In this section we will argue, why this is a -- especially today -- important topic. 
 
-Nowaydays, social media platforms are a important component in the life of many people. For some, they even substitute real personal contact sometimes. Thus, it is important to ensure, that humans are still able to estimate what is happening in their social media surrounding and what can be seen as trustworthy -- and what can not. Social bots often try to manipulate this estimation. 
+Nowaydays, social media platforms are an important component in the life of many people. For some, they even substitute real personal contact sometimes. Thus, it is important to ensure, that humans are still able to estimate what is happening in their social media surrounding and what can be seen as trustworthy -- and what can not. While the challenge of verifying facts or news from the Internet is not new, social bots add a new factor to this challenge. They can make a non-trustworthy source look trustworthy by simulating that it is highly popular.
 
-An example for this, is the so called astroturfing. In an astroturfing campaign, an attacker tries to give the impression of a broad grassroot support for a certain person, belief or political position. A known political astroturfing case are for example the 2010 Massachusetts senate elections. During these, a small number of Twitter social bot accounts produced a large amount of tweets that contained a link to a website that smeared one of the candidates. The tweets also mentioned users that had shown the same political position in beforehand and thus were likely to retweet. In a few hours the smearing website spread rapidly what was even noticed by the Google search engine. That way, the website got promoted to the top search results for the name of the smeared candidate \cite{mustafaraj10}.
-\begin{itemize}
-	\item influence political mood (smoke screening in Dissecting a Social Botnet: Growth, Content	and Influence in Twitter), astroturfing
-	\item marketing
-	\item false information (boston marathon: cassa 2013)
-	\item seem fame
-	\item stock exch..
-	\item https://sysomos.com/inside-twitter/most-active-twitter-user-data 32\% of tweets by bots!
-	\item harvest publicly inavailable data (through friendship you can see more!) (voices from the fronts..)
-\end{itemize}
----> section "engineered social tampering" and following in the rise of social bots!! 
+An example for this, is the so called astroturfing. In an astroturfing campaign, an attacker tries to give the impression of a broad grassroot support for a certain person, belief or political position. A known political astroturfing case are for example the 2010 Massachusetts senate elections in the US. During these, a small number of Twitter social bot accounts produced a large amount of tweets that contained a link to a website that smeared one of the candidates. The tweets also mentioned users that had shown the same political position in beforehand and thus were likely to retweet. In a few hours the smearing website link spread rapidly what was even noticed by the Google search engine. That way, the website got promoted to the top search results for the name of the smeared candidate \cite{mustafaraj10}. 
 
-\textbf{Im Prinzip angriffsübersicht?}
+A similar approach can also be used to distract from potentially inconvenient or just unwanted facts or opinions and is then called smoke screening. By just flooding the platform with information it aims to draw attention away from the unwanted topic to a topic that suits the attacker more. The flooding information can hereby even be related to the topic that is to be screened. It just focuses on a component that is more pleasant to the attacker and withholds the inconvenient part. An example for this is given by Abokhodair et al. in \cite{abokhodair} in the context of the syrian civial war. They analyze a social botnet on Twitter from April until December 2012. It made heavy use of this technique in order to cover up news about the civil war in Syria.
 
-+ Key Challenges in Defending Against Malicious Socialbots \cite{boshmaf12}
+%hier noch zu publicly inavailable data schreiben?
+
+Besides all these specific attacks, which are carried out by bots built just for this purpose, there are also simple negative effects from social bots that have not necessarily been built for an attacking purpose.
+The information in social media is often used by various entities. An example for this is the area of emergency response. By analyzing the information streams of social media platforms it is possible to estimate emergency situations and to take proper actions for decision makers. Cassa et al. for example, show in \cite{cassa} that information about the Boston Marathon attacks in 2013 were available on the social media platform Twitter more than five minutes earlier than the public health alerts, even though on this event there were already many first responders present.  ---> Das wird schon gemacht, bsp. Aktien! -> Gefahr Aktien Absturz nach Social Media Account Hack, auch in Emergencies: Falsche infos bei Boston bombs (koreaner blabla)
+
+%\begin{itemize}
+%	\item marketing
+%	\item false information (boston marathon: cassa 2013)
+%	\item seem fame
+%	\item stock exch..
+%	\item https://sysomos.com/inside-twitter/most-active-twitter-user-data 32\% of tweets by bots!
+%	\item harvest publicly inavailable data (through friendship you can see more!) (voices from the fronts..)
+%\end{itemize}
+%---> section "engineered social tampering" and following in the rise of social bots!! 
+
+%\textbf{Im Prinzip angriffsübersicht?}
+
+%+ Key Challenges in Defending Against Malicious Socialbots \cite{boshmaf12}
+
+
 \section{Social Bot Detection Approaches}
 In this chapter we want to introduce several techniques for detecting social bots. Based on Ferrara et al. \cite{ferrara15} we distinguish three detection approach classes. 
 
