@@ -11,8 +11,11 @@ A level-1 auxiliary file: appendix-b.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: vitae.aux
 Database file #1: refs.bib
+Warning--entry type for "insight" isn't style-file defined
+--line 8 of file refs.bib
 Warning--I didn't find a database entry for "rausand04"
+Warning--to sort, need author or key in insight
 Warning--empty journal in mustafaraj10
 Warning--can't use both volume and number fields in sumup
 Warning--can't use both volume and number fields in sybilguard
-(There were 4 warnings)
+(There were 6 warnings)
