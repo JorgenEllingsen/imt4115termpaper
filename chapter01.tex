@@ -143,13 +143,19 @@ An issue with this detection method is though, that it is for example not able t
 
 
 \section{Summary and Outlook}
+In the last chapter, we firstly introduced the term social bot, defined it and looked at the history of robots in social media.  Afterwards we gave a really short overview about Twitter, Facebook and Renren and motivated why social bot detection is important after all. In the main part of this chapter we discussed social bot detection approaches. We distinguished hereby social network information based, crowd-sourcing based and feature based approaches. 
 
-short summary of everything we discussed above
+Social network based approaches model the analyzed OSN into a graph where users correspond to the vertices and relationships between the users correspond to the edges of the graph. Afterwards, an algorithm tries to make a decision whether a given node is a social bot or an actual user. The decision is hereby usually based on the connections the node and his surroundings have. As examples for this kind of detection approach, we mentioned SybilGuard\cite{sybilguard}, SbilyInfer\cite{sybilinfer}, SumUp\cite{sumup} and the Facebook Immune System\cite{fis}. A problem these systems have to cope with is, that they tend to assume, that bots can't establish relationships to actual, what emerged to be not true.
 
-combination of approaches best
+Next we elaborated on crow-sourcing based approaches. The basic underlying idea of these approaches is to engage actual humans to analyze given user profiles and to decide whether those belong to an actual user or a social bot. We discussed the paper "Social turing tests: Crowdsourcing sybil detection" by Wang et al. \cite{wangcrowd} which analyzes this approach thoroughly and introduces a general practical system. One of the issues this approach has to handle is that some social networks users don't have very detailed profiles what makes crowd-sourced bot detection very hard. 
 
-social bots are not necessarily evil
+At last, we discussed feature based social bot detection approaches. They observe characteristics of OSN users and information published by them in order to decide -- or give a tendency -- whether a given account is a bot, or not. Often, they make use of machine learning algorithms. This means that, in a first step, they are trained with datasets in which it is known whether a profile is bot- or human-owned. Afterwards they are used to make decisions about real data. As an example we introduced the Bot or Not? system by Davis et al. \cite{botornot}.
 
+After analyzing the different detection approaches, it becomes apparent that a combination of different approaches yield good results. Observing the social graph and behavioral features of accounts together is for example a promising strategy. Ferrara et al. bring in the Renren sybil detector \cite{wang2013, yang2014} as a good example for these combined approaches \cite{ferrara15}.
+
+However, it has to be noted that not all robots in social media have to be necessarily evil. Some social bots provide useful services that many users don't want to miss. It is just important, that users are able to distinguish between other humans and bots for example in order to differentiate whether content they see is actually as popular as it seems.
+
+It is safe to assume that the number of social bots will increase even more and that their methods and behaviors will get even more sophisticated. We expect an arms race between bot herders and bot detection mechanisms, like it was -- and still is -- the case with malware and malware detection software.
 
 
 

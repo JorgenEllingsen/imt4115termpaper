@@ -111,6 +111,12 @@ B.~Viswanath, A.~Post, K.~P. Gummadi, and A.~Mislove.
 \newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374,
   2010.
 
+\bibitem{wang2013}
+G.~Wang, T.~Konolige, C.~Wilson, X.~Wang, H.~Zheng, and B.~Y. Zhao.
+\newblock You are how you click: Clickstream analysis for sybil detection.
+\newblock In {\em Presented as part of the 22nd USENIX Security Symposium
+  (USENIX Security 13)}, pages 241--256, 2013.
+
 \bibitem{wangcrowd}
 G.~Wang, M.~Mohanlal, C.~Wilson, X.~Wang, M.~Metzger, H.~Zheng, and B.~Y. Zhao.
 \newblock Social turing tests: Crowdsourcing sybil detection.
@@ -121,6 +127,12 @@ J.~Weizenbaum.
 \newblock Eliza—a computer program for the study of natural language
   communication between man and machine.
 \newblock {\em Communications of the ACM}, 9(1):36--45, 1966.
+
+\bibitem{yang2014}
+Z.~Yang, C.~Wilson, X.~Wang, T.~Gao, B.~Y. Zhao, and Y.~Dai.
+\newblock Uncovering social network sybils in the wild.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  8(1):2, 2014.
 
 \bibitem{sybilguard}
 H.~Yu, M.~Kaminsky, P.~B. Gibbons, and A.~Flaxman.
