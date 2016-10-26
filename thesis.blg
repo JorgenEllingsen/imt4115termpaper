@@ -11,11 +11,19 @@ A level-1 auxiliary file: appendix-b.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: vitae.aux
 Database file #1: refs.bib
+Warning--entry type for "twitterbot" isn't style-file defined
+--line 4 of file refs.bib
+I was expecting a `,' or a `}'---line 6 of file refs.bib
+ :  
+ :  url={https://www.sec.gov/Archives/edgar/data/1418091/000156459014003474/twtr-10q_20140630.htm},[break] urldate={2016-10-26},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "insight" isn't style-file defined
---line 8 of file refs.bib
+--line 13 of file refs.bib
 Warning--I didn't find a database entry for "rausand04"
 Warning--to sort, need author or key in insight
+Warning--to sort, need author or key in twitterbot
 Warning--empty journal in mustafaraj10
 Warning--can't use both volume and number fields in sumup
 Warning--can't use both volume and number fields in sybilguard
-(There were 6 warnings)
+(There was 1 error message)
