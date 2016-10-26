@@ -1,0 +1,91 @@
+% !TEX encoding = UTF-8 Unicode
+%!TEX root = thesis.tex
+% !TEX spellcheck = en-US
+%%=========================================
+\chapter{Security measures against manipulation by bots}
+%title sucks, will change later.
+
+
+\section{Abstract}
+In this chapter we will go through some of the countermeasures available against botnets.
+We will present approaches from different perspectives such as internet service providers, users, social network societies and others. We will where applicable include some examples of where these countermeasures have been used and to what effect.
+In the end we will go over a conclusion on what can be learned from this and how it may apply to you.
+
+
+
+\section{Background}
+%litt historie
+%litt forskjellige typer? nevne torpig ettersom vi går inn på det i countermeasures?
+%Litt forskjellige perspektiver?
+%Mål disse forskjellige typene/perspektivene har?
+%Metoder som benyttes
+%%=========================================
+
+
+
+%diff. typer/perspektiv:
+
+\section{Detection}
+%maybe drop this(completely or tone it down to a short summary from earlier?) if fabian is going heavily into this?
+
+
+
+
+\section{Countermeasures}
+There are several different methods to counteract a botnet, depending on the perspective you take.
+From the perspective of a user some countermeasures are viable, while there are different measures available as a ISP or a webhost.
+In the following sections we will go through these different perspectives and describe the countermeasures available.
+
+\subsection{User}
+As a user it is important to be aware of the risks inherent with the use of certain services and systems, nowadays malicious code can be delivered through a multitude of vectors, from exploit kits which require little to no interaction from the user to phishing emails that try to fool the user into accessing a malicious site or running a attachment \cite{jan-brewer}. 
+Paying attention to what the user is being asked to do and thinking twice if this actually makes sense can thwart many attempts at infecting the users system, many infection campaigns will pretend to be a legitimate request from a known company or service provider, as seen in a Torrentlocker campaign targeting norwegian users in 2015 \cite{jan-nsm-ransomware}, where the user would recieve a email claiming to be from the norwegian post-office and asking the user to check a package delivery notice. 
+
+Another infection vector is the exploitation of vulnerabilities in the software on the users system, either by attempting to get the user to manually execute a seemingly legitimate file that will exploit a vulnerability in the software used to open it or through exploit kits.
+Exploit kits are tools used to serve as a platform for delivering malicious software for customers to their victims, they exploit vulnerabilities in software such as browsers or browser plug-ins like flash or java \cite{jan-kotov-ek}. The victims are usually directed to a exploit kit from a legitimate website that has been modified by an attacker to silently redirect the victims browser to a malicious web-server, see figure~\ref{jan-ek-infection}. By keeping software such as your browser and its plugins up to date or disabling them if not needed can mitigate or completely remove some of the risks associated with exploit kits and drive-by-downloads. Keeping software such as PDF-readers and other commonly used software updated will ofcourse help.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{fig/jan-ek-inf}
+	\caption{Exploit kit infection scheme from \cite{jan-kotov-ek}.}
+	\label{jan-ek-infection}
+\end{figure}
+
+\subsection{Institution}%evt. Business?
+As a institution or business there are a few ways to reduce the risk associated with botnets or malware infection, depending on the policy regarding usage of computer resources and responsibility of these, measures may vary from business to business.
+Keeping software updated is helpfull as mentioned, but application whitelisting is not a new concept \cite{jan-mansfield-whitelist}. Instead of blacklisting known bad things the way a anti-virus solution would work we instead only allow known good applications to run, we see implementations of this in Apples iPhone where only applications approved by apple are allowed to run or in Windows AppLocker \cite{jan-windows-applocker} for windows 7 and newer. By limiting the approved applications for a user or a group of users one can limit the attack surface they expose.
+Whitelisting network protocols is another way to limit the impact a botnet could have in network, by only allowing certain protocols to communicate a potentially infected computer may not be able to communicate with its command and control server. Similar to this is the act of network traffic inspection, rule based IDS or IPS solutions can look for known attributes in the network traffic and either block or alert when a match is found, in cases where the trafficpattern generated by the download of the malicious code of the bot is known, one can stop the infection before it happens. 
+
+
+
+
+\subsection{Service provider}
+Some botnets use a client-server architecture where several clients, or bots, are controlled by 1 centralized server. To communicate with these servers today where IP-adresses can change often the botnets will use DNS to figure out which IP-adress to contact. Sinkholing is the act where you are deliberately sending the wrong IP-adress in response to certain queries and end up directing the traffic from the original command and control infrastructure of the botnet to a server controlled by someone else.
+This was used by \cite{jan_stone-gross} when they took over control of the Torpig botnet for several days in early 2009. A somewhat controversial case of sinkholing domains associated with malware traffic is the case from 2014 where Microsoft got permission to sinkhole traffic towards several domains belonging to Vitalwerks Internet Solutions, the company behind no-ip, a dynamic dns provider. This was later overturned when the sinkholing proved to affect both legitimate and illegitimate use of the domains \cite{jan-microsoft-no-ip}.
+
+In \cite{jan-usenix-botnet} they describe botnets using IRC-traffic, as a service provider this means that a botnet could be detected by inspecting the traffic from a network and look for known attributes belonging to a botnet, for instance IRC commands. As technology evolves, so does the botnets with them, \cite{jan_stone-gross} describe a botnet named Storm, that  utilized p2p to communicate. Detecting and stopping traffic from new botnets can be achieved by using honeypots and generating signatures based on observed traffic, this is the objective of Honeycomb project \cite{jan-Kreibich}.
+
+
+\subsection{Social network}
+
+As described in \cite{jan-fis} the facebook immune system is a system that uses something they call the adversarial cycle(See figure~\ref{jan-adv-cycle-fis}), where the lifecycle of the immune system is laid out.
+Defending against a attack has a result that is detected by the attacker which then mutates his attack to counteract the defense mechanism. The goal of the defender is to lengthen the time it takes for the attacker to counter the defense mechanism, this increases the cost of the attacker and thus reduces how profitable attacking the social network is. In the facebook immune system they emphasize targeting features with high cost, due to them being hard to detect or change. This can mean targeting infrastructure such as the hosts IP adress which can force them to relocate or use proxy services or it can for instance mean implementing tasks that cant be easily automated or not automated at all. Captcha \cite{jan-captcha} is one way to increase the costs of automation, while there exists services that solve captchas for money they cut into already not so great profits \cite{jan-boshmaf} and increasing complexity of captchas when detecting suspected malicious automated behaviour could further increase cost for the attacker.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.4]{fig/fis-adv-cycle}
+	\caption{The adversarial cycle from \cite{jan-fis}.}
+	\label{jan-adv-cycle-fis}
+\end{figure}
+\subsection{Law enforcement and government}
+The facilitators of botnets and other malware are in most countries breaking the law with their operation since they are using computer resources without approval of the system owner, it follows that it should be in the interest of law enforcement to stop this activity. Due to the international and borderless nature of the internet enforcing the law on a anonymous person behind a IP adress is not a simple task. International co-operation is necessary to effectively take down the infrastructure of a botnet or prosecute the criminals behind it. The Convention on Cybercrime in 2001 attempted to target some of the issues with co-operation between countries and promoting a common criminal policy in relation to cybercrime (\cite{jan-coc}). The European Cybercrime Centre (\cite{jan-ec3}) is a part of Europol that focuses on cybercrime, by promoting cooperation between countries and between law enforcement agencies, private sector and academia.
+An example of the results of cooperation between countries in taking down a botnet is seen when the FBI with the cooperation of law enforcement in other countries shut down and arrested the people and infrastructure behind the GameOver Zeus botnet in 2014 \cite{jan-fbi-GOZ, jan-fbi-GOZ2}.
+
+
+\section{Conclusion}
+
+Depending on which perspective you look at problem from, your available options are different and by themselves they may not be available or be severely limited due to the specific circumstances surrounding your situation. Cooperation between the different groups may overcome this, it should be in the users interest that his place of work is not bothering or hindering his effectiveness in his daily tasks, just as it is in the internet service providers interest to limit the amount of illegitimate traffic going through its networks. Limiting the feasability of running a botnet can not simply be done by one user, but is a team effort that requires every part of the chain from the normal user on his computer to the business in charge of the network to the social network targeted by the botnet.
+Increasing the cost while reducing the benefit of running a botnet will eventually make it economically unattractive to run a botnet for criminal organisations.
+
+
