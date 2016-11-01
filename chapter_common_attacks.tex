@@ -1,0 +1,44 @@
+% !TEX encoding = UTF-8 Unicode
+% !TEX root = thesis.tex
+% !TEX spellcheck = en-US
+%%=========================================
+\chapter[Web Application vulnerabilities in 2016]{Common vulnerabilities and attack surfaces for Web Applications in 2016}
+
+\subsection*{Management summary}
+Management summary incoming
+%%=========================================
+\section{Introduction}
+Over the last years web application hacking has increased, and as many as 75\% of cyber attacks are done at web applications level or via the web \cite{AcunetixCompany}. The introduction in the Acunetix report states that 55\% of web applications has atleast one high-severity vulnerability - and thats up 9\% since 2015.
+
+The web stack has evolved to serve feature rich and dynamic experiences within the browser by expanding on the legacy applications. This has widened the attackers oppertunities, and the amount of vulnerable applications on the web is ever increasing \cite{Acunetix2016}. In recent years an alarming number of high profile web service providers has lost huge amounts of personal data, including weakly hashed passwords. \\ This chapter aims to find the most common vulnerabilities and attack surfaces for web applications in 2016, and hopefully a hint to why so many web applications are still vulnerable.
+\\ \\
+To get an overview of what vulnerabilities to focus on in this chapter, a combination of the results of four induvidual information security reports will be examined. Three of them are from 2015/2016, and the fourth is OWASP Top 10 from 2013.
+\pagebreak
+\subsubsection{OWASP Top 10}
+Open Web Application Security Project is a international charitable non-profit organization, and is a colaberation between a varity of security experts around the world \cite{OwaspCompany}. The primary aim of the OWASP Top 10 is to raise awareness for web application security, and so far the report has been released twice, in 2010 and 2013 \cite{OwaspTop10Project}.
+\subsubsection{Acunetix Web Application Vulnerability Report 2016}
+Acunetix is a company spacializing in automated tools to scan servers for vulnerabilities, and have many high profile private and public companies as clients \cite{AcunetixCompany}. They released an annual report on statistics from their scans throughout the period of 1st April 2015 to 31st March 2016. Acunetix has gathered, aggretated and analyzed data from over 61.000 scans over a two year period, and are in a great position to observe trends in the field \cite{Acunetix2016}. 
+\subsubsection{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}
+Hewlett Packard provide a broad view of the 2015 threat landscape, based on industry-wide data and a focused look at open source, mobile and IoT \cite{HP2016}.
+\subsubsection{Symantec Internet Security Threat Report 2016}
+Through the Global Intelligence Network, Symantec has one of the most comprehensive sources of internet threat data \cite{Symantec2016}. It's made up of more than 63.8 million attack sensors in over 157 countries and territories through a combination of Symantec products and services \cite{Symantec2016}.
+\pagebreak
+\section{Trending vulnerabilities and attack vectors}
+This chapter will look at three common vulnerabilities in web application today, Cross-Site Scripting (XSS), SQL Injections and Vulnerable JavaScript libraries. It will also look at Exploit Kits as an attack surface, a trending set of code used to infect large amounts of users with malware. All of the threats described here have consistently been reported as the most common vulnerabilities in web applications for several years, and 2016 is no different \cite{OWASP2010}\cite{OWASP2013}\cite{Acunetix2016}.
+\subsection{Cross-Site Scripting (XSS)}
+If an attacker is able to submit malicious HTML such as JavaScript to a dynamic web application, they are able to execute a Cross-Site Scripting, or XSS, attack \cite{Kirda2011}. \\
+Unlike traditional distributed systems security where access control equals authentication and authorisation, a web application uses the same-origin policy \cite{Gollmann2011}. This policy is exploited by a Cross-Site Scripting attack, when the vulnerable site is viewed by a victim the malicious content seems to come from the trused site, and the attacker can steal cookies, session identefiers and other sensetive information that the web site has access to \cite{Kirda2011}. 
+\subsection{SQL Injection}
+Structured Query Language (SQL) is the language enabeling applications to talk to most relational databases. In a web application scenario SQL is used for creating, reading, updating, and deleting, in addition to searching and filtration. It is often connected to forms and other dynamic user input functionality, and this is where most SQL-Injection attacks come into play. If an attacker is able to inject code that the server treats as SQL code, the attacker can gain access to the underlying database \cite{Bisson2005}. Databases often contain sensitive consumer or user information, and result in violations such as identity theft, loss of confidensial information, fraud and even system control.
+\\ This could possibly work on any website or web application that uses a SQL-based database, and is therefore one of the oldest, most prevalent and dangerous vulnerabilities \cite{Acunetix2016}.
+\subsection{Vulnerable JavaScript Libraries}
+JavaScript has become the number one client-side language for user-friendly content display, and does often communicate with backend languages through Asynchronous Javascript And Xml (AJAX). A library in programming terms is a pre-written set of code to ease the development of applications, and is used by most dynamic websites today. One of the challenges that arises from this approach is that when a vulnerability is exposed by an attacker, a large number of sites suffer from the same vulnerability.
+27\% of the sampled targets in Acunetix Web Application Vulnerability Report 2016 used vulnerable JavaScript libraries within their application \cite{Acunetix2016}. 
+\subsection{Exploit Kits}
+Exploit Kits are server applications made to deliver malware istead of web content \cite{Preuss2011}. They are not a web application vulnerability in themselves, but a tool used for drive-by-download attacks through a multitude of vulnerabilities in browsers and browser addons packaged together in a kit \cite{Kotov2013}. The reason exploit kits get a mention here in this report is that they can be a result of the three vulnerabilities mentioned above, for example an <iframe> in a XSS or even a SQLInjection or a JavaScript based redirect \cite{Preuss2011}. \\ \\
+The exploit kits inject shellcode to the vicim process to download a independent malware executable to the victim's hard drive and executes it \cite{Preuss2011}. \\ \\ 
+These kits has become a competative market and range from several hundreds to over a thousands dollar on the black market \cite{Preuss2011}.
+\subsection{Conclusion}
+
+
+
