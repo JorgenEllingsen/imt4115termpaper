@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.21)  26 OCT 2016 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.21)  2 NOV 2016 12:27
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -989,36 +989,36 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [2
 
 
-] [3] [4]
+] [3] [4] [5]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 43.
+(Font)              scaled to size 9.19998pt on input line 52.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 43.
+(Font)              scaled to size 6.99199pt on input line 52.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 43.
+(Font)              scaled to size 5.51999pt on input line 52.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 43.
+(Font)              scaled to size 9.19998pt on input line 52.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 43.
+(Font)              scaled to size 6.99199pt on input line 52.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 43.
- [5] [6] [7]
+(Font)              scaled to size 5.51999pt on input line 52.
+ [6] [7] [8]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 84.
- [8] [9] [10]
-<fig/crowdsys.png, id=291, 804.75656pt x 441.14813pt>
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 92.
+ [9] [10] [11]
+<fig/crowdsys.png, id=293, 804.75656pt x 441.14813pt>
 File: fig/crowdsys.png Graphic file (type png)
  <use fig/crowdsys.png>
-Package pdftex.def Info: fig/crowdsys.png used on input line 109.
+Package pdftex.def Info: fig/crowdsys.png used on input line 117.
 (pdftex.def)             Requested size: 321.89691pt x 176.45612pt.
 
-[11 <./fig/crowdsys.png>] [12]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 129
+[12 <./fig/crowdsys.png>] [13]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 137
 .
 
 (D:\Programme\MiKTeX\tex\latex\fourier\ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-) [13] [14] [15])
+) [14] [15] [16])
 (chapter02.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
@@ -1036,7 +1036,7 @@ s/m/n/12 (\FMS/futm/m/n/12  \FML/futmi/m/it/12 x\T1/futs/m/n/12 ) \FML/futmi/m
 /it/12 dx$\T1/futs/m/n/12 ,
  []
 
-[16
+[17
 
 
 
@@ -1047,7 +1047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-[17] <fig/NTNU.pdf, id=359, 241.90375pt x 53.19875pt>
+[18] <fig/NTNU.pdf, id=355, 241.90375pt x 53.19875pt>
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
 Package pdftex.def Info: fig/NTNU.pdf used on input line 64.
@@ -1059,7 +1059,7 @@ n/12 [h] \T1/futs/m/n/12 (here) im-me-di-ately af-ter $\FMS/futm/m/n/12 n$\T1/c
 mtt/m/n/12 begin{figure}\T1/futs/m/n/12 .
  []
 
-[18 <./fig/NTNU.pdf>]
+[19 <./fig/NTNU.pdf>]
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
 Package pdftex.def Info: fig/NTNU.pdf used on input line 77.
@@ -1080,49 +1080,49 @@ n$\T1/cmtt/m/n/12 begin{tabular*}
  []
 
 
-Package natbib Warning: Citation `rausand04' on page 19 undefined on input line
+Package natbib Warning: Citation `rausand04' on page 20 undefined on input line
  110.
 
 
-Package natbib Warning: Citation `rausand04' on page 19 undefined on input line
+Package natbib Warning: Citation `rausand04' on page 20 undefined on input line
  112.
 
-[19] [20] [21]
+[20] [21] [22]
 
-Package natbib Warning: Citation `rausand04' on page 22 undefined on input line
+Package natbib Warning: Citation `rausand04' on page 23 undefined on input line
  135.
 
-) [22] (chapter0n.tex
+) [23] (chapter0n.tex
 Chapter 3.
-[23
+[24
 
 
 
-]) [24] (acronyms.tex
+]) [25] (acronyms.tex
 Appendix A.
-) [25
+) [26
 
 
 
 ] (appendix-b.tex
 Appendix B.
-) [26
+) [27
 
 
 
-] (thesis.bbl [27
+] (thesis.bbl [28
 
 
-] [28]) [29] (vitae.tex
-<fig/me.pdf, id=428, 238.8925pt x 283.0575pt>
+] [29]) [30] (vitae.tex
+<fig/me.pdf, id=424, 238.8925pt x 283.0575pt>
 File: fig/me.pdf Graphic file (type pdf)
  <use fig/me.pdf>
 Package pdftex.def Info: fig/me.pdf used on input line 24.
 (pdftex.def)             Requested size: 71.66829pt x 84.9179pt.
- [30
+ [31
 
 
- <./fig/me.pdf>]) [31]
+ <./fig/me.pdf>]) [32]
 
 Package natbib Warning: There were undefined citations.
 
@@ -1138,13 +1138,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 8442 strings out of 493673
- 115164 string characters out of 3147223
+ 8443 strings out of 493673
+ 115171 string characters out of 3147223
  205830 words of memory out of 3000000
  11418 multiletter control sequences out of 15000+200000
  115231 words of font info for 121 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,10n,34p,1574b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,34p,1546b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Fabian\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk><D:/Programme
 /MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><D:/Programme/MiKTeX/fonts/t
@@ -1154,9 +1154,9 @@ pfb><D:/Programme/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><D:/Programme/MiKT
 eX/fonts/type1/adobe/utopia/putbi8a.pfb><D:/Programme/MiKTeX/fonts/type1/adobe/
 utopia/putr8a.pfb><D:/Programme/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><D:/
 Programme/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on thesis.pdf (36 pages, 349756 bytes).
+Output written on thesis.pdf (37 pages, 350509 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
  269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

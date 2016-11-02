@@ -2,30 +2,30 @@
 \contentsline {section}{Acknowledgment}{ii}{section*.1}
 \contentsline {section}{Summary and Conclusions}{iii}{section*.2}
 \contentsline {chapter}{\numberline {1}Approaches for Detecting Robots \\ in Social Media}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Definition and History of Social Bots}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Important Social Media Platforms}{5}{section.1.3}
-\contentsline {section}{\numberline {1.4}Why is Bot Detection in Social Media Important?}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Social Bot Detection Approaches}{8}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Based on Social Network Information}{8}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Based on Crowd-Sourcing}{10}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Based on Features}{12}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Summary and Outlook}{14}{section.1.6}
-\contentsline {chapter}{\numberline {2}Equations, etc}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}Simple Equations}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}Including Figures}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Including Tables}{19}{section.2.3}
-\contentsline {section}{\numberline {2.4}Copying Figures and Tables}{19}{section.2.4}
-\contentsline {section}{\numberline {2.5}References to Figures and Tables}{21}{section.2.5}
-\contentsline {section}{\numberline {2.6}A Word About Font-encoding}{21}{section.2.6}
-\contentsline {section}{\numberline {2.7}Plagiarism}{21}{section.2.7}
-\contentsline {chapter}{\numberline {3}Summary}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Summary and Conclusions}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Discussion}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{24}{section.3.3}
-\contentsline {chapter}{\numberline {A}Acronyms}{25}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information}{26}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{26}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{26}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{27}{subsection.B.1.1}
-\contentsline {chapter}{Curriculum Vitae}{30}{appendix*.9}
+\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Definition and History of Social Bots}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Important Social Media Platforms}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Why is Bot Detection in Social Media Important?}{7}{section.1.4}
+\contentsline {section}{\numberline {1.5}Social Bot Detection Approaches}{9}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Based on Social Network Information}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Based on Crowd-Sourcing}{11}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Based on Features}{13}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Summary and Outlook}{15}{section.1.6}
+\contentsline {chapter}{\numberline {2}Equations, etc}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Simple Equations}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}Including Figures}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Including Tables}{20}{section.2.3}
+\contentsline {section}{\numberline {2.4}Copying Figures and Tables}{20}{section.2.4}
+\contentsline {section}{\numberline {2.5}References to Figures and Tables}{22}{section.2.5}
+\contentsline {section}{\numberline {2.6}A Word About Font-encoding}{22}{section.2.6}
+\contentsline {section}{\numberline {2.7}Plagiarism}{22}{section.2.7}
+\contentsline {chapter}{\numberline {3}Summary}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Summary and Conclusions}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Discussion}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{25}{section.3.3}
+\contentsline {chapter}{\numberline {A}Acronyms}{26}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information}{27}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{27}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{27}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{28}{subsection.B.1.1}
+\contentsline {chapter}{Curriculum Vitae}{31}{appendix*.9}
