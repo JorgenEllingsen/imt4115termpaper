@@ -5,8 +5,11 @@
 \chapter[Web Application vulnerabilities in 2016]{Common vulnerabilities and attack surfaces for Web Applications in 2016}
 
 \subsection*{Management summary}
-Management summary incoming
+The web stack has evolved to serve feature rich and dynamic experiences within the browser by expanding on the legacy applications. The majority of cyber attacks are done at web application level, and most of the vulnerabilities are well known and documented - but alot of web applications fail to mitigate or counteract them.
+
+This chapter several reports from security companies and non-profit organizations was analyzed to find some of the most common web application vulnerabilities with the possibility of severe consequences. The chapter focuses on Cross-Site Scripting, SQL Injection and vulnerable JavaScript Libraries to explain how they work and how they can harm the companies and their visitors/clients. It briefly looks at the rising usage of Exploit Kits, and how these vulnerabilities can compromize the web application and make it a part of an Exploit Kit infrastructure. It continues to look at possible mitigation techniqes and countermeasurements and discuss why so many sites are vulnerable to these well-known attack surfaces.
 %%=========================================
+\pagebreak
 \section{Introduction}
 Over the last years web application hacking has increased, and as many as 75\% of cyber attacks are done at web applications level or via the web \cite{AcunetixCompany}. The introduction in the Acunetix report states that 55\% of web applications has atleast one high-severity vulnerability - and thats up 9\% since 2015.
 
@@ -47,14 +50,21 @@ Structured Query Language (SQL) is the language enabeling applications to talk t
 \subsection{Vulnerable JavaScript Libraries}
 JavaScript has become the number one client-side language for user-friendly content display, and does often communicate with backend languages through Asynchronous Javascript And Xml (AJAX). A library in programming terms is a pre-written set of code to ease the development of applications, and is used by most dynamic websites today. One of the challenges that arises from this approach is that when a vulnerability is exposed by an attacker, a large number of sites suffer from the same vulnerability.
 27\% of the sampled targets in Acunetix Web Application Vulnerability Report 2016 used vulnerable JavaScript libraries within their application \cite{Acunetix2016}. 
-
-
-
-Exploit Kits are server applications made to deliver malware istead of web content \cite{Preuss2011}. They are not a web application vulnerability in themselves, but a tool used for drive-by-download attacks through a multitude of vulnerabilities in browsers and browser addons packaged together in a kit \cite{Kotov2013}. The reason exploit kits get a mention here in this report is that they can be a result of the three vulnerabilities mentioned above, for example an $<$iframe$>$ in a XSS or even a SQLInjection or a JavaScript based redirect \cite{Preuss2011}.
+\subsection{Exploit Kits}
+Vulnerabilities compromising a site could lead to the site being a part of an Exploit Kit infrastructure. Exploit Kits are server applications made to deliver malware istead of web content \cite{Preuss2011}. They are not a web application vulnerability in themselves, but a tool used for drive-by-download attacks through a multitude of vulnerabilities in browsers and browser addons packaged together in a kit \cite{Kotov2013}. The reason exploit kits get a mention here in this report is that they can be a result of the three vulnerabilities mentioned above, for example an $<$iframe$>$ in a XSS or even a SQLInjection or a JavaScript based redirect \cite{Preuss2011}.
 The exploit kits inject shellcode to the vicim process to download a independent malware executable to the victim's hard drive and executes it \cite{Preuss2011}.
-These kits has become a competative market and range from several hundreds to over a thousands dollar on the black market \cite{Preuss2011}.
+These kits has become a competative market and range from several hundreds to over a thousands dollar on the black market \cite{Preuss2011}, and therefore also have sophisticated code and sometimes even zero-day exploits.
+\pagebreak
 \section{Countermeasures and mitigation}
-\section{Conclusion}
+Losing sensetive information, about your users or your own systems, is a serious skratch in the reputation of your online enterprise. Maybe even worse is beeing part of an Exploit Kit infrastructure, putting all your visitors in harms way for drive-by downloading of malware. 
+\\ \\
+Even though both SQL Injection and XSS attacks almost as old as the utilazation of databases and javascript in web applications, it still is a major source of vulnerabilities today. 
+
+The basic forms of attacks on both SQL Injection and XSS are easy to pervent, simply by constraining and sanitizing the data. Constrain the length, type, range and possibly format of any input data, and then sanitize the remaining input by escaping characters that could be interpered as code \cite{Bisson2005}. For a query parameter that set the page number in a search funcion, this data should be a integer in the range between 1 and the total number of pages. In a input box in a form, for instance a email, this data should only be accepted if it is a combination of letters and numbers on the format xxx@xxx.xx. Characters like $>$ and $<$ should never be stored as is, but rather changed to their html equvalent or some other form of rewrite   \textbf{Find some sources}. To mitigate the damage from a SQL Injection attack, it's important to do ragularly backups of the database and store passwords using strong and computationally heavy hashing functions with salting.  \textbf{More on how to store passwords}
+
+This raises the question: why are so many web applications still vulnerable to these types of attacks today? My thoughs on the subject, that in no way is scientificly validated, is that there is two major reasons for this: 1. The web application scene is filled with developers that not nessesarly have a formal education in programming or web development, thus lack the basics like security. 2. An increase in frameworks and content management systems usage silently teaches the developers that the security is taken care of in the core of the framework or CMS, so that when they do create a plugin or special feature they forget to handle these risks themselves.
+
+The JavaScript Libraries on the other hand is harder to pervent, the easiest solution here is to stay on top of all libraries the site is using. Update or remove the library as soon as a bug or vulnerability is found. Another thing that is worth mentioning is that JavaScript libraries could be used in XSS attacks aswell, as seen with jQuery in the Twitter example above. \textbf{More on JS Libs}
 
 
 
