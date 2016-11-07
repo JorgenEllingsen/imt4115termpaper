@@ -1,20 +1,136 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Lundteigen and Rausand}{2008}]{lundteigen08}
-Lundteigen, M.~A. and Rausand, M. (2008).
-\newblock Spurious activation of safety instrumented systems in the oil and gas
-  industry: Basic concepts and formulas.
-\newblock {\em Reliability Engineering and System Safety}, 93:1208--1217.
+\bibitem[\protect\astroncite{Acunetix}{2016a}]{Acunetix2016}
+Acunetix (2016a).
+\newblock {Acunetix Web Application Vulnerability Report 2016}.
+\newblock
+  \url{https://d3eaqdewfg2crq.cloudfront.net/resources/acunetix-web-application-vulnerability-report-2016.pdf}.
 
-\bibitem[\protect\astroncite{Rausand}{2014}]{rausand14}
-Rausand, M. (2014).
-\newblock {\em Reiability of Safety-Critical Systems: Theory and Applications}.
-\newblock Wiley, Hoboken, NJ.
+\bibitem[\protect\astroncite{Acunetix}{2016b}]{AcunetixCompany}
+Acunetix (2016b).
+\newblock Combating the web security threat.
 
-\bibitem[\protect\astroncite{Rausand and H{\o}yland}{2004}]{rausand04}
-Rausand, M. and H{\o}yland, A. (2004).
-\newblock {\em System Reliability Theory: Models, Statistical Methods, and
-  Applications}.
-\newblock Wiley, Hoboken, NJ, 2nd edition.
+\bibitem[\protect\astroncite{Bialecki et~al.}{2016}]{Bialecki2016}
+Bialecki, M., O’Leary, S., and Smith, D. (2016).
+\newblock Judgement devices and the evaluation of singularities: The use of
+  performance ratings and narrative information to guide film viewer choice.
+\newblock {\em Management Accounting Research}, pages~--.
+
+\bibitem[\protect\astroncite{Bisson}{2005}]{Bisson2005}
+Bisson, R. (2005).
+\newblock Sql injection.
+\newblock {\em ITNOW, Oxford Journal}, 47:25.
+
+\bibitem[\protect\astroncite{Cassa et~al.}{2013}]{Cassa:Twitter}
+Cassa, C., Chunara, R., Mandl, K., and Brownstein, J. (2013).
+\newblock Twitter as a sentinel in emergency situations: Lessons from the
+  boston marathon explosions.
+\newblock {\em PLoS Currents}, (JUNE).
+
+\bibitem[\protect\astroncite{Edmunds}{2016}]{Edmunds2016}
+Edmunds, B. (2016).
+\newblock {\em Safe Defaults, Cross-Site Scripting, and Other Popular Hacks},
+  pages 41--47.
+\newblock Apress, Berkeley, CA.
+
+\bibitem[\protect\astroncite{Edwards et~al.}{2014}]{Edwards2014372}
+Edwards, C., Edwards, A., Spence, P.~R., and Shelton, A.~K. (2014).
+\newblock Is that a bot running the social media feed? testing the differences
+  in perceptions of communication quality for a human agent and a bot agent on
+  twitter.
+\newblock {\em Computers in Human Behavior}, 33:372 -- 376.
+
+\bibitem[\protect\astroncite{Enterprise}{2016}]{HP2016}
+Enterprise, H.~P. (2016).
+\newblock Security research cyber risk report 2016.
+
+\bibitem[\protect\astroncite{Gollmann}{2011}]{Gollmann2011}
+Gollmann, D. (2011).
+\newblock {\em Problems with Same Origin Policy}, pages 84--85.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[\protect\astroncite{Holiday}{2014}]{Observer:FakeTRAF}
+Holiday, R. (2014).
+\newblock Fake traffic means real paydays.
+
+\bibitem[\protect\astroncite{Kirda}{2011}]{Kirda2011}
+Kirda, E. (2011).
+\newblock {\em Cross Site Scripting Attacks}, pages 275--277.
+\newblock Springer US, Boston, MA.
+
+\bibitem[\protect\astroncite{Kotov and Massacci}{2013}]{Kotov2013}
+Kotov, V. and Massacci, F. (2013).
+\newblock {\em Anatomy of Exploit Kits}, pages 181--196.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[\protect\astroncite{Lin}{2014}]{Lin2014111}
+Lin, Z. (2014).
+\newblock An empirical investigation of user and system recommendations in
+  e-commerce.
+\newblock {\em Decision Support Systems}, 68:111 -- 124.
+
+\bibitem[\protect\astroncite{Narang}{2015}]{Symantec:Narang}
+Narang, S. (2015).
+\newblock Uncovering a persistent diet spam operation on twitter.
+
+\bibitem[\protect\astroncite{Oh et~al.}{2016}]{Oh2016}
+Oh, C., Roumani, Y., Nwankpa, J.~K., and Hu, H.-F. (2016).
+\newblock Beyond likes and tweets: Consumer engagement behavior and movie box
+  office in social media.
+\newblock {\em Information \& Management}, pages~--.
+
+\bibitem[\protect\astroncite{OWASP}{2016a}]{OwaspCompany}
+OWASP (2016a).
+\newblock About.
+
+\bibitem[\protect\astroncite{OWASP}{2016b}]{OwaspTop10Project}
+OWASP (2016b).
+\newblock Top ten project.
+
+\bibitem[\protect\astroncite{Preuss and Diaz}{2011}]{Preuss2011}
+Preuss, M. and Diaz, V. (2011).
+\newblock Exploit kits - a different view.
+
+\bibitem[\protect\astroncite{Project}{2010}]{OWASP2010}
+Project, O. W. A.~S. (2010).
+\newblock {OWASP Top 10 - 2010}.
+\newblock \url{https://www.owasp.org/index.php/Top10#OWASP_Top_10_for_2010}.
+
+\bibitem[\protect\astroncite{Project}{2013}]{OWASP2013}
+Project, O. W. A.~S. (2013).
+\newblock {OWASP Top 10 - 2013}.
+\newblock \url{https://www.owasp.org/index.php/Top10#OWASP_Top_10_for_2013}.
+
+\bibitem[\protect\astroncite{Ratkiewicz et~al.}{2011}]{ICWSM112850}
+Ratkiewicz, J., Conover, M., Meiss, M., Goncalves, B., Flammini, A., and
+  Menczer, F. (2011).
+\newblock Detecting and tracking political abuse in social media.
+
+\bibitem[\protect\astroncite{Rosencrance}{2000}]{Computerworld:Ebay}
+Rosencrance, L. (2000).
+\newblock Federal judge blocks web bot from tapping into ebay.
+
+\bibitem[\protect\astroncite{Shin et~al.}{2015}]{HyeonjeongShin2015}
+Shin, H., Byun, C., and Lee, H. (2015).
+\newblock The influence of social media: Twitter usage pattern during the 2014
+  super bowl game.
+\newblock {\em International Journal of Multimedia and Ubiquitous Engineering,
+  2015}, vol 10(3):109--118.
+
+\bibitem[\protect\astroncite{Singh}{2013}]{Singh2013}
+Singh, A. (2013).
+\newblock Social media and corporate agility.
+\newblock {\em Global Journal of Flexible Systems Management}, 14(4):255--260.
+
+\bibitem[\protect\astroncite{SucuriBlog}{2014}]{TweetDeck}
+SucuriBlog (2014).
+\newblock {Serious Cross Site Scripting Vulnerability in TweetDeck –
+  Twitter}.
+\newblock
+  \url{https://blog.sucuri.net/2014/06/serious-cross-site-scripting-vulnerability-in-tweetdeck-twitter.html}.
+
+\bibitem[\protect\astroncite{Symantec}{2016}]{Symantec2016}
+Symantec (2016).
+\newblock Internet security threat report 2016.
 
 \end{thebibliography}
