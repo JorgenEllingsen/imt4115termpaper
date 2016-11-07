@@ -13,23 +13,23 @@ A level-1 auxiliary file: jorgen.aux
 The style file: apa.bst
 Database file #1: refs.bib
 Warning--entry type for "twitterbot" isn't style-file defined
---line 322 of file refs.bib
+--line 320 of file refs.bib
 Warning--entry type for "insight" isn't style-file defined
---line 329 of file refs.bib
+--line 327 of file refs.bib
 Warning--entry type for "jan-coc" isn't style-file defined
---line 556 of file refs.bib
+--line 554 of file refs.bib
 Warning--entry type for "jan-microsoft-no-ip" isn't style-file defined
---line 574 of file refs.bib
+--line 572 of file refs.bib
 Warning--entry type for "jan-ec3" isn't style-file defined
---line 585 of file refs.bib
+--line 583 of file refs.bib
 Warning--entry type for "jan-fbi-GOZ" isn't style-file defined
---line 593 of file refs.bib
+--line 591 of file refs.bib
 Warning--entry type for "jan-fbi-GOZ2" isn't style-file defined
---line 604 of file refs.bib
+--line 602 of file refs.bib
 Warning--entry type for "jan-windows-applocker" isn't style-file defined
---line 651 of file refs.bib
+--line 649 of file refs.bib
 Warning--entry type for "jan-nsm-ransomware" isn't style-file defined
---line 660 of file refs.bib
+--line 658 of file refs.bib
 Warning--I didn't find a database entry for "jan-brewer"
 Warning--to sort, need author or key in insight
 Warning--to sort, need author or key in twitterbot
