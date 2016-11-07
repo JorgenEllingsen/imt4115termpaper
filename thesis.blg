@@ -5,24 +5,45 @@ A level-1 auxiliary file: front.aux
 A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: acknowledgment.aux
 A level-1 auxiliary file: summary.aux
-A level-1 auxiliary file: chapter_bot_metrics.aux
+A level-1 auxiliary file: jan.aux
+A level-1 auxiliary file: emil.aux
 A level-1 auxiliary file: fabian.aux
-A level-1 auxiliary file: chapter_attacks.aux
-A level-1 auxiliary file: chapter_common_attacks.aux
+A level-1 auxiliary file: audun.aux
+A level-1 auxiliary file: jorgen.aux
 The style file: apa.bst
 Database file #1: refs.bib
 Warning--entry type for "twitterbot" isn't style-file defined
---line 355 of file refs.bib
+--line 322 of file refs.bib
 Warning--entry type for "insight" isn't style-file defined
---line 365 of file refs.bib
+--line 329 of file refs.bib
+Warning--entry type for "jan-coc" isn't style-file defined
+--line 556 of file refs.bib
+Warning--entry type for "jan-microsoft-no-ip" isn't style-file defined
+--line 574 of file refs.bib
+Warning--entry type for "jan-ec3" isn't style-file defined
+--line 585 of file refs.bib
+Warning--entry type for "jan-fbi-GOZ" isn't style-file defined
+--line 593 of file refs.bib
+Warning--entry type for "jan-fbi-GOZ2" isn't style-file defined
+--line 604 of file refs.bib
+Warning--entry type for "jan-windows-applocker" isn't style-file defined
+--line 651 of file refs.bib
+Warning--entry type for "jan-nsm-ransomware" isn't style-file defined
+--line 660 of file refs.bib
+Warning--I didn't find a database entry for "jan-brewer"
 Warning--to sort, need author or key in insight
 Warning--to sort, need author or key in twitterbot
 Warning--there's a number but no volume in Cassa:Twitter
+Warning--empty year in jan-coc
+Warning--empty booktitle in jan-usenix-botnet
 Warning--empty journal in HP2016
+Warning--empty year in jan-ec3
 Warning--can't use both author and editor fields in Gollmann2011
 Warning--empty journal in Observer:FakeTRAF
 Warning--can't use both author and editor fields in Kirda2011
+Warning--can't use both author and editor fields in jan-kotov-ek
 Warning--can't use both author and editor fields in Kotov2013
+Warning--empty year in jan-windows-applocker
 Warning--empty journal in mustafaraj10
 Warning--empty journal in Symantec:Narang
 Warning--empty journal in ICWSM112850
@@ -30,45 +51,45 @@ Warning--empty journal in Computerworld:Ebay
 Warning--empty journal in Symantec2016
 Warning--can't use both volume and number fields in sumup
 Warning--can't use both volume and number fields in sybilguard
-You've used 51 entries,
+You've used 66 entries,
             1940 wiz_defined-function locations,
-            764 strings with 12141 characters,
-and the built_in function-call counts, 20199 in all, are:
-= -- 1981
-> -- 786
-< -- 44
-+ -- 279
-- -- 264
-* -- 1688
-:= -- 3429
-add.period$ -- 150
-call.type$ -- 51
-change.case$ -- 383
-chr.to.int$ -- 48
-cite$ -- 68
-duplicate$ -- 837
-empty$ -- 1388
-format.name$ -- 321
-if$ -- 4002
-int.to.chr$ -- 4
+            835 strings with 14385 characters,
+and the built_in function-call counts, 25805 in all, are:
+= -- 2551
+> -- 993
+< -- 58
++ -- 355
+- -- 332
+* -- 2122
+:= -- 4390
+add.period$ -- 198
+call.type$ -- 66
+change.case$ -- 491
+chr.to.int$ -- 59
+cite$ -- 88
+duplicate$ -- 1074
+empty$ -- 1755
+format.name$ -- 408
+if$ -- 5119
+int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 45
-newline$ -- 245
-num.names$ -- 147
-pop$ -- 385
+missing$ -- 54
+newline$ -- 321
+num.names$ -- 192
+pop$ -- 478
 preamble$ -- 1
-purify$ -- 387
+purify$ -- 496
 quote$ -- 0
-skip$ -- 651
+skip$ -- 844
 stack$ -- 0
-substring$ -- 1271
-swap$ -- 215
-text.length$ -- 19
+substring$ -- 1609
+swap$ -- 282
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 298
-warning$ -- 15
-while$ -- 163
+type$ -- 386
+warning$ -- 20
+while$ -- 205
 width$ -- 0
-write$ -- 634
-(There were 17 warnings)
+write$ -- 827
+(There were 30 warnings)

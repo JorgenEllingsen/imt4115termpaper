@@ -47,8 +47,14 @@ Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2011).
 \newblock In {\em Proceedings of the 27th Annual Computer Security Applications
   Conference}, pages 93--102. ACM.
 
-\bibitem[\protect\astroncite{Boshmaf et~al.}{2013}]{boshmaf13}
-Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2013).
+\bibitem[\protect\astroncite{Boshmaf et~al.}{2013a}]{jan-boshmaf}
+Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2013a).
+\newblock Design and analysis of a social botnet.
+\newblock {\em Computer Networks}, 57(2):556 -- 578.
+\newblock Botnet Activity: Analysis, Detection and Shutdown.
+
+\bibitem[\protect\astroncite{Boshmaf et~al.}{2013b}]{boshmaf13}
+Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2013b).
 \newblock Design and analysis of a social botnet.
 \newblock {\em Computer Networks}, 57(2):556--578.
 
@@ -70,6 +76,17 @@ Cassa, C.~A., Chunara, R., Mandl, K., and Brownstein, J.~S. (2013b).
 \newblock Twitter as a sentinel in emergency situations: lessons from the
   boston marathon explosions.
 \newblock {\em PLOS Currents Disasters}.
+
+\bibitem[\protect\astroncite{CoC}{}]{jan-coc}
+CoC.
+\newblock Convention on cybercrime.
+\newblock
+  https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/185.
+
+\bibitem[\protect\astroncite{Cooke et~al.}{2005}]{jan-usenix-botnet}
+Cooke, E., Jahanian, F., and McPherson, D. (2005).
+\newblock The zombie roundup: Understanding, detecting, and disrupting botnets.
+\newblock Usenix.
 
 \bibitem[\protect\astroncite{Danezis and Mittal}{2009}]{sybilinfer}
 Danezis, G. and Mittal, P. (2009).
@@ -106,6 +123,23 @@ Edwards, C., Edwards, A., Spence, P.~R., and Shelton, A.~K. (2014).
 Enterprise, H.~P. (2016).
 \newblock Security research cyber risk report 2016.
 
+\bibitem[\protect\astroncite{Europol}{}]{jan-ec3}
+Europol.
+\newblock European cybercrime centre(ec3).
+\newblock https://www.europol.europa.eu/ec3.
+
+\bibitem[\protect\astroncite{FBI}{2014a}]{jan-fbi-GOZ2}
+FBI (2014a).
+\newblock Department of justice provides update on gameover zeus and
+  cryptolocker disruption.
+\newblock
+  https://www.fbi.gov/news/pressrel/press-releases/department-of-justice-provides-update-on-gameover-zeus-and-cryptolocker-disruption.
+
+\bibitem[\protect\astroncite{FBI}{2014b}]{jan-fbi-GOZ}
+FBI (2014b).
+\newblock Gameover zeus botnet disrupted.
+\newblock https://www.fbi.gov/news/stories/gameover-zeus-botnet-disrupted.
+
 \bibitem[\protect\astroncite{Ferrara et~al.}{2015}]{ferrara15}
 Ferrara, E., Varol, O., Davis, C., Menczer, F., and Flammini, A. (2015).
 \newblock The rise of social bots.
@@ -136,16 +170,43 @@ Kirda, E. (2011).
 \newblock {\em Cross Site Scripting Attacks}, pages 275--277.
 \newblock Springer US, Boston, MA.
 
-\bibitem[\protect\astroncite{Kotov and Massacci}{2013}]{Kotov2013}
-Kotov, V. and Massacci, F. (2013).
+\bibitem[\protect\astroncite{Kotov and Massacci}{2013a}]{jan-kotov-ek}
+Kotov, V. and Massacci, F. (2013a).
 \newblock {\em Anatomy of Exploit Kits}, pages 181--196.
 \newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[\protect\astroncite{Kotov and Massacci}{2013b}]{Kotov2013}
+Kotov, V. and Massacci, F. (2013b).
+\newblock {\em Anatomy of Exploit Kits}, pages 181--196.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[\protect\astroncite{Kreibich and Crowcroft}{2004}]{jan-Kreibich}
+Kreibich, C. and Crowcroft, J. (2004).
+\newblock Honeycomb  creating intrusion detection signatures using honeypots.
+\newblock {\em ACM SIGCOMM Computer Communications Review}, 34(1).
 
 \bibitem[\protect\astroncite{Lin}{2014}]{Lin2014111}
 Lin, Z. (2014).
 \newblock An empirical investigation of user and system recommendations in
   e-commerce.
 \newblock {\em Decision Support Systems}, 68:111 -- 124.
+
+\bibitem[\protect\astroncite{Mansfield-Devine}{2009}]{jan-mansfield-whitelist}
+Mansfield-Devine, S. (2009).
+\newblock The promise of whitelisting.
+\newblock {\em Network Security}, 2009(7):4 -- 6.
+
+\bibitem[\protect\astroncite{Microsoft}{}]{jan-windows-applocker}
+Microsoft.
+\newblock Windows applocker.
+\newblock https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx.
+
+\bibitem[\protect\astroncite{Microsoft-Corporate-Blogs}{2014}]{jan-microsoft-no-ip}
+Microsoft-Corporate-Blogs (2014).
+\newblock Microsoft takes on global cybercrime epidemic in tenth malware
+  disruption.
+\newblock
+  http://blogs.microsoft.com/blog/2014/06/30/microsoft-takes-on-global-cybercrime-epidemic-in-tenth-malware-disruption/\#sm.00000dcwsbrzn9crgt7lpqod3cjdj.
 
 \bibitem[\protect\astroncite{Mustafaraj and Metaxas}{2010}]{mustafaraj10}
 Mustafaraj, E. and Metaxas, P.~T. (2010).
@@ -155,6 +216,12 @@ Mustafaraj, E. and Metaxas, P.~T. (2010).
 \bibitem[\protect\astroncite{Narang}{2015}]{Symantec:Narang}
 Narang, S. (2015).
 \newblock Uncovering a persistent diet spam operation on twitter.
+
+\bibitem[\protect\astroncite{NSM}{2015}]{jan-nsm-ransomware}
+NSM (2015).
+\newblock Ny bølge! falske posten norge e-poster i omløp.
+\newblock
+  https://nsm.stat.no/om-nsm/tjenester/handtering/norcertvarsler/norcert\_varsler2015/postenrw1/.
 
 \bibitem[\protect\astroncite{Oh et~al.}{2016}]{Oh2016}
 Oh, C., Roumani, Y., Nwankpa, J.~K., and Hu, H.-F. (2016).
@@ -205,11 +272,24 @@ Singh, A. (2013).
 \newblock Social media and corporate agility.
 \newblock {\em Global Journal of Flexible Systems Management}, 14(4):255--260.
 
-\bibitem[\protect\astroncite{Stein et~al.}{2011}]{fis}
-Stein, T., Chen, E., and Mangla, K. (2011).
+\bibitem[\protect\astroncite{Stein et~al.}{2011a}]{jan-fis}
+Stein, T., Chen, E., and Mangla, K. (2011a).
+\newblock Facebook immune system.
+\newblock In {\em Proceedings of the 4th Workshop on Social Network Systems},
+  SNS '11, pages 8:1--8:8, New York, NY, USA. ACM.
+
+\bibitem[\protect\astroncite{Stein et~al.}{2011b}]{fis}
+Stein, T., Chen, E., and Mangla, K. (2011b).
 \newblock Facebook immune system.
 \newblock In {\em Proceedings of the 4th Workshop on Social Network Systems},
   page~8. ACM.
+
+\bibitem[\protect\astroncite{Stone-Gross et~al.}{2009}]{jan_stone-gross}
+Stone-Gross, B., Cova, M., Cavallaro, L., Gilbert, B., Szydlowski, M.,
+  Kemmerer, R., Kruegel, C., and Vigna, G. (2009).
+\newblock Your botnet is my botnet: Analysis of a botnet takeover.
+\newblock In {\em Proceedings of the 16th ACM Conference on Computer and
+  Communications Security}, CCS '09, pages 635--647, New York, NY, USA. ACM.
 
 \bibitem[\protect\astroncite{Stringhini et~al.}{2013}]{stringhini}
 Stringhini, G., Wang, G., Egele, M., Kruegel, C., Vigna, G., Zheng, H., and
@@ -243,6 +323,11 @@ Turing, A.~M. (1950).
 Viswanath, B., Post, A., Gummadi, K.~P., and Mislove, A. (2010).
 \newblock An analysis of social network-based sybil defenses.
 \newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374.
+
+\bibitem[\protect\astroncite{Von~Ahn et~al.}{2003}]{jan-captcha}
+Von~Ahn, L., Blum, M., Hopper, N.~J., and Langford, J. (2003).
+\newblock Captcha: using hard ai problems for security.
+\newblock {\em EUROCRYPT}, page 294311.
 
 \bibitem[\protect\astroncite{Wang et~al.}{2013}]{wang2013}
 Wang, G., Konolige, T., Wilson, C., Wang, X., Zheng, H., and Zhao, B.~Y.
