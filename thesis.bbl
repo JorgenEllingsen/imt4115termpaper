@@ -1,5 +1,20 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{ins}{2016}]{insight}
+ (2016).
+\newblock Global social media research summary 2016.
+
+\bibitem[\protect\astroncite{twi}{2016}]{twitterbot}
+ (2016).
+\newblock United states securities and exchange commission - form 10-q -
+  twitter, inc.
+
+\bibitem[\protect\astroncite{Abokhodair et~al.}{2015}]{abokhodair}
+Abokhodair, N., Yoo, D., and McDonald, D.~W. (2015).
+\newblock Dissecting a social botnet: Growth, content and influence in twitter.
+\newblock In {\em Proceedings of the 18th ACM Conference on Computer Supported
+  Cooperative Work \& Social Computing}, pages 839--851. ACM.
+
 \bibitem[\protect\astroncite{Acunetix}{2016a}]{Acunetix2016}
 Acunetix (2016a).
 \newblock {Acunetix Web Application Vulnerability Report 2016}.
@@ -21,11 +36,58 @@ Bisson, R. (2005).
 \newblock Sql injection.
 \newblock {\em ITNOW, Oxford Journal}, 47:25.
 
-\bibitem[\protect\astroncite{Cassa et~al.}{2013}]{Cassa:Twitter}
-Cassa, C., Chunara, R., Mandl, K., and Brownstein, J. (2013).
+\bibitem[\protect\astroncite{Bollen et~al.}{2011}]{bollen}
+Bollen, J., Mao, H., and Zeng, X. (2011).
+\newblock Twitter mood predicts the stock market.
+\newblock {\em Journal of Computational Science}, 2(1):1--8.
+
+\bibitem[\protect\astroncite{Boshmaf et~al.}{2011}]{boshmaf11}
+Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2011).
+\newblock The socialbot network: when bots socialize for fame and money.
+\newblock In {\em Proceedings of the 27th Annual Computer Security Applications
+  Conference}, pages 93--102. ACM.
+
+\bibitem[\protect\astroncite{Boshmaf et~al.}{2013}]{boshmaf13}
+Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2013).
+\newblock Design and analysis of a social botnet.
+\newblock {\em Computer Networks}, 57(2):556--578.
+
+\bibitem[\protect\astroncite{Cao et~al.}{2014}]{synchrotrap}
+Cao, Q., Yang, X., Yu, J., and Palow, C. (2014).
+\newblock Uncovering large groups of active malicious accounts in online social
+  networks.
+\newblock In {\em Proceedings of the 2014 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 477--488. ACM.
+
+\bibitem[\protect\astroncite{Cassa et~al.}{2013a}]{Cassa:Twitter}
+Cassa, C., Chunara, R., Mandl, K., and Brownstein, J. (2013a).
 \newblock Twitter as a sentinel in emergency situations: Lessons from the
   boston marathon explosions.
 \newblock {\em PLoS Currents}, (JUNE).
+
+\bibitem[\protect\astroncite{Cassa et~al.}{2013b}]{cassa}
+Cassa, C.~A., Chunara, R., Mandl, K., and Brownstein, J.~S. (2013b).
+\newblock Twitter as a sentinel in emergency situations: lessons from the
+  boston marathon explosions.
+\newblock {\em PLOS Currents Disasters}.
+
+\bibitem[\protect\astroncite{Danezis and Mittal}{2009}]{sybilinfer}
+Danezis, G. and Mittal, P. (2009).
+\newblock Sybilinfer: Detecting sybil nodes using social networks.
+\newblock In {\em NDSS}. San Diego, CA.
+
+\bibitem[\protect\astroncite{Davis et~al.}{2016}]{botornot}
+Davis, C.~A., Varol, O., Ferrara, E., Flammini, A., and Menczer, F. (2016).
+\newblock Botornot: A system to evaluate social bots.
+\newblock In {\em Proceedings of the 25th International Conference Companion on
+  World Wide Web}, pages 273--274. International World Wide Web Conferences
+  Steering Committee.
+
+\bibitem[\protect\astroncite{Douceur}{2002}]{sybil}
+Douceur, J.~R. (2002).
+\newblock The sybil attack.
+\newblock In {\em International Workshop on Peer-to-Peer Systems}, pages
+  251--260. Springer.
 
 \bibitem[\protect\astroncite{Edmunds}{2016}]{Edmunds2016}
 Edmunds, B. (2016).
@@ -44,14 +106,30 @@ Edwards, C., Edwards, A., Spence, P.~R., and Shelton, A.~K. (2014).
 Enterprise, H.~P. (2016).
 \newblock Security research cyber risk report 2016.
 
+\bibitem[\protect\astroncite{Ferrara et~al.}{2015}]{ferrara15}
+Ferrara, E., Varol, O., Davis, C., Menczer, F., and Flammini, A. (2015).
+\newblock The rise of social bots.
+\newblock {\em arXiv preprint arXiv:1407.5225v3}.
+
 \bibitem[\protect\astroncite{Gollmann}{2011}]{Gollmann2011}
 Gollmann, D. (2011).
 \newblock {\em Problems with Same Origin Policy}, pages 84--85.
 \newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
 
+\bibitem[\protect\astroncite{Gupta et~al.}{2013}]{gupta}
+Gupta, A., Lamba, H., and Kumaraguru, P. (2013).
+\newblock \textdollar 1.00 per rt \# bostonmarathon \# prayforboston: Analyzing
+  fake content on twitter.
+\newblock In {\em eCrime Researchers Summit (eCRS), 2013}, pages 1--12. IEEE.
+
 \bibitem[\protect\astroncite{Holiday}{2014}]{Observer:FakeTRAF}
 Holiday, R. (2014).
 \newblock Fake traffic means real paydays.
+
+\bibitem[\protect\astroncite{Hwang et~al.}{2012}]{hwang12}
+Hwang, T., Pearce, I., and Nanis, M. (2012).
+\newblock Socialbots: Voices from the fronts.
+\newblock {\em interactions}, 19(2):38--45.
 
 \bibitem[\protect\astroncite{Kirda}{2011}]{Kirda2011}
 Kirda, E. (2011).
@@ -68,6 +146,11 @@ Lin, Z. (2014).
 \newblock An empirical investigation of user and system recommendations in
   e-commerce.
 \newblock {\em Decision Support Systems}, 68:111 -- 124.
+
+\bibitem[\protect\astroncite{Mustafaraj and Metaxas}{2010}]{mustafaraj10}
+Mustafaraj, E. and Metaxas, P.~T. (2010).
+\newblock From obscurity to prominence in minutes: Political speech and
+  real-time search.
 
 \bibitem[\protect\astroncite{Narang}{2015}]{Symantec:Narang}
 Narang, S. (2015).
@@ -122,6 +205,19 @@ Singh, A. (2013).
 \newblock Social media and corporate agility.
 \newblock {\em Global Journal of Flexible Systems Management}, 14(4):255--260.
 
+\bibitem[\protect\astroncite{Stein et~al.}{2011}]{fis}
+Stein, T., Chen, E., and Mangla, K. (2011).
+\newblock Facebook immune system.
+\newblock In {\em Proceedings of the 4th Workshop on Social Network Systems},
+  page~8. ACM.
+
+\bibitem[\protect\astroncite{Stringhini et~al.}{2013}]{stringhini}
+Stringhini, G., Wang, G., Egele, M., Kruegel, C., Vigna, G., Zheng, H., and
+  Zhao, B.~Y. (2013).
+\newblock Follow the green: Growth and dynamics in twitter follower markets.
+\newblock In {\em Proceedings of the 2013 Conference on Internet Measurement
+  Conference}, IMC '13, pages 163--176, New York, NY, USA. ACM.
+
 \bibitem[\protect\astroncite{SucuriBlog}{2014}]{TweetDeck}
 SucuriBlog (2014).
 \newblock {Serious Cross Site Scripting Vulnerability in TweetDeck –
@@ -132,5 +228,51 @@ SucuriBlog (2014).
 \bibitem[\protect\astroncite{Symantec}{2016}]{Symantec2016}
 Symantec (2016).
 \newblock Internet security threat report 2016.
+
+\bibitem[\protect\astroncite{Tran et~al.}{2009}]{sumup}
+Tran, D.~N., Min, B., Li, J., and Subramanian, L. (2009).
+\newblock Sybil-resilient online content voting.
+\newblock In {\em NSDI}, volume~9, pages 15--28.
+
+\bibitem[\protect\astroncite{Turing}{1950}]{turing}
+Turing, A.~M. (1950).
+\newblock Computing machinery and intelligence.
+\newblock {\em Mind}, 59(236):433--460.
+
+\bibitem[\protect\astroncite{Viswanath et~al.}{2010}]{comparison}
+Viswanath, B., Post, A., Gummadi, K.~P., and Mislove, A. (2010).
+\newblock An analysis of social network-based sybil defenses.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374.
+
+\bibitem[\protect\astroncite{Wang et~al.}{2013}]{wang2013}
+Wang, G., Konolige, T., Wilson, C., Wang, X., Zheng, H., and Zhao, B.~Y.
+  (2013).
+\newblock You are how you click: Clickstream analysis for sybil detection.
+\newblock In {\em Presented as part of the 22nd USENIX Security Symposium
+  (USENIX Security 13)}, pages 241--256.
+
+\bibitem[\protect\astroncite{Wang et~al.}{2012}]{wangcrowd}
+Wang, G., Mohanlal, M., Wilson, C., Wang, X., Metzger, M., Zheng, H., and Zhao,
+  B.~Y. (2012).
+\newblock Social turing tests: Crowdsourcing sybil detection.
+\newblock {\em arXiv preprint arXiv:1205.3856}.
+
+\bibitem[\protect\astroncite{Weizenbaum}{1966}]{eliza}
+Weizenbaum, J. (1966).
+\newblock Eliza—a computer program for the study of natural language
+  communication between man and machine.
+\newblock {\em Communications of the ACM}, 9(1):36--45.
+
+\bibitem[\protect\astroncite{Yang et~al.}{2014}]{yang2014}
+Yang, Z., Wilson, C., Wang, X., Gao, T., Zhao, B.~Y., and Dai, Y. (2014).
+\newblock Uncovering social network sybils in the wild.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  8(1):2.
+
+\bibitem[\protect\astroncite{Yu et~al.}{2006}]{sybilguard}
+Yu, H., Kaminsky, M., Gibbons, P.~B., and Flaxman, A. (2006).
+\newblock Sybilguard: defending against sybil attacks via social networks.
+\newblock In {\em ACM SIGCOMM Computer Communication Review}, volume~36, pages
+  267--278. ACM.
 
 \end{thebibliography}

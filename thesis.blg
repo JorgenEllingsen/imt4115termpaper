@@ -6,59 +6,69 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: acknowledgment.aux
 A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: chapter_bot_metrics.aux
+A level-1 auxiliary file: fabian.aux
 A level-1 auxiliary file: chapter_attacks.aux
 A level-1 auxiliary file: chapter_common_attacks.aux
 The style file: apa.bst
 Database file #1: refs.bib
+Warning--entry type for "twitterbot" isn't style-file defined
+--line 355 of file refs.bib
+Warning--entry type for "insight" isn't style-file defined
+--line 365 of file refs.bib
+Warning--to sort, need author or key in insight
+Warning--to sort, need author or key in twitterbot
 Warning--there's a number but no volume in Cassa:Twitter
 Warning--empty journal in HP2016
 Warning--can't use both author and editor fields in Gollmann2011
 Warning--empty journal in Observer:FakeTRAF
 Warning--can't use both author and editor fields in Kirda2011
 Warning--can't use both author and editor fields in Kotov2013
+Warning--empty journal in mustafaraj10
 Warning--empty journal in Symantec:Narang
 Warning--empty journal in ICWSM112850
 Warning--empty journal in Computerworld:Ebay
 Warning--empty journal in Symantec2016
-You've used 26 entries,
+Warning--can't use both volume and number fields in sumup
+Warning--can't use both volume and number fields in sybilguard
+You've used 51 entries,
             1940 wiz_defined-function locations,
-            630 strings with 7940 characters,
-and the built_in function-call counts, 8745 in all, are:
-= -- 849
-> -- 290
-< -- 26
-+ -- 98
-- -- 92
-* -- 698
-:= -- 1552
-add.period$ -- 68
-call.type$ -- 26
-change.case$ -- 172
-chr.to.int$ -- 24
-cite$ -- 36
-duplicate$ -- 366
-empty$ -- 606
-format.name$ -- 122
-if$ -- 1694
-int.to.chr$ -- 3
+            764 strings with 12141 characters,
+and the built_in function-call counts, 20199 in all, are:
+= -- 1981
+> -- 786
+< -- 44
++ -- 279
+- -- 264
+* -- 1688
+:= -- 3429
+add.period$ -- 150
+call.type$ -- 51
+change.case$ -- 383
+chr.to.int$ -- 48
+cite$ -- 68
+duplicate$ -- 837
+empty$ -- 1388
+format.name$ -- 321
+if$ -- 4002
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 123
-num.names$ -- 78
-pop$ -- 158
+missing$ -- 45
+newline$ -- 245
+num.names$ -- 147
+pop$ -- 385
 preamble$ -- 1
-purify$ -- 176
+purify$ -- 387
 quote$ -- 0
-skip$ -- 303
+skip$ -- 651
 stack$ -- 0
-substring$ -- 536
-swap$ -- 79
-text.length$ -- 6
+substring$ -- 1271
+swap$ -- 215
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 10
-while$ -- 73
+type$ -- 298
+warning$ -- 15
+while$ -- 163
 width$ -- 0
-write$ -- 310
-(There were 10 warnings)
+write$ -- 634
+(There were 17 warnings)
