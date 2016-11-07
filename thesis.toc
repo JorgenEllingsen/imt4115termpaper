@@ -13,46 +13,48 @@
 \contentsline {subsection}{\numberline {1.4.5}Law enforcement and government}{5}{subsection.1.4.5}
 \contentsline {section}{\numberline {1.5}Conclusion}{6}{section.1.5}
 \contentsline {chapter}{\numberline {2}Bot Metrics}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}What are bots and how are they used?}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}What is social media statistics, and how is it utilized?}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}Do these metrics influence buyers?}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}How can the statistics become irrelevant?}{13}{section.2.4}
-\contentsline {chapter}{\numberline {3}Approaches for Detecting Robots \\ in Social Media}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Definition and History of Social Bots}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Important Social Media Platforms}{16}{section.3.3}
-\contentsline {section}{\numberline {3.4}Why is Bot Detection in Social Media Important?}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}Social Bot Detection Approaches}{19}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Based on Social Network Information}{20}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Based on Crowd-Sourcing}{22}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Based on Features}{24}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Summary and Outlook}{25}{section.3.6}
-\contentsline {chapter}{\numberline {4}Social Media Attacks}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hypothesis and methodology}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Introduction}{29}{section.4.2}
-\contentsline {section}{\numberline {4.3}Attacks on social media users in general}{29}{section.4.3}
-\contentsline {section}{\numberline {4.4}Specific attack vectors for computers}{30}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Microsoft Windows}{30}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Apple OSX}{30}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Linux distros}{31}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Specific attack vectors for smartphones}{31}{section.4.5}
-\contentsline {subsubsection}{Android}{31}{section*.8}
-\contentsline {subsection}{\numberline {4.5.1}iOS}{31}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Social media attacks directly on the given platform}{32}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}User behavioural aspects}{32}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Hardware and software}{32}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Social media network trust}{33}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Conclusion}{34}{section.4.7}
-\contentsline {chapter}{\numberline {5}Web Application vulnerabilities in 2016}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{36}{section.5.1}
-\contentsline {subsubsection}{OWASP Top 10}{36}{section*.10}
-\contentsline {subsubsection}{Acunetix Web Application Vulnerability Report 2016}{36}{section*.11}
-\contentsline {subsubsection}{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}{37}{section*.12}
-\contentsline {subsubsection}{Symantec Internet Security Threat Report 2016}{37}{section*.13}
-\contentsline {section}{\numberline {5.2}Trending vulnerabilities and consequences}{38}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Cross-Site Scripting (XSS)}{38}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}SQL Injection}{39}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Vulnerable JavaScript Libraries}{40}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Exploit Kits}{40}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Countermeasures and mitigation}{41}{section.5.3}
-\contentsline {chapter}{Bibliography}{42}{section.5.3}
+\contentsline {section}{\numberline {2.1}Abstract}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}What are bots and how are they used?}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}What is social media statistics, and how is it utilized?}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Do these metrics influence buyers?}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}How can the statistics become irrelevant?}{14}{section.2.5}
+\contentsline {section}{\numberline {2.6}Discussion and conclusion}{15}{section.2.6}
+\contentsline {chapter}{\numberline {3}Approaches for Detecting Robots \\ in Social Media}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Definition and History of Social Bots}{18}{section.3.2}
+\contentsline {section}{\numberline {3.3}Important Social Media Platforms}{18}{section.3.3}
+\contentsline {section}{\numberline {3.4}Why is Bot Detection in Social Media Important?}{19}{section.3.4}
+\contentsline {section}{\numberline {3.5}Social Bot Detection Approaches}{21}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Based on Social Network Information}{22}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Based on Crowd-Sourcing}{24}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Based on Features}{26}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Summary and Outlook}{28}{section.3.6}
+\contentsline {chapter}{\numberline {4}Social Media Attacks}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hypothesis and methodology}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Attacks on social media users in general}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Specific attack vectors for computers}{32}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Microsoft Windows}{32}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Apple OSX}{32}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Linux distros}{33}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Specific attack vectors for smartphones}{33}{section.4.5}
+\contentsline {subsubsection}{Android}{33}{section*.9}
+\contentsline {subsection}{\numberline {4.5.1}iOS}{33}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Social media attacks directly on the given platform}{34}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}User behavioural aspects}{34}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Hardware and software}{34}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Social media network trust}{35}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Conclusion}{36}{section.4.7}
+\contentsline {chapter}{\numberline {5}Web Application vulnerabilities in 2016}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{38}{section.5.1}
+\contentsline {subsubsection}{OWASP Top 10}{38}{section*.11}
+\contentsline {subsubsection}{Acunetix Web Application Vulnerability Report 2016}{38}{section*.12}
+\contentsline {subsubsection}{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}{39}{section*.13}
+\contentsline {subsubsection}{Symantec Internet Security Threat Report 2016}{39}{section*.14}
+\contentsline {section}{\numberline {5.2}Trending vulnerabilities and consequences}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Cross-Site Scripting (XSS)}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}SQL Injection}{41}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Vulnerable JavaScript Libraries}{42}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Exploit Kits}{42}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Countermeasures and mitigation}{43}{section.5.3}
+\contentsline {chapter}{Bibliography}{44}{section.5.3}
