@@ -9,7 +9,4 @@
 *.pdf
 *.synctex.gz
 *.toc
-texput.log
-*~
 *.log
-Chapters/*.log

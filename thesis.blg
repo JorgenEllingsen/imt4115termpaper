@@ -3,7 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
 A level-1 auxiliary file: preface.aux
-A level-1 auxiliary file: acknowledgment.aux
 A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: jan.aux
 A level-1 auxiliary file: audun.aux
@@ -98,7 +97,7 @@ Warning--missing publisher in Preuss2011
 Warning--empty chapter in Kotov2013
 You've used 71 entries,
             3170 wiz_defined-function locations,
-            1082 strings with 18350 characters,
+            1081 strings with 18332 characters,
 and the built_in function-call counts, 89464 in all, are:
 = -- 10926
 > -- 744
