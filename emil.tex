@@ -1,9 +1,6 @@
 % !TEX encoding = UTF-8 Unicode
 % !TEX root = thesis.tex
 % !TEX spellcheck = en-US
-<<<<<<< HEAD
-%%=========================================
-=======
 %%=========================================
 \chapter[Bot Metrics]{Do bots,  make click, text and behavior metrics irrelevant?}
 \section{Abstract}
@@ -26,7 +23,10 @@ A recent study by comScore found that 54 percent of display ads shown in thousan
 \\
 \\
 In fact, the system is so broken that, for some publishers, knowingly buying traffic that comes from bots is part of their business model. An anonymous publishing executive, who claimed to be buying up to \$35,000 worth of traffic per day, recently told Digiday that for publishers running an arbitrage model, all that matters is profit; quality of traffic does not factor into the equation.
-\newline \mbox{} \hfill \citet{Observer:FakeTRAF}
+\newline 
+\mbox{} 
+\hfill 
+\cite{Observer:FakeTRAF}
 \end{quote}
 
 This quote from comScore highlights a important point in today's society. How does click metrics influence us, and how are they used? Are they useless, can they be used to measure something even though results most likely have been contaminated? and how does this type of behavior influence the buyers decision? These and some others are the question I will answer during this chapter. 
@@ -75,7 +75,7 @@ reviews at this site [IMDb]. “Brilliant”,they said. “Dark and beautiful”
 they wrote. 8.4 stars. Well, all I can say is, these people
 must have been on some serious drugs when [they] saw this
 totally inane movie. . .I give this movie 1 black hole.\textbf{\textit{"}}
-\newline \mbox{} \hfill \citet{Bialecki2016}
+\newline \mbox{} \hfill \cite{Bialecki2016}
 \end{quotation}
 
 
@@ -83,7 +83,7 @@ As we can conclude from \cite{Bialecki2016}, we can say that people buy largely 
 
 \begin{figure}[h]\label{imdbratingCurve}
 \centering
-\includegraphics[scale=1]{imdbstats.png}
+\includegraphics[scale=1]{fig/imdbstats.png}
 \caption{IMDB rating of "The Oogieloves in the Big Balloon Adventure" in 2016, showing the skewed ratings.Courtesy of IMDB(\cite{IMDB:Oogieloves})}
 \label{IMDB:rate}
 \end{figure}
@@ -97,7 +97,7 @@ Even though these examples do not directly prove that consumers act on these typ
 
 In the case of IMDB-ratings, they seem to influence what movies people want to see, and therefore revenue of movies which are featured in a popular way. This is backed up in a article entitled "An empirical investigation of user and system recommendations in e-commerce" about general statistics with e-commerce metrics \cite{Lin2014111} which could report that:
 \begin{quote}
-\begin{itemize}
+\begin{itemize}\label{userreccommendation}
 \item {1\% increase in user recommendation volume increases product sales by 0.013\%.}
 \item {1\% increase in user recommendation valence increases product sales by 0.022\%.}
 \item {1\% increase in system recommendation strength increases product sales by 0.006\%.}
@@ -114,31 +114,28 @@ The findings demonstrate that Twitterbots can be viewed as credible, attractive,
 competent in communication, and interactional, and might be an
 appropriate program to transmit information in the social media
 environment. 
-\newline \mbox{} \hfill \citet{Edwards2014372}
+\newline \mbox{} \hfill \cite{Edwards2014372}
 
 \end{quote}
 An article entitled "Globalization in social media and consumer relationships with brands in digital space" \cite{6959277120111201}, could conclude that 60\% of consumers\cite{6959277120111201} were strong brand advocates, and that they were more likely to buy the brand that they were advocates of. The paper continues to conclude that on a global basis, 18\% of users actively set up their online brand community\cite{6959277120111201}, giving techniques which are explained in \ref{obfuscatedmetrics} a bigger foothold in order to further obscure metrics, and causing marketeers and others who rely on this type of data to have problems.
 \newpage
-\section{Discussion and conclusion}
+\section{and Discussion}
+The question still remains however, are metrics useful when overrun with bots? bots would not really generate revenue for businesses, unless they are used to spread content which lead to for example phishing or other types of attacks, or are used to click adds. The metrics can of course be obfuscated, but in most cases they do not generate value other than maybe increasing awareness of a brand, and as we have learned in \ref{userreccommendation} we know that most people act on user reviews, and that they increase sales. If bots can infiltrate social media successfully and create a credible online personas like what is described in \ref{botrunningfeed}, there could be reason to believe that they could greatly effect how people buy, and what they buy, but not with pure metrics alone. If you can pad the metrics, is that really valuable? One can argue that padding them do not really give any of substance since a following is more valuable if they contribute to your business social media presence, and therefore one would be able to see that most of their large presence is not real, and therefore would not be of any value. 
+\\
+\\
+Another discussion is however how metrics related to adds on web pages which could be harder to detect. Again, the discussion would evolve around how much revenue it would generate other than through pure profit through numbers, but this would most likely not be lucrative in the long run if you discard the initial profit one would get from the first click.
+\\
+\\
+To the discussion on whether or not bots make metrics irrelevant, one needs to first be able to detect that these metrics are generated by bots, research we have presented in this paper might point to that this is not as straight forward as one would think. In \ref{botrunningfeed} we could read that the Twiitterbot was seen as reliable, and trustworthy, this might cause us to believe that advanced bot nets would be very difficult to detect, and one could argue that this type of purposebuilt botnet would be difficult to detect, in fact, if the scenario depicted in Symantecs example is correct, the data would also be correct, allthough not the bots own personality. \ref{Symantec:mockingbirds}
+
+
+\section{Conclusion}
 This article presents some interesting research pertaining to this discussion, in \ref{botrunningfeed} we could read that people were unable to distinguish between bots and humans, and in some cases actually preferred twitterbots, because they found them "credible, attractive, competent and interactional"\cite{Edwards2014372}. In \ref{metricInfluence} we could read about how consumers were basing their decision on what movie to watch by user recommendation and by rating alone, and also \ref{MovieReview} gave an example of how metrics could influence buyers, we could also find somewhat credible sources in \ref{imdbratingCurve} where these metrics were most likely skewed by bots. In the example of \ref{imdbratingCurve} the consequences are probably not that dire, but it could have generated extra revenue because it was highly rated, as depicted in \ref{MovieReview} which it otherwise would not get. But in \ref{midtermElection} it affected a political campaign. Furthermore we can read that globally 18\% of online users act as strong brand advocates, which gives rise to the theory we could read about in \ref{Symantec:mockingbirds} which hides in plain sight by creating a fake persona based on  metadata using a crawling method, making often hard to find bots which hides in plain sight as well as obscuring and creating fake data. One can argue that this problem might be a problem for midsized to large corporations, as small businesses might not have as large of a following as the larger ones, thus being able to detect sudden streams of followers or other type of metrics.
-\\
-\\
-The question still remains however, are metrics useful when overrun with bots? bots would not really generate revenue for businesses, unless they are used to spread content which lead to for example phishing or other types of attacks. 
-
-
 
 
 % Hva er en bot? hvordan brukes en bot, hvordan kan dataen fra dette misbrukes og villede? Hva er konsekvensene? Er metrics verdifult, og kan de bli lurt?
 
 
 
-\subsection*{Acknowledgment}
-While doing research for this paper, I found no direct research pertaining to bots and metrics. Instead, I found articles about how metrics could be used, examples of how they were obfuscated, and how bots may fool the general users as well as examples of how. 
-
-
-
-
-
-
-
->>>>>>> e5a673704e0211c732bf5fce571a12db478925fa
+\subsection{Acknowledgment}
+While doing research for this paper, I found no direct research pertaining to bots and metrics. Instead, I found articles about how metrics could be used, examples of how they were obfuscated, and how bots may fool the general users as well as examples of how.

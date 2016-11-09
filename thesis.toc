@@ -38,16 +38,25 @@
 \contentsline {subsection}{\numberline {3.5.2}Based on Crowd-Sourcing}{25}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Based on Features}{27}{subsection.3.5.3}
 \contentsline {section}{\numberline {3.6}Summary and Outlook}{29}{section.3.6}
-\contentsline {chapter}{\numberline {4}Web Application vulnerabilities in 2016}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{32}{section.4.1}
-\contentsline {subsubsection}{OWASP Top 10}{32}{section*.9}
-\contentsline {subsubsection}{Acunetix Web Application Vulnerability Report 2016}{32}{section*.10}
-\contentsline {subsubsection}{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}{33}{section*.11}
-\contentsline {subsubsection}{Symantec Internet Security Threat Report 2016}{33}{section*.12}
-\contentsline {section}{\numberline {4.2}Trending vulnerabilities and consequences}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Cross-Site Scripting (XSS)}{34}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}SQL Injection}{35}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Vulnerable JavaScript Libraries}{36}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Exploit Kits}{36}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Countermeasures and mitigation}{37}{section.4.3}
-\contentsline {chapter}{Bibliography}{38}{section.4.3}
+\contentsline {chapter}{\numberline {4}Bot Metrics}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abstract}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}What are bots and how are they used?}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}What is social media statistics, and how is it utilized?}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Do these metrics influence buyers?}{35}{section.4.4}
+\contentsline {section}{\numberline {4.5}How can the statistics become irrelevant?}{39}{section.4.5}
+\contentsline {section}{\numberline {4.6}and Discussion}{41}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{42}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Acknowledgment}{42}{subsection.4.7.1}
+\contentsline {chapter}{\numberline {5}Web Application vulnerabilities in 2016}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{44}{section.5.1}
+\contentsline {subsubsection}{OWASP Top 10}{44}{section*.10}
+\contentsline {subsubsection}{Acunetix Web Application Vulnerability Report 2016}{44}{section*.11}
+\contentsline {subsubsection}{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}{45}{section*.12}
+\contentsline {subsubsection}{Symantec Internet Security Threat Report 2016}{45}{section*.13}
+\contentsline {section}{\numberline {5.2}Trending vulnerabilities and consequences}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Cross-Site Scripting (XSS)}{46}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}SQL Injection}{47}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Vulnerable JavaScript Libraries}{48}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Exploit Kits}{48}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Countermeasures and mitigation}{49}{section.5.3}
+\contentsline {chapter}{Bibliography}{50}{section.5.3}

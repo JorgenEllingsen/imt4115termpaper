@@ -37,12 +37,21 @@
 \BOOKMARK [2][-]{subsection.3.5.2}{Based on Crowd-Sourcing}{section.3.5}% 37
 \BOOKMARK [2][-]{subsection.3.5.3}{Based on Features}{section.3.5}% 38
 \BOOKMARK [1][-]{section.3.6}{Summary and Outlook}{chapter.3}% 39
-\BOOKMARK [0][-]{chapter.4}{Web Application vulnerabilities in 2016}{}% 40
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.2}{Trending vulnerabilities and consequences}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.2.1}{Cross-Site Scripting \(XSS\)}{section.4.2}% 43
-\BOOKMARK [2][-]{subsection.4.2.2}{SQL Injection}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.3}{Vulnerable JavaScript Libraries}{section.4.2}% 45
-\BOOKMARK [2][-]{subsection.4.2.4}{Exploit Kits}{section.4.2}% 46
-\BOOKMARK [1][-]{section.4.3}{Countermeasures and mitigation}{chapter.4}% 47
-\BOOKMARK [0][-]{section.4.3}{Bibliography}{}% 48
+\BOOKMARK [0][-]{chapter.4}{Bot Metrics}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Abstract}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.2}{What are bots and how are they used?}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.3}{What is social media statistics, and how is it utilized?}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{Do these metrics influence buyers?}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{How can the statistics become irrelevant?}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.6}{and Discussion}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.7.1}{Acknowledgment}{section.4.7}% 48
+\BOOKMARK [0][-]{chapter.5}{Web Application vulnerabilities in 2016}{}% 49
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.2}{Trending vulnerabilities and consequences}{chapter.5}% 51
+\BOOKMARK [2][-]{subsection.5.2.1}{Cross-Site Scripting \(XSS\)}{section.5.2}% 52
+\BOOKMARK [2][-]{subsection.5.2.2}{SQL Injection}{section.5.2}% 53
+\BOOKMARK [2][-]{subsection.5.2.3}{Vulnerable JavaScript Libraries}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.4}{Exploit Kits}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{Countermeasures and mitigation}{chapter.5}% 56
+\BOOKMARK [0][-]{section.5.3}{Bibliography}{}% 57

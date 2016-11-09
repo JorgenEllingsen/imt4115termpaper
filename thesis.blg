@@ -8,6 +8,7 @@ A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: jan.aux
 A level-1 auxiliary file: audun.aux
 A level-1 auxiliary file: fabian.aux
+A level-1 auxiliary file: emil.aux
 A level-1 auxiliary file: jorgen.aux
 The style file: vancouver.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -16,20 +17,19 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: refs.bib
 Warning--entry type for "jan-coc" isn't style-file defined
---line 378 of file refs.bib
+--line 379 of file refs.bib
 Warning--entry type for "jan-microsoft-no-ip" isn't style-file defined
---line 396 of file refs.bib
-Warning--entry type for "jan-ec3" isn't style-file defined
---line 407 of file refs.bib
+--line 397 of file refs.bib
 Warning--entry type for "jan-fbi-GOZ" isn't style-file defined
---line 415 of file refs.bib
+--line 416 of file refs.bib
 Warning--entry type for "jan-fbi-GOZ2" isn't style-file defined
---line 426 of file refs.bib
+--line 444 of file refs.bib
 Warning--entry type for "jan-windows-applocker" isn't style-file defined
---line 483 of file refs.bib
+--line 489 of file refs.bib
 Warning--entry type for "jan-nsm-ransomware" isn't style-file defined
---line 492 of file refs.bib
-Warning--I didn't find a database entry for "jan-brewer"
+--line 498 of file refs.bib
+Warning--I didn't find a database entry for "change:Oogieloves"
+Warning--I didn't find a database entry for "IMDB:Oogieloves"
 Warning--empty author and editor in jan-nsm-ransomware
 Warning--missing publisher in jan-nsm-ransomware
 Warning--empty chapter in jan-kotov-ek
@@ -59,6 +59,19 @@ Warning--missing publisher in mustafaraj10
 Warning--can't use both volume and number fields in sybilguard
 Warning--empty pages in sybilinfer
 Warning--can't use both volume and number fields in sumup
+Warning--empty author and editor in Computerworld:Ebay
+Warning--missing publisher in Computerworld:Ebay
+Warning--empty author and editor in ICWSM112850
+Warning--missing publisher in ICWSM112850
+Warning--there's a number but no volume in Cassa:Twitter
+Warning--empty author and editor in Observer:FakeTRAF
+Warning--missing publisher in Observer:FakeTRAF
+Warning--empty author and editor in Symantec:Narang
+Warning--missing publisher in Symantec:Narang
+Warning--empty author and editor in wiki:Oogieloves
+Warning--missing publisher in wiki:Oogieloves
+Warning--empty author and editor in FB:stats
+Warning--missing publisher in FB:stats
 Warning--empty author and editor in AcunetixCompany
 Warning--missing publisher in AcunetixCompany
 Warning--empty author and editor in Acunetix2016
@@ -83,45 +96,45 @@ Warning--missing publisher in TweetDeck
 Warning--empty author and editor in Preuss2011
 Warning--missing publisher in Preuss2011
 Warning--empty chapter in Kotov2013
-You've used 55 entries,
+You've used 71 entries,
             3170 wiz_defined-function locations,
-            970 strings with 14583 characters,
-and the built_in function-call counts, 69519 in all, are:
-= -- 8413
-> -- 596
-< -- 21
-+ -- 302
-- -- 149
-* -- 5477
-:= -- 7730
-add.period$ -- 191
-call.type$ -- 55
-change.case$ -- 46
+            1082 strings with 18350 characters,
+and the built_in function-call counts, 89464 in all, are:
+= -- 10926
+> -- 744
+< -- 23
++ -- 385
+- -- 186
+* -- 7021
+:= -- 9902
+add.period$ -- 250
+call.type$ -- 71
+change.case$ -- 47
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 5478
-empty$ -- 6729
-format.name$ -- 182
-if$ -- 16404
+cite$ -- 137
+duplicate$ -- 7327
+empty$ -- 8640
+format.name$ -- 227
+if$ -- 21149
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 487
-newline$ -- 272
-num.names$ -- 63
-pop$ -- 1100
+int.to.str$ -- 71
+missing$ -- 631
+newline$ -- 353
+num.names$ -- 79
+pop$ -- 1380
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1143
+skip$ -- 1425
 stack$ -- 0
-substring$ -- 12094
-swap$ -- 1252
-text.length$ -- 21
+substring$ -- 15419
+swap$ -- 1573
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 53
-while$ -- 427
-width$ -- 57
-write$ -- 613
-(There were 61 warnings)
+warning$ -- 66
+while$ -- 544
+width$ -- 73
+write$ -- 791
+(There were 74 warnings)

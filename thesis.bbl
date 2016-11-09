@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{jan-brewer}
+Brewer R.
+\newblock Ransomware attacks: detection, prevention and cure.
+\newblock Network Security. 2016;2016(9):5 -- 9.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S1353485816300861}.
+
 \bibitem{jan-nsm-ransomware}
 NSM. Ny bølge! Falske Posten Norge e-poster i omløp; 2015.
 \newblock
@@ -240,6 +247,100 @@ Yang Z, Wilson C, Wang X, Gao T, Zhao BY, Dai Y.
 \newblock Uncovering social network sybils in the wild.
 \newblock ACM Transactions on Knowledge Discovery from Data (TKDD).
   2014;8(1):2.
+
+\bibitem{Computerworld:Ebay}
+Rosencrance L. Federal judge blocks Web bot from tapping into eBay; 2000.
+
+\bibitem{ICWSM112850}
+Ratkiewicz J, Conover M, Meiss M, Goncalves B, Flammini A, Menczer F. Detecting
+  and Tracking Political Abuse in Social Media; 2011.
+\newblock Available from:
+  \url{http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/view/2850}.
+
+\bibitem{Cassa:Twitter}
+Cassa C, Chunara R, Mandl K, Brownstein J.
+\newblock Twitter as a Sentinel in Emergency Situations: Lessons from the
+  Boston Marathon Explosions.
+\newblock PLoS Currents. 2013;(JUNE).
+
+\bibitem{Observer:FakeTRAF}
+Holiday R. Fake Traffic Means Real Paydays; 2014.
+
+\bibitem{Singh2013}
+Singh A.
+\newblock Social Media and Corporate Agility.
+\newblock Global Journal of Flexible Systems Management. 2013;14(4):255--260.
+\newblock Available from: \url{http://dx.doi.org/10.1007/s40171-013-0043-8}.
+
+\bibitem{6601602}
+Yu S, Guo S, Stojmenovic I.
+\newblock Fool Me If You Can: Mimicking Attacks and Anti-Attacks in Cyberspace.
+\newblock IEEE Transactions on Computers. 2015 Jan;64(1):139--151.
+
+\bibitem{Symantec:Narang}
+Narang S. Uncovering a persistent diet spam operation on Twitter; 2015.
+\newblock [Online]. Available from:
+  \url{http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/uncovering-a-persistent-diet-spam-operation-on-twitter.pdf}.
+
+\bibitem{Oh2016}
+Oh C, Roumani Y, Nwankpa JK, Hu HF.
+\newblock Beyond likes and tweets: Consumer engagement behavior and movie box
+  office in social media.
+\newblock Information \& Management. 2016;p.~--.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0378720616300271}.
+
+\bibitem{Bialecki2016}
+Bialecki M, O’Leary S, Smith D.
+\newblock Judgement devices and the evaluation of singularities: The use of
+  performance ratings and narrative information to guide film viewer choice.
+\newblock Management Accounting Research. 2016;p.~--.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S1044500516000159}.
+
+\bibitem{wiki:Oogieloves}
+Wikipedia. The Oogieloves in the Big Balloon Adventure --- Wikipedia{,} The
+  Free Encyclopedia; 2016.
+\newblock [Online; accessed 7-October-2016].
+\newblock
+  \url{https://en.wikipedia.org/wiki/The_Oogieloves_in_the_Big_Balloon_Adventure#Accolades}.
+
+\bibitem{HyeonjeongShin2015}
+Shin H, Byun C, Lee H.
+\newblock The Influence of Social Media: Twitter Usage Pattern during the 2014
+  Super Bowl Game.
+\newblock International Journal of Multimedia and Ubiquitous Engineering, 2015.
+  2015;vol 10(3):109--118.
+\newblock Available from:
+  \url{http://www.sersc.org/journals/IJMUE/vol10_no3_2015/11.pdf}.
+
+\bibitem{Lin2014111}
+Lin Z.
+\newblock An empirical investigation of user and system recommendations in
+  e-commerce.
+\newblock Decision Support Systems. 2014;68:111 -- 124.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0167923614002486}.
+
+\bibitem{FB:stats}
+com F. {Stats}; 2016.
+\newblock \url{http://newsroom.fb.com/company-info/#statistics}.
+
+\bibitem{Edwards2014372}
+Edwards C, Edwards A, Spence PR, Shelton AK.
+\newblock Is that a bot running the social media feed? Testing the differences
+  in perceptions of communication quality for a human agent and a bot agent on
+  Twitter.
+\newblock Computers in Human Behavior. 2014;33:372 -- 376.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0747563213003129}.
+
+\bibitem{6959277120111201}
+Hutton G, Fosdick M.
+\newblock The Globalization of Social Media.
+\newblock Journal of Advertising Research. 2011;51(4):564 -- 570.
+\newblock Available from:
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=69592771&site=ehost-live}.
 
 \bibitem{AcunetixCompany}
 Acunetix. Combating the Web Security Threat; 2016.
