@@ -6,90 +6,122 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: acknowledgment.aux
 A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: jan.aux
-A level-1 auxiliary file: emil.aux
-A level-1 auxiliary file: fabian.aux
 A level-1 auxiliary file: audun.aux
+A level-1 auxiliary file: fabian.aux
 A level-1 auxiliary file: jorgen.aux
-The style file: apa.bst
+The style file: vancouver.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: refs.bib
-Warning--entry type for "twitterbot" isn't style-file defined
---line 320 of file refs.bib
-Warning--entry type for "insight" isn't style-file defined
---line 327 of file refs.bib
 Warning--entry type for "jan-coc" isn't style-file defined
---line 554 of file refs.bib
+--line 378 of file refs.bib
 Warning--entry type for "jan-microsoft-no-ip" isn't style-file defined
---line 572 of file refs.bib
+--line 396 of file refs.bib
 Warning--entry type for "jan-ec3" isn't style-file defined
---line 583 of file refs.bib
+--line 407 of file refs.bib
 Warning--entry type for "jan-fbi-GOZ" isn't style-file defined
---line 591 of file refs.bib
+--line 415 of file refs.bib
 Warning--entry type for "jan-fbi-GOZ2" isn't style-file defined
---line 602 of file refs.bib
+--line 426 of file refs.bib
 Warning--entry type for "jan-windows-applocker" isn't style-file defined
---line 649 of file refs.bib
+--line 483 of file refs.bib
 Warning--entry type for "jan-nsm-ransomware" isn't style-file defined
---line 658 of file refs.bib
+--line 492 of file refs.bib
 Warning--I didn't find a database entry for "jan-brewer"
-Warning--to sort, need author or key in insight
-Warning--to sort, need author or key in twitterbot
-Warning--there's a number but no volume in Cassa:Twitter
-Warning--empty year in jan-coc
+Warning--empty author and editor in jan-nsm-ransomware
+Warning--missing publisher in jan-nsm-ransomware
+Warning--empty chapter in jan-kotov-ek
+Warning--empty author and editor in jan-windows-applocker
+Warning--missing publisher in jan-windows-applocker
+Warning--there's a month but no year in jan-windows-applocker
+Warning--empty author and editor in jan-microsoft-no-ip
+Warning--missing publisher in jan-microsoft-no-ip
 Warning--empty booktitle in jan-usenix-botnet
-Warning--empty journal in HP2016
-Warning--empty year in jan-ec3
-Warning--can't use both author and editor fields in Gollmann2011
-Warning--empty journal in Observer:FakeTRAF
-Warning--can't use both author and editor fields in Kirda2011
-Warning--can't use both author and editor fields in jan-kotov-ek
-Warning--can't use both author and editor fields in Kotov2013
-Warning--empty year in jan-windows-applocker
-Warning--empty journal in mustafaraj10
-Warning--empty journal in Symantec:Narang
-Warning--empty journal in ICWSM112850
-Warning--empty journal in Computerworld:Ebay
-Warning--empty journal in Symantec2016
-Warning--can't use both volume and number fields in sumup
+Warning--empty pages in jan-usenix-botnet
+Warning--empty author and editor in jan-coc
+Warning--missing publisher in jan-coc
+Warning--there's a month but no year in jan-coc
+Warning--empty author and editor in jan-ec3
+Warning--missing publisher in jan-ec3
+Warning--there's a month but no year in jan-ec3
+Warning--empty author and editor in jan-fbi-GOZ
+Warning--missing publisher in jan-fbi-GOZ
+Warning--empty author and editor in jan-fbi-GOZ2
+Warning--missing publisher in jan-fbi-GOZ2
+Warning--empty author and editor in insight
+Warning--missing publisher in insight
+Warning--empty author and editor in twitterbot
+Warning--missing publisher in twitterbot
+Warning--empty author and editor in mustafaraj10
+Warning--missing publisher in mustafaraj10
 Warning--can't use both volume and number fields in sybilguard
-You've used 66 entries,
-            1940 wiz_defined-function locations,
-            835 strings with 14385 characters,
-and the built_in function-call counts, 25805 in all, are:
-= -- 2551
-> -- 993
-< -- 58
-+ -- 355
-- -- 332
-* -- 2122
-:= -- 4390
-add.period$ -- 198
-call.type$ -- 66
-change.case$ -- 491
-chr.to.int$ -- 59
-cite$ -- 88
-duplicate$ -- 1074
-empty$ -- 1755
-format.name$ -- 408
-if$ -- 5119
-int.to.chr$ -- 8
-int.to.str$ -- 0
-missing$ -- 54
-newline$ -- 321
-num.names$ -- 192
-pop$ -- 478
+Warning--empty pages in sybilinfer
+Warning--can't use both volume and number fields in sumup
+Warning--empty author and editor in AcunetixCompany
+Warning--missing publisher in AcunetixCompany
+Warning--empty author and editor in Acunetix2016
+Warning--missing publisher in Acunetix2016
+Warning--empty author and editor in OwaspCompany
+Warning--missing publisher in OwaspCompany
+Warning--empty author and editor in OwaspTop10Project
+Warning--missing publisher in OwaspTop10Project
+Warning--empty author and editor in HP2016
+Warning--missing publisher in HP2016
+Warning--empty author and editor in Symantec2016
+Warning--missing publisher in Symantec2016
+Warning--empty author and editor in OWASP2010
+Warning--missing publisher in OWASP2010
+Warning--empty author and editor in OWASP2013
+Warning--missing publisher in OWASP2013
+Warning--empty chapter in Kirda2011
+Warning--empty chapter in Gollmann2011
+Warning--empty chapter in Edmunds2016
+Warning--empty author and editor in TweetDeck
+Warning--missing publisher in TweetDeck
+Warning--empty author and editor in Preuss2011
+Warning--missing publisher in Preuss2011
+Warning--empty chapter in Kotov2013
+You've used 55 entries,
+            3170 wiz_defined-function locations,
+            970 strings with 14583 characters,
+and the built_in function-call counts, 69519 in all, are:
+= -- 8413
+> -- 596
+< -- 21
++ -- 302
+- -- 149
+* -- 5477
+:= -- 7730
+add.period$ -- 191
+call.type$ -- 55
+change.case$ -- 46
+chr.to.int$ -- 0
+cite$ -- 108
+duplicate$ -- 5478
+empty$ -- 6729
+format.name$ -- 182
+if$ -- 16404
+int.to.chr$ -- 0
+int.to.str$ -- 55
+missing$ -- 487
+newline$ -- 272
+num.names$ -- 63
+pop$ -- 1100
 preamble$ -- 1
-purify$ -- 496
+purify$ -- 0
 quote$ -- 0
-skip$ -- 844
+skip$ -- 1143
 stack$ -- 0
-substring$ -- 1609
-swap$ -- 282
-text.length$ -- 23
+substring$ -- 12094
+swap$ -- 1252
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 386
-warning$ -- 20
-while$ -- 205
-width$ -- 0
-write$ -- 827
-(There were 30 warnings)
+type$ -- 0
+warning$ -- 53
+while$ -- 427
+width$ -- 57
+write$ -- 613
+(There were 61 warnings)

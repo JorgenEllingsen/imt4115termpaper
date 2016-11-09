@@ -9,6 +9,11 @@
 \documentclass[12pt]{report}
 \usepackage{ramsstyle}
 %%===================================
+%Write the various parts of your thesis as separate files and include them into the main file by the command \include{name of included file}. When you compile the LaTeX file, you may choose which subfiles to include by the command
+
+%\includeonly{chapter01,chapter02}
+
+%%===================================
 \begin{document}
 \include{front} % This is the titlepage
 \setcounter{page}{0}
@@ -19,13 +24,18 @@
 \tableofcontents
 \setcounter{page}{0}
 \pagenumbering{arabic}
+
 \include{jan}
-\include{emil}
-\include{fabian}
 \include{audun}
+\include{fabian}
+%\include{emil}
 \include{jorgen}
+<<<<<<< HEAD
+
+=======
 % Include more appendices as required.
 %%=========================================
+>>>>>>> e5a673704e0211c732bf5fce571a12db478925fa
 \bibliographystyle{vancouver}
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliography{refs}

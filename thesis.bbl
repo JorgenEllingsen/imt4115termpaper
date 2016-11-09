@@ -1,363 +1,325 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem[\protect\astroncite{ins}{2016}]{insight}
- (2016).
-\newblock Global social media research summary 2016.
+\bibitem{jan-nsm-ransomware}
+NSM. Ny bølge! Falske Posten Norge e-poster i omløp; 2015.
+\newblock
+  Https://nsm.stat.no/om-nsm/tjenester/handtering/norcertvarsler/norcert\_varsler2015/postenrw1/.
+\newblock Available from:
+  \url{https://nsm.stat.no/om-nsm/tjenester/handtering/norcertvarsler/norcert\_varsler2015/postenrw1/}.
 
-\bibitem[\protect\astroncite{twi}{2016}]{twitterbot}
- (2016).
-\newblock United states securities and exchange commission - form 10-q -
-  twitter, inc.
+\bibitem{jan-kotov-ek}
+Kotov V, Massacci F.
+\newblock In: J{\"u}rjens B Janand~Livshits, Scandariato R, editors. Anatomy of
+  Exploit Kits. Berlin, Heidelberg: Springer Berlin Heidelberg; 2013. p.
+  181--196.
+\newblock Available from: \url{http://dx.doi.org/10.1007/978-3-642-36563-8_13}.
 
-\bibitem[\protect\astroncite{Abokhodair et~al.}{2015}]{abokhodair}
-Abokhodair, N., Yoo, D., and McDonald, D.~W. (2015).
-\newblock Dissecting a social botnet: Growth, content and influence in twitter.
-\newblock In {\em Proceedings of the 18th ACM Conference on Computer Supported
-  Cooperative Work \& Social Computing}, pages 839--851. ACM.
+\bibitem{jan-mansfield-whitelist}
+Mansfield-Devine S.
+\newblock The promise of whitelisting.
+\newblock Network Security. 2009;2009(7):4 -- 6.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S1353485809700856}.
 
-\bibitem[\protect\astroncite{Acunetix}{2016a}]{Acunetix2016}
-Acunetix (2016a).
-\newblock {Acunetix Web Application Vulnerability Report 2016}.
+\bibitem{jan-windows-applocker}
+Microsoft. Windows AppLocker;.
+\newblock Https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx.
+\newblock Available from:
+  \url{https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx}.
+
+\bibitem{jan_stone-gross}
+Stone-Gross B, Cova M, Cavallaro L, Gilbert B, Szydlowski M, Kemmerer R, et~al.
+\newblock Your Botnet is My Botnet: Analysis of a Botnet Takeover.
+\newblock In: Proceedings of the 16th ACM Conference on Computer and
+  Communications Security. CCS '09. New York, NY, USA: ACM; 2009. p. 635--647.
+\newblock Available from: \url{http://doi.acm.org/10.1145/1653662.1653738}.
+
+\bibitem{jan-microsoft-no-ip}
+Microsoft-Corporate-Blogs. Microsoft takes on global cybercrime epidemic in
+  tenth malware disruption; 2014.
+\newblock
+  Http://blogs.microsoft.com/blog/2014/06/30/microsoft-takes-on-global-cybercrime-epidemic-in-tenth-malware-disruption/\#sm.00000dcwsbrzn9crgt7lpqod3cjdj.
+\newblock Available from:
+  \url{http://blogs.microsoft.com/blog/2014/06/30/microsoft-takes-on-global-cybercrime-epidemic-in-tenth-malware-disruption/\#sm.00000dcwsbrzn9crgt7lpqod3cjdj}.
+
+\bibitem{jan-usenix-botnet}
+Cooke E, Jahanian F, McPherson D.
+\newblock The Zombie Roundup: Understanding, Detecting, and Disrupting Botnets.
+\newblock Usenix; 2005. Available from:
+  \url{https://www.usenix.org/legacy/event/sruti05/tech/full_papers/cooke/cooke.pdf}.
+
+\bibitem{jan-Kreibich}
+Kreibich C, Crowcroft J.
+\newblock Honeycomb: Creating Intrusion Detection Signatures Using Honeypots.
+\newblock SIGCOMM Comput Commun Rev. 2004 Jan;34(1):51--56.
+\newblock Available from: \url{http://doi.acm.org/10.1145/972374.972384}.
+
+\bibitem{jan-fis}
+Stein T, Chen E, Mangla K.
+\newblock Facebook Immune System.
+\newblock In: Proceedings of the 4th Workshop on Social Network Systems. SNS
+  '11. New York, NY, USA: ACM; 2011. p. 8:1--8:8.
+\newblock Available from: \url{http://doi.acm.org/10.1145/1989656.1989664}.
+
+\bibitem{jan-captcha}
+Von~Ahn L, Blum M, Hopper NJ, Langford J.
+\newblock Captcha: using hard AI problems for security.
+\newblock EUROCRYPT. 2003;p. 294--311.
+
+\bibitem{jan-boshmaf}
+Boshmaf Y, Muslukhov I, Beznosov K, Ripeanu M.
+\newblock Design and analysis of a social botnet.
+\newblock Computer Networks. 2013;57(2):556 -- 578.
+\newblock Botnet Activity: Analysis, Detection and Shutdown.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S1389128612002150}.
+
+\bibitem{jan-coc}
+CoC. Convention on Cybercrime;.
+\newblock
+  Https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/185.
+\newblock Available from:
+  \url{https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/185}.
+
+\bibitem{jan-ec3}
+Europol. European Cybercrime Centre(EC3);.
+\newblock Https://www.europol.europa.eu/ec3.
+\newblock Available from: \url{https://www.europol.europa.eu/ec3}.
+
+\bibitem{jan-fbi-GOZ}
+FBI. GameOver Zeus Botnet Disrupted; 2014.
+\newblock Https://www.fbi.gov/news/stories/gameover-zeus-botnet-disrupted.
+\newblock Available from:
+  \url{https://www.fbi.gov/news/stories/gameover-zeus-botnet-disrupted}.
+
+\bibitem{jan-fbi-GOZ2}
+FBI. Department of Justice Provides Update on GameOver Zeus and Cryptolocker
+  Disruption; 2014.
+\newblock
+  Https://www.fbi.gov/news/pressrel/press-releases/department-of-justice-provides-update-on-gameover-zeus-and-cryptolocker-disruption.
+\newblock Available from:
+  \url{https://www.fbi.gov/news/pressrel/press-releases/department-of-justice-provides-update-on-gameover-zeus-and-cryptolocker-disruption}.
+
+\bibitem{insight}
+Insights S. Global social media research summary 2016; 2016.
+\newblock
+  \url{http://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/}.
+
+\bibitem{twitterbot}
+gov S. United States Securities and Exchange Commission - Form 10-Q - Twitter,
+  Inc.; 2016.
+\newblock
+  \url{https://www.sec.gov/Archives/edgar/data/1418091/000156459014003474/twtr-10q_20140630.htm}.
+
+\bibitem{ferrara15}
+Ferrara E, Varol O, Davis C, Menczer F, Flammini A.
+\newblock The rise of social bots.
+\newblock arXiv preprint arXiv:14075225v3. 2015;.
+
+\bibitem{turing}
+Turing AM.
+\newblock Computing machinery and intelligence.
+\newblock Mind. 1950;59(236):433--460.
+
+\bibitem{eliza}
+Weizenbaum J.
+\newblock ELIZA—a computer program for the study of natural language
+  communication between man and machine.
+\newblock Communications of the ACM. 1966;9(1):36--45.
+
+\bibitem{boshmaf13}
+Boshmaf Y, Muslukhov I, Beznosov K, Ripeanu M.
+\newblock Design and analysis of a social botnet.
+\newblock Computer Networks. 2013;57(2):556--578.
+
+\bibitem{hwang12}
+Hwang T, Pearce I, Nanis M.
+\newblock Socialbots: Voices from the fronts.
+\newblock interactions. 2012;19(2):38--45.
+
+\bibitem{mustafaraj10}
+Mustafaraj E, Metaxas PT. From obscurity to prominence in minutes: Political
+  speech and real-time search; 2010.
+
+\bibitem{abokhodair}
+Abokhodair N, Yoo D, McDonald DW.
+\newblock Dissecting a social botnet: Growth, content and influence in Twitter.
+\newblock In: Proceedings of the 18th ACM Conference on Computer Supported
+  Cooperative Work \& Social Computing. ACM; 2015. p. 839--851.
+
+\bibitem{cassa}
+Cassa CA, Chunara R, Mandl K, Brownstein JS.
+\newblock Twitter as a sentinel in emergency situations: lessons from the
+  Boston marathon explosions.
+\newblock PLOS Currents Disasters. 2013;.
+
+\bibitem{bollen}
+Bollen J, Mao H, Zeng X.
+\newblock Twitter mood predicts the stock market.
+\newblock Journal of Computational Science. 2011;2(1):1--8.
+
+\bibitem{gupta}
+Gupta A, Lamba H, Kumaraguru P.
+\newblock \textdollar 1.00 per rt \# bostonmarathon \# prayforboston: Analyzing
+  fake content on twitter.
+\newblock In: eCrime Researchers Summit (eCRS), 2013. IEEE; 2013. p. 1--12.
+
+\bibitem{stringhini}
+Stringhini G, Wang G, Egele M, Kruegel C, Vigna G, Zheng H, et~al.
+\newblock Follow the Green: Growth and Dynamics in Twitter Follower Markets.
+\newblock In: Proceedings of the 2013 Conference on Internet Measurement
+  Conference. IMC '13. New York, NY, USA: ACM; 2013. p. 163--176.
+\newblock Available from: \url{http://doi.acm.org/10.1145/2504730.2504731}.
+
+\bibitem{sybil}
+Douceur JR.
+\newblock The sybil attack.
+\newblock In: International Workshop on Peer-to-Peer Systems. Springer; 2002.
+  p. 251--260.
+
+\bibitem{comparison}
+Viswanath B, Post A, Gummadi KP, Mislove A.
+\newblock An analysis of social network-based sybil defenses.
+\newblock ACM SIGCOMM Computer Communication Review. 2010;40(4):363--374.
+
+\bibitem{sybilguard}
+Yu H, Kaminsky M, Gibbons PB, Flaxman A.
+\newblock Sybilguard: defending against sybil attacks via social networks.
+\newblock In: ACM SIGCOMM Computer Communication Review. vol.~36. ACM; 2006. p.
+  267--278.
+
+\bibitem{sybilinfer}
+Danezis G, Mittal P.
+\newblock SybilInfer: Detecting Sybil Nodes using Social Networks.
+\newblock In: NDSS. San Diego, CA; 2009. .
+
+\bibitem{sumup}
+Tran DN, Min B, Li J, Subramanian L.
+\newblock Sybil-Resilient Online Content Voting.
+\newblock In: NSDI. vol.~9; 2009. p. 15--28.
+
+\bibitem{boshmaf11}
+Boshmaf Y, Muslukhov I, Beznosov K, Ripeanu M.
+\newblock The socialbot network: when bots socialize for fame and money.
+\newblock In: Proceedings of the 27th Annual Computer Security Applications
+  Conference. ACM; 2011. p. 93--102.
+
+\bibitem{fis}
+Stein T, Chen E, Mangla K.
+\newblock Facebook immune system.
+\newblock In: Proceedings of the 4th Workshop on Social Network Systems. ACM;
+  2011. p.~8.
+
+\bibitem{wangcrowd}
+Wang G, Mohanlal M, Wilson C, Wang X, Metzger M, Zheng H, et~al.
+\newblock Social turing tests: Crowdsourcing sybil detection.
+\newblock arXiv preprint arXiv:12053856. 2012;.
+
+\bibitem{botornot}
+Davis CA, Varol O, Ferrara E, Flammini A, Menczer F.
+\newblock Botornot: A system to evaluate social bots.
+\newblock In: Proceedings of the 25th International Conference Companion on
+  World Wide Web. International World Wide Web Conferences Steering Committee;
+  2016. p. 273--274.
+
+\bibitem{synchrotrap}
+Cao Q, Yang X, Yu J, Palow C.
+\newblock Uncovering large groups of active malicious accounts in online social
+  networks.
+\newblock In: Proceedings of the 2014 ACM SIGSAC Conference on Computer and
+  Communications Security. ACM; 2014. p. 477--488.
+
+\bibitem{wang2013}
+Wang G, Konolige T, Wilson C, Wang X, Zheng H, Zhao BY.
+\newblock You are how you click: Clickstream analysis for sybil detection.
+\newblock In: Presented as part of the 22nd USENIX Security Symposium (USENIX
+  Security 13); 2013. p. 241--256.
+
+\bibitem{yang2014}
+Yang Z, Wilson C, Wang X, Gao T, Zhao BY, Dai Y.
+\newblock Uncovering social network sybils in the wild.
+\newblock ACM Transactions on Knowledge Discovery from Data (TKDD).
+  2014;8(1):2.
+
+\bibitem{AcunetixCompany}
+Acunetix. Combating the Web Security Threat; 2016.
+\newblock Available from: \url{http://www.acunetix.com/company/}.
+
+\bibitem{Acunetix2016}
+Acunetix. {Acunetix Web Application Vulnerability Report 2016}; 2016.
 \newblock
   \url{https://d3eaqdewfg2crq.cloudfront.net/resources/acunetix-web-application-vulnerability-report-2016.pdf}.
 
-\bibitem[\protect\astroncite{Acunetix}{2016b}]{AcunetixCompany}
-Acunetix (2016b).
-\newblock Combating the web security threat.
+\bibitem{OwaspCompany}
+OWASP. About; 2016.
+\newblock Available from: \url{https://www.owasp.org/index.php/About_OWASP}.
 
-\bibitem[\protect\astroncite{Bialecki et~al.}{2016}]{Bialecki2016}
-Bialecki, M., O’Leary, S., and Smith, D. (2016).
-\newblock Judgement devices and the evaluation of singularities: The use of
-  performance ratings and narrative information to guide film viewer choice.
-\newblock {\em Management Accounting Research}, pages~--.
+\bibitem{OwaspTop10Project}
+OWASP. Top Ten Project; 2016.
+\newblock Available from:
+  \url{https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project}.
 
-\bibitem[\protect\astroncite{Bisson}{2005}]{Bisson2005}
-Bisson, R. (2005).
-\newblock Sql injection.
-\newblock {\em ITNOW, Oxford Journal}, 47:25.
-
-\bibitem[\protect\astroncite{Bollen et~al.}{2011}]{bollen}
-Bollen, J., Mao, H., and Zeng, X. (2011).
-\newblock Twitter mood predicts the stock market.
-\newblock {\em Journal of Computational Science}, 2(1):1--8.
-
-\bibitem[\protect\astroncite{Boshmaf et~al.}{2011}]{boshmaf11}
-Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2011).
-\newblock The socialbot network: when bots socialize for fame and money.
-\newblock In {\em Proceedings of the 27th Annual Computer Security Applications
-  Conference}, pages 93--102. ACM.
-
-\bibitem[\protect\astroncite{Boshmaf et~al.}{2013a}]{jan-boshmaf}
-Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2013a).
-\newblock Design and analysis of a social botnet.
-\newblock {\em Computer Networks}, 57(2):556 -- 578.
-\newblock Botnet Activity: Analysis, Detection and Shutdown.
-
-\bibitem[\protect\astroncite{Boshmaf et~al.}{2013b}]{boshmaf13}
-Boshmaf, Y., Muslukhov, I., Beznosov, K., and Ripeanu, M. (2013b).
-\newblock Design and analysis of a social botnet.
-\newblock {\em Computer Networks}, 57(2):556--578.
-
-\bibitem[\protect\astroncite{Cao et~al.}{2014}]{synchrotrap}
-Cao, Q., Yang, X., Yu, J., and Palow, C. (2014).
-\newblock Uncovering large groups of active malicious accounts in online social
-  networks.
-\newblock In {\em Proceedings of the 2014 ACM SIGSAC Conference on Computer and
-  Communications Security}, pages 477--488. ACM.
-
-\bibitem[\protect\astroncite{Cassa et~al.}{2013a}]{Cassa:Twitter}
-Cassa, C., Chunara, R., Mandl, K., and Brownstein, J. (2013a).
-\newblock Twitter as a sentinel in emergency situations: Lessons from the
-  boston marathon explosions.
-\newblock {\em PLoS Currents}, (JUNE).
-
-\bibitem[\protect\astroncite{Cassa et~al.}{2013b}]{cassa}
-Cassa, C.~A., Chunara, R., Mandl, K., and Brownstein, J.~S. (2013b).
-\newblock Twitter as a sentinel in emergency situations: lessons from the
-  boston marathon explosions.
-\newblock {\em PLOS Currents Disasters}.
-
-\bibitem[\protect\astroncite{CoC}{}]{jan-coc}
-CoC.
-\newblock Convention on cybercrime.
+\bibitem{HP2016}
+Enterprise HP. Security Research Cyber Risk Report 2016; 2016.
 \newblock
-  https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/185.
+  \url{https://ssl.www8.hp.com/us/en/ssl/leadgen/secure_document.html?objid=4AA6-3786ENW}.
 
-\bibitem[\protect\astroncite{Cooke et~al.}{2005}]{jan-usenix-botnet}
-Cooke, E., Jahanian, F., and McPherson, D. (2005).
-\newblock The zombie roundup: Understanding, detecting, and disrupting botnets.
-\newblock Usenix.
-
-\bibitem[\protect\astroncite{Danezis and Mittal}{2009}]{sybilinfer}
-Danezis, G. and Mittal, P. (2009).
-\newblock Sybilinfer: Detecting sybil nodes using social networks.
-\newblock In {\em NDSS}. San Diego, CA.
-
-\bibitem[\protect\astroncite{Davis et~al.}{2016}]{botornot}
-Davis, C.~A., Varol, O., Ferrara, E., Flammini, A., and Menczer, F. (2016).
-\newblock Botornot: A system to evaluate social bots.
-\newblock In {\em Proceedings of the 25th International Conference Companion on
-  World Wide Web}, pages 273--274. International World Wide Web Conferences
-  Steering Committee.
-
-\bibitem[\protect\astroncite{Douceur}{2002}]{sybil}
-Douceur, J.~R. (2002).
-\newblock The sybil attack.
-\newblock In {\em International Workshop on Peer-to-Peer Systems}, pages
-  251--260. Springer.
-
-\bibitem[\protect\astroncite{Edmunds}{2016}]{Edmunds2016}
-Edmunds, B. (2016).
-\newblock {\em Safe Defaults, Cross-Site Scripting, and Other Popular Hacks},
-  pages 41--47.
-\newblock Apress, Berkeley, CA.
-
-\bibitem[\protect\astroncite{Edwards et~al.}{2014}]{Edwards2014372}
-Edwards, C., Edwards, A., Spence, P.~R., and Shelton, A.~K. (2014).
-\newblock Is that a bot running the social media feed? testing the differences
-  in perceptions of communication quality for a human agent and a bot agent on
-  twitter.
-\newblock {\em Computers in Human Behavior}, 33:372 -- 376.
-
-\bibitem[\protect\astroncite{Enterprise}{2016}]{HP2016}
-Enterprise, H.~P. (2016).
-\newblock Security research cyber risk report 2016.
-
-\bibitem[\protect\astroncite{Europol}{}]{jan-ec3}
-Europol.
-\newblock European cybercrime centre(ec3).
-\newblock https://www.europol.europa.eu/ec3.
-
-\bibitem[\protect\astroncite{FBI}{2014a}]{jan-fbi-GOZ2}
-FBI (2014a).
-\newblock Department of justice provides update on gameover zeus and
-  cryptolocker disruption.
+\bibitem{Symantec2016}
+Symantec. {Internet Security Threat Report 2016}; 2016.
 \newblock
-  https://www.fbi.gov/news/pressrel/press-releases/department-of-justice-provides-update-on-gameover-zeus-and-cryptolocker-disruption.
+  \url{https://resource.elq.symantec.com/LP=2899?inid=symc_threat-report_istr_to_leadgen_form_LP-2899_ISTR21-report-main}.
 
-\bibitem[\protect\astroncite{FBI}{2014b}]{jan-fbi-GOZ}
-FBI (2014b).
-\newblock Gameover zeus botnet disrupted.
-\newblock https://www.fbi.gov/news/stories/gameover-zeus-botnet-disrupted.
-
-\bibitem[\protect\astroncite{Ferrara et~al.}{2015}]{ferrara15}
-Ferrara, E., Varol, O., Davis, C., Menczer, F., and Flammini, A. (2015).
-\newblock The rise of social bots.
-\newblock {\em arXiv preprint arXiv:1407.5225v3}.
-
-\bibitem[\protect\astroncite{Gollmann}{2011}]{Gollmann2011}
-Gollmann, D. (2011).
-\newblock {\em Problems with Same Origin Policy}, pages 84--85.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
-
-\bibitem[\protect\astroncite{Gupta et~al.}{2013}]{gupta}
-Gupta, A., Lamba, H., and Kumaraguru, P. (2013).
-\newblock \textdollar 1.00 per rt \# bostonmarathon \# prayforboston: Analyzing
-  fake content on twitter.
-\newblock In {\em eCrime Researchers Summit (eCRS), 2013}, pages 1--12. IEEE.
-
-\bibitem[\protect\astroncite{Holiday}{2014}]{Observer:FakeTRAF}
-Holiday, R. (2014).
-\newblock Fake traffic means real paydays.
-
-\bibitem[\protect\astroncite{Hwang et~al.}{2012}]{hwang12}
-Hwang, T., Pearce, I., and Nanis, M. (2012).
-\newblock Socialbots: Voices from the fronts.
-\newblock {\em interactions}, 19(2):38--45.
-
-\bibitem[\protect\astroncite{Kirda}{2011}]{Kirda2011}
-Kirda, E. (2011).
-\newblock {\em Cross Site Scripting Attacks}, pages 275--277.
-\newblock Springer US, Boston, MA.
-
-\bibitem[\protect\astroncite{Kotov and Massacci}{2013a}]{jan-kotov-ek}
-Kotov, V. and Massacci, F. (2013a).
-\newblock {\em Anatomy of Exploit Kits}, pages 181--196.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
-
-\bibitem[\protect\astroncite{Kotov and Massacci}{2013b}]{Kotov2013}
-Kotov, V. and Massacci, F. (2013b).
-\newblock {\em Anatomy of Exploit Kits}, pages 181--196.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
-
-\bibitem[\protect\astroncite{Kreibich and Crowcroft}{2004}]{jan-Kreibich}
-Kreibich, C. and Crowcroft, J. (2004).
-\newblock Honeycomb  creating intrusion detection signatures using honeypots.
-\newblock {\em ACM SIGCOMM Computer Communications Review}, 34(1).
-
-\bibitem[\protect\astroncite{Lin}{2014}]{Lin2014111}
-Lin, Z. (2014).
-\newblock An empirical investigation of user and system recommendations in
-  e-commerce.
-\newblock {\em Decision Support Systems}, 68:111 -- 124.
-
-\bibitem[\protect\astroncite{Mansfield-Devine}{2009}]{jan-mansfield-whitelist}
-Mansfield-Devine, S. (2009).
-\newblock The promise of whitelisting.
-\newblock {\em Network Security}, 2009(7):4 -- 6.
-
-\bibitem[\protect\astroncite{Microsoft}{}]{jan-windows-applocker}
-Microsoft.
-\newblock Windows applocker.
-\newblock https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx.
-
-\bibitem[\protect\astroncite{Microsoft-Corporate-Blogs}{2014}]{jan-microsoft-no-ip}
-Microsoft-Corporate-Blogs (2014).
-\newblock Microsoft takes on global cybercrime epidemic in tenth malware
-  disruption.
-\newblock
-  http://blogs.microsoft.com/blog/2014/06/30/microsoft-takes-on-global-cybercrime-epidemic-in-tenth-malware-disruption/\#sm.00000dcwsbrzn9crgt7lpqod3cjdj.
-
-\bibitem[\protect\astroncite{Mustafaraj and Metaxas}{2010}]{mustafaraj10}
-Mustafaraj, E. and Metaxas, P.~T. (2010).
-\newblock From obscurity to prominence in minutes: Political speech and
-  real-time search.
-
-\bibitem[\protect\astroncite{Narang}{2015}]{Symantec:Narang}
-Narang, S. (2015).
-\newblock Uncovering a persistent diet spam operation on twitter.
-
-\bibitem[\protect\astroncite{NSM}{2015}]{jan-nsm-ransomware}
-NSM (2015).
-\newblock Ny bølge! falske posten norge e-poster i omløp.
-\newblock
-  https://nsm.stat.no/om-nsm/tjenester/handtering/norcertvarsler/norcert\_varsler2015/postenrw1/.
-
-\bibitem[\protect\astroncite{Oh et~al.}{2016}]{Oh2016}
-Oh, C., Roumani, Y., Nwankpa, J.~K., and Hu, H.-F. (2016).
-\newblock Beyond likes and tweets: Consumer engagement behavior and movie box
-  office in social media.
-\newblock {\em Information \& Management}, pages~--.
-
-\bibitem[\protect\astroncite{OWASP}{2016a}]{OwaspCompany}
-OWASP (2016a).
-\newblock About.
-
-\bibitem[\protect\astroncite{OWASP}{2016b}]{OwaspTop10Project}
-OWASP (2016b).
-\newblock Top ten project.
-
-\bibitem[\protect\astroncite{Preuss and Diaz}{2011}]{Preuss2011}
-Preuss, M. and Diaz, V. (2011).
-\newblock Exploit kits - a different view.
-
-\bibitem[\protect\astroncite{Project}{2010}]{OWASP2010}
-Project, O. W. A.~S. (2010).
-\newblock {OWASP Top 10 - 2010}.
+\bibitem{OWASP2010}
+Project OWAS. {OWASP Top 10 - 2010}; 2010.
 \newblock \url{https://www.owasp.org/index.php/Top10#OWASP_Top_10_for_2010}.
 
-\bibitem[\protect\astroncite{Project}{2013}]{OWASP2013}
-Project, O. W. A.~S. (2013).
-\newblock {OWASP Top 10 - 2013}.
+\bibitem{OWASP2013}
+Project OWAS. {OWASP Top 10 - 2013}; 2013.
 \newblock \url{https://www.owasp.org/index.php/Top10#OWASP_Top_10_for_2013}.
 
-\bibitem[\protect\astroncite{Ratkiewicz et~al.}{2011}]{ICWSM112850}
-Ratkiewicz, J., Conover, M., Meiss, M., Goncalves, B., Flammini, A., and
-  Menczer, F. (2011).
-\newblock Detecting and tracking political abuse in social media.
+\bibitem{Kirda2011}
+Kirda E.
+\newblock In: van Tilborg HCA, Jajodia S, editors. Cross Site Scripting
+  Attacks. Boston, MA: Springer US; 2011. p. 275--277.
+\newblock Available from:
+  \url{http://dx.doi.org/10.1007/978-1-4419-5906-5_651}.
 
-\bibitem[\protect\astroncite{Rosencrance}{2000}]{Computerworld:Ebay}
-Rosencrance, L. (2000).
-\newblock Federal judge blocks web bot from tapping into ebay.
+\bibitem{Gollmann2011}
+Gollmann D.
+\newblock In: Christianson B, Malcolm JA, Matyas V, Roe M, editors. Problems
+  with Same Origin Policy. Berlin, Heidelberg: Springer Berlin Heidelberg;
+  2011. p. 84--85.
+\newblock Available from: \url{http://dx.doi.org/10.1007/978-3-642-22137-8_11}.
 
-\bibitem[\protect\astroncite{Shin et~al.}{2015}]{HyeonjeongShin2015}
-Shin, H., Byun, C., and Lee, H. (2015).
-\newblock The influence of social media: Twitter usage pattern during the 2014
-  super bowl game.
-\newblock {\em International Journal of Multimedia and Ubiquitous Engineering,
-  2015}, vol 10(3):109--118.
+\bibitem{Edmunds2016}
+Edmunds B.
+\newblock In: Safe Defaults, Cross-Site Scripting, and Other Popular Hacks.
+  Berkeley, CA: Apress; 2016. p. 41--47.
+\newblock Available from: \url{http://dx.doi.org/10.1007/978-1-4842-2120-4_5}.
 
-\bibitem[\protect\astroncite{Singh}{2013}]{Singh2013}
-Singh, A. (2013).
-\newblock Social media and corporate agility.
-\newblock {\em Global Journal of Flexible Systems Management}, 14(4):255--260.
-
-\bibitem[\protect\astroncite{Stein et~al.}{2011a}]{jan-fis}
-Stein, T., Chen, E., and Mangla, K. (2011a).
-\newblock Facebook immune system.
-\newblock In {\em Proceedings of the 4th Workshop on Social Network Systems},
-  SNS '11, pages 8:1--8:8, New York, NY, USA. ACM.
-
-\bibitem[\protect\astroncite{Stein et~al.}{2011b}]{fis}
-Stein, T., Chen, E., and Mangla, K. (2011b).
-\newblock Facebook immune system.
-\newblock In {\em Proceedings of the 4th Workshop on Social Network Systems},
-  page~8. ACM.
-
-\bibitem[\protect\astroncite{Stone-Gross et~al.}{2009}]{jan_stone-gross}
-Stone-Gross, B., Cova, M., Cavallaro, L., Gilbert, B., Szydlowski, M.,
-  Kemmerer, R., Kruegel, C., and Vigna, G. (2009).
-\newblock Your botnet is my botnet: Analysis of a botnet takeover.
-\newblock In {\em Proceedings of the 16th ACM Conference on Computer and
-  Communications Security}, CCS '09, pages 635--647, New York, NY, USA. ACM.
-
-\bibitem[\protect\astroncite{Stringhini et~al.}{2013}]{stringhini}
-Stringhini, G., Wang, G., Egele, M., Kruegel, C., Vigna, G., Zheng, H., and
-  Zhao, B.~Y. (2013).
-\newblock Follow the green: Growth and dynamics in twitter follower markets.
-\newblock In {\em Proceedings of the 2013 Conference on Internet Measurement
-  Conference}, IMC '13, pages 163--176, New York, NY, USA. ACM.
-
-\bibitem[\protect\astroncite{SucuriBlog}{2014}]{TweetDeck}
-SucuriBlog (2014).
-\newblock {Serious Cross Site Scripting Vulnerability in TweetDeck –
-  Twitter}.
+\bibitem{TweetDeck}
+SucuriBlog. {Serious Cross Site Scripting Vulnerability in TweetDeck –
+  Twitter}; 2014.
 \newblock
   \url{https://blog.sucuri.net/2014/06/serious-cross-site-scripting-vulnerability-in-tweetdeck-twitter.html}.
 
-\bibitem[\protect\astroncite{Symantec}{2016}]{Symantec2016}
-Symantec (2016).
-\newblock Internet security threat report 2016.
+\bibitem{Bisson2005}
+Bisson R.
+\newblock SQL injection.
+\newblock ITNOW, Oxford Journal. 2005;47:25.
+\newblock Available from:
+  \url{http://itnow.oxfordjournals.org/content/47/2/25.full.pdf+html}.
 
-\bibitem[\protect\astroncite{Tran et~al.}{2009}]{sumup}
-Tran, D.~N., Min, B., Li, J., and Subramanian, L. (2009).
-\newblock Sybil-resilient online content voting.
-\newblock In {\em NSDI}, volume~9, pages 15--28.
+\bibitem{Preuss2011}
+Preuss M, Diaz V. Exploit kits - a different view; 2011.
+\newblock Available from:
+  \url{https://securelist.com/analysis/publications/36342/exploit-kits-a-different-view/}.
 
-\bibitem[\protect\astroncite{Turing}{1950}]{turing}
-Turing, A.~M. (1950).
-\newblock Computing machinery and intelligence.
-\newblock {\em Mind}, 59(236):433--460.
-
-\bibitem[\protect\astroncite{Viswanath et~al.}{2010}]{comparison}
-Viswanath, B., Post, A., Gummadi, K.~P., and Mislove, A. (2010).
-\newblock An analysis of social network-based sybil defenses.
-\newblock {\em ACM SIGCOMM Computer Communication Review}, 40(4):363--374.
-
-\bibitem[\protect\astroncite{Von~Ahn et~al.}{2003}]{jan-captcha}
-Von~Ahn, L., Blum, M., Hopper, N.~J., and Langford, J. (2003).
-\newblock Captcha: using hard ai problems for security.
-\newblock {\em EUROCRYPT}, page 294311.
-
-\bibitem[\protect\astroncite{Wang et~al.}{2013}]{wang2013}
-Wang, G., Konolige, T., Wilson, C., Wang, X., Zheng, H., and Zhao, B.~Y.
-  (2013).
-\newblock You are how you click: Clickstream analysis for sybil detection.
-\newblock In {\em Presented as part of the 22nd USENIX Security Symposium
-  (USENIX Security 13)}, pages 241--256.
-
-\bibitem[\protect\astroncite{Wang et~al.}{2012}]{wangcrowd}
-Wang, G., Mohanlal, M., Wilson, C., Wang, X., Metzger, M., Zheng, H., and Zhao,
-  B.~Y. (2012).
-\newblock Social turing tests: Crowdsourcing sybil detection.
-\newblock {\em arXiv preprint arXiv:1205.3856}.
-
-\bibitem[\protect\astroncite{Weizenbaum}{1966}]{eliza}
-Weizenbaum, J. (1966).
-\newblock Eliza—a computer program for the study of natural language
-  communication between man and machine.
-\newblock {\em Communications of the ACM}, 9(1):36--45.
-
-\bibitem[\protect\astroncite{Yang et~al.}{2014}]{yang2014}
-Yang, Z., Wilson, C., Wang, X., Gao, T., Zhao, B.~Y., and Dai, Y. (2014).
-\newblock Uncovering social network sybils in the wild.
-\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
-  8(1):2.
-
-\bibitem[\protect\astroncite{Yu et~al.}{2006}]{sybilguard}
-Yu, H., Kaminsky, M., Gibbons, P.~B., and Flaxman, A. (2006).
-\newblock Sybilguard: defending against sybil attacks via social networks.
-\newblock In {\em ACM SIGCOMM Computer Communication Review}, volume~36, pages
-  267--278. ACM.
+\bibitem{Kotov2013}
+Kotov V, Massacci F.
+\newblock In: J{\"u}rjens J, Livshits B, Scandariato R, editors. Anatomy of
+  Exploit Kits. Berlin, Heidelberg: Springer Berlin Heidelberg; 2013. p.
+  181--196.
+\newblock Available from: \url{http://dx.doi.org/10.1007/978-3-642-36563-8_13}.
 
 \end{thebibliography}
