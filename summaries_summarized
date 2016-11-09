@@ -1,0 +1,33 @@
+Jan: Security measures against manipulation by bots
+----------------------------------------------
+In this chapter we will go through some of the countermeasures available against botnets.
+We will present approaches from different perspectives such as internet service providers, users, social network societies and others. We will where applicable include some examples of where these countermeasures have been used and to what effect.
+In the end we will go over a conclusion on what can be learned from this and how it may apply to you.
+
+Emil: Do bots, make click, text and behavior metrics irrelevant?
+----------------------------------------------------------------
+This article will focus on bot metrics used in E-commerce(social media analytics), as well as bot metrics in other commercial contexts. According to research which will be presented in this article, bots are used in numerous ways, from rigging elections, hiding its own purpose by masquerading as users, to spreading misinformation from unverified sources, to promoting sales as well as working as sales representatives in e-commerce. This article then tries to delve into metrics by looking at social media statistics(SMA) in order to highlight why it may be worthwhile to fool the metrics and further uses a real world example in the case of IMDB reviews in order to give an understanding of how metrics in worst case could influence a buyers' decision. The article is concluded by a discussion on whether or not bot metrics in behavior metrics cause metrics themselves to be irrelevant. 
+
+Fabian: Approaches for Detecting Robots in Social Media
+------------------------
+Social media platforms, like Twitter or Facebook, are a vital part of the Internet of today. Social bots are programs, that automatically take actions on those platforms. Among other things, they are used for a variety of attacks that, for example, aim to simulate a broad natural support for an entity or to cover unpleasant facts or opinions. Because of that, the detection of malicious social bots is an important task.
+
+This chapter focuses on approaches that can be used in order to detect social bots. These approaches can be classified in social network based, crowd-sourcing based and feature based. Each of these classes is discussed in detail.
+
+Social network based approaches model the social media platform into a graph that describes the relationships between all users. Based on those relationships they try to decide whether a user is a bot or a legitimate user.
+Crowd-sourcing based approaches leverage the social competence of actual humans to decide whether a given user is a bot or not. The decision is based on all visible actions of a user. 
+Approaches that are feature based make use of machine learning, where a system is trained with known data. During this learning phase, it analyzes which features of user activity indicate a real user or a bot. Afterwards, it uses this knowledge to decide on real data.
+
+It is found, that all approaches have their weaknesses and problems. In order to overcome these, it is advisable to combine different approaches. In addition, it is important to conduct further research in this topic, since the number of social bots is to be expected to continue growing. Also, the developers of social bots will develop more and more sophisticated methods to make their bots appear human and defenders should be prepared for this.
+
+Audun: Social Media attacks on mobile devices vs. attacks on computers
+----------------------------------------------------------------------
+We have seen an enormous increase in online social media in popularity during the past decade. It has taken over a lot of the networking people tended to do in real life earlier and it makes keeping in touch with a larger network of people a less laboursome task. We tend to trust a friend more than we would any random person on the street and this trust mechanism has been transferred to the cyber space. Cybercriminals, who seem to be mostly concerned with gaining wealth, political high ground, or are ideologically motivated, have shown a keen interest in utilizing these new networking platforms. They come from several different directions, such as attacking via vulnerabilities in hardware, OS, protocols, and apps, but they are also successfully exploiting the trust that exists between members of a social network.
+In this paper I am looking at the differences between the security topography for social media users, on a mobile device, versus that one would navigate when utilizing a personal computer. I have found quite a few differences and in other areas the situation is quite similar. The conclusion I reached was that it is, at least at present, much safer to use social media on a regular personal computer than on a mobile device, but that it also depends to a great degree how the user behaves security vice. The share of time people spend on social media networks on their mobile device versus on their computer is already 79\% vs 21\% [11] and still the mobile platform is rapidly gaining terrain. The mobile platforms are getting better protection, but still they are behind on sophistication level when it comes to security. From what I have seen it looks as if you are an easier target for social media attacks when you are using a mobile device than you are doing the same social media networking on your computer.
+
+Jorgen: Web Application vulnerabilities in 2016
+-----------------------------------------------
+The web stack has evolved to serve feature rich and dynamic experiences within the browser by expanding on the legacy applications. The majority of cyber attacks are done at web application level, and most of the vulnerabilities are well known and documented - but alot of web applications fail to mitigate or counteract them.
+
+This chapter several reports from security companies and non-profit organizations was analyzed to find some of the most common web application vulnerabilities with the possibility of severe consequences. The chapter focuses on Cross-Site Scripting, SQL Injection and vulnerable JavaScript Libraries to explain how they work and how they can harm the companies and their visitors/clients. It briefly looks at the rising usage of Exploit Kits, and how these vulnerabilities can compromize the web application and make it a part of an Exploit Kit infrastructure. It continues to look at possible mitigation techniqes and countermeasurements and discuss why so many sites are vulnerable to these well-known attack surfaces.
+
