@@ -79,7 +79,7 @@ totally inane movie. . .I give this movie 1 black hole.\textbf{\textit{"}}
 \end{quotation}
 
 
-As we can conclude from \cite{Bialecki2016}, we can say that people buy largely based on word of mouth as well as from reviews or "click metrics" (in the form of stars on IMDB). While doing research for this article, I found several websites which both offered botting specifically for IMDB(increase in stars), as well as a direct example of a movie in which had been a "bottom 200-list"-er for a long time, and was considered one of the biggest movieflops, gathering great nominations such as "Worst picture", "worst screen ensamble" \cite{wiki:Oogieloves} as well as a IMDB rating of 2.0 according to a petition\cite{change:Oogieloves}. The petition goes on to describe how the rating of the movie suddenly skyrocketed in June of 2013. in \ref{IMDB:rate} we can see the weighting of votes, most of which are at 10, which is the highest. This seems peculiar given the accolades which the movie was given and the initial score as well as the sudden boom. The ramifications of such actions will be discussed in the discussion part of this paper. 
+As we can conclude from \cite{Bialecki2016}, we can say that people buy largely based on word of mouth as well as from reviews or "click metrics" (in the form of stars on IMDB). While doing research for this article, I found several websites which both offered botting specifically for IMDB(increase in stars), as well as a direct example of a movie in which had been a "bottom 200-list"-er for a long time, and was considered one of the biggest movieflops, gathering great nominations such as "Worst picture", "worst screen ensamble" \cite{emil:wiki:oogieacc} as well as a IMDB rating of 2.0 according to a petition \cite{Emil:change:Oogieloves}. The petition goes on to describe how the rating of the movie suddenly skyrocketed in June of 2013. in \ref{IMDB:rate} we can see the weighting of votes, most of which are at 10, which is the highest. This seems peculiar given the accolades which the movie was given and the initial score as well as the sudden boom. The ramifications of such actions will be discussed in the discussion part of this paper. 
 
 \begin{figure}[h]\label{imdbratingCurve}
 \centering
@@ -103,7 +103,7 @@ In the case of IMDB-ratings, they seem to influence what movies people want to s
 \item {1\% increase in system recommendation strength increases product sales by 0.006\%.}
 \end{itemize}
 \end{quote}
-\section{How can the statistics become irrelevant?}
+\section{How can the statistics become irrelevant?}\label{Labl:emil:election}
 Historically, social media in general has been said to increase globalization as well as further establishing democracy and free flow of information to areas which would otherwise not have this information available. But shortly after the 2016 U.S election, an article entitled "Social bots distort the 2016 U.S. Presidential election online discussion" \cite{Emil:FM7090} discussed how these types of communication tools are used to manipulated the online discussion. The study investigates how social media bots as well as algorithm driven entities appear as legitimate users and how they affect the political election in the 2016 U.S presidential election. In the article, the researchers uses "state-of-the-art" bot detection tools in order to uncover the user population that might not be human. The data collection for this article consisted of two roughly equal lists of hash tags in order to get the most equal coverage of both presidential candidates. \\ \\
 The researchers queried the Twitter API every 10 seconds, contioniously and without interuption in three periods between 16th of september as well as 21th of october\cite{Emil:FM7090}. The data they got is listed in table 2 in \cite{Emil:FM7090} and tells us that from the $20,772,153$ tweets gathered, there were $2,782,418$ distinct users. 
 \\
@@ -131,16 +131,19 @@ On manual inspection, the researchers analyzed \#nevertrump and \#neverhillary a
 
 Concluding, the researchers found that there were about $400,000$ bots involved in the political discussion about the presidential election generating aboout $3.8$ million tweets.
 Further, the issue of social bots engaged in political discussions poses three more issues. The first issue posed in the conclusion is that social bots may redistribute influence across suspicious accounts which may operate with malicious purposes. The second issue is that the political discussion might be shaped and even polarized by bots by shaping the discussion. The third issue posed is that these bots might spread misinformation as well as unverified information might be spread.
-
+\\
+\\
+Further, they concluded that determining who was the source of the problem was difficult:
+\begin{quote}
+\textbf{"}it is impossible to determine who operates such bots. State- and non-state actors, local and foreign governments, political parties, private organizations, and even single individuals with adequate resources (Kollanyi, 2016), could obtain the operational capabilities and technical tools to deploy armies of social bots and affect the directions of online political conversation.\textbf{"} \cite{Emil:FM7090}
+\end{quote}
 
 
 
 \section{Bot detection}
-
-
 With nearly 1.13 billion daily active users on Facebook \cite{FB:stats}, the importance of social media and how it influences people is important. As our lives gradually intertwine with social media and a personal digital presence, we become predisposed to marketing from friends and corporations.  But are we humans able to see the difference between what is user generated, or what is generated by bots or similar types of AI?
 An article released in 2013, named "Is that a bot running the social media feed? Testing the differences in perceptions of communication quality for a human agent and a bot agent on Twitter"\cite{Edwards2014372} investigated the claim that humans would not see the difference between a bot, and a human in a single newsfeed on Twitter. They used a sample of 240 undergrad students enrolled in a communication course at a large mid-western research university with subjects ranging from the age of 18 to 39 years old. The researchers then used two treatment groups(the twitterbot and the human twitter agent). Those who chose to participate were given a link to a secure webpage with the study. After consenting to the study, the participants were randomly given one of the two twitter pages. The twitter profiles were designed to appear as information provided by the central for disease control(CDC) about sexually transmitted infections. The pages were identical all except for one important detail - the author; in the twitterbot case it was clearly stated that it was a CDC twitterbot, in the other case it was stated that the author was a CDC scientist. The study concluded that
- \begin{quote}
+ \begin{quote} \label{emil:runningbotfeed}
 The findings demonstrate that Twitterbots can be viewed as credible, attractive,
 competent in communication, and interactional, and might be an
 appropriate program to transmit information in the social media
@@ -150,13 +153,23 @@ environment.
 \end{quote}
 An article entitled "Globalization in social media and consumer relationships with brands in digital space" \cite{6959277120111201}, could conclude that 60\% of consumers\cite{6959277120111201} were strong brand advocates, and that they were more likely to buy the brand that they were advocates of. The paper continues to conclude that on a global basis, 18\% of users actively set up their online brand community\cite{6959277120111201}, giving techniques which are explained in \ref{obfuscatedmetrics} a bigger foothold in order to further obscure metrics, and causing marketeers and others who rely on this type of data to have problems.
 \section{Discussion}
-The question still remains however, are metrics useful when overrun with bots? bots would not really generate revenue for businesses, unless they are used to spread content which lead to for example phishing or other types of attacks, or are used to click adds. The metrics can of course be obfuscated, but in most cases they do not generate value other than maybe increasing awareness of a brand, and as we have learned in \ref{userreccommendation} we know that most people act on user reviews, and that they increase sales. If bots can infiltrate social media successfully and create a credible online personas like what is described in \ref{botrunningfeed}, there could be reason to believe that they could greatly effect how people buy, and what they buy, but not with pure metrics alone. If you can pad the metrics, is that really valuable? One can argue that padding them do not really give any of substance since a following is more valuable if they contribute to your business social media presence, and therefore one would be able to see that most of their large presence is not real, and therefore would not be of any value. 
+The effects social media bots can have on a society is huge. In this article we have seen several examples on how they affect us, and how their metrics impacts us. We have seen how bots can generate revenue through for example skewering ratings in a movie\ref{IMDB:rate}, to \textit{potentially} affecting a U.S election both in 2010\ref{midtermElection} and in 2016 \ref{Labl:emil:election}. With the recent election and its results, a valid line of discussion would be, did bots have any effect on this? In \ref{Labl:emil:election} we could see that researchers verbalized the problem in their conclusion, claiming that bots in a social media environment might shape and polarize the debate by for example "mucking the waters" with unverified data. In this article, we have read about how sales are affected by the user recommondations \ref{userreccommendation}. A discussion point could be if these types of metrics also influence voting. If these metrics influence voting, social media bots will have a great impact on voting, which in turn would allow for elections to be significantly shaped by who you follow and who you are friends with, but also who is in your media feed, which according to research presented in \ref{emil:runningbotfeed} shows that humans felt that Twitterbots \textbf{"}were credible, attractive, compentent in communication as well as interactionalin a social media environment\textbf{"} \cite{Edwards2014372}.
 \\
 \\
-Another discussion is however how metrics related to adds on web pages which could be harder to detect. Again, the discussion would evolve around how much revenue it would generate other than through pure profit through numbers, but this would most likely not be lucrative in the long run if you discard the initial profit one would get from the first click.
-\\
-\\
-To the discussion on whether or not bots make metrics irrelevant, one needs to first be able to detect that these metrics are generated by bots, research we have presented in this paper might point to that this is not as straight forward as one would think. In \ref{botrunningfeed} we could read that the Twiitterbot was seen as reliable, and trustworthy, this might cause us to believe that advanced bot nets would be very difficult to detect, and one could argue that this type of purposebuilt botnet would be difficult to detect, in fact, if the scenario depicted in Symantecs example is correct, the data would also be correct, allthough not the bots own personality. \ref{Symantec:mockingbirds}
+In other arenas than politics, we have seen how bots might have influenced IMDBs rating of a specific movie, resulting in a petition to improve bot detection in IMDB. 
+
+
+
+
+
+
+
+
+%The question still remains however, are metrics useful when overrun with bots? bots would not really generate revenue for businesses, unless they are used to spread content which lead to for example phishing or other types of attacks, or are used to click adds. The metrics can of course be obfuscated, but in most cases they do not generate value other than maybe increasing awareness of a brand, and as we have learned in \ref{userreccommendation} we know that most people act on user reviews, and that they increase sales. If bots can infiltrate social media successfully and create a credible online personas like what is described in \ref{botrunningfeed}, there could be reason to believe that they could greatly effect how people buy, and what they buy, but not with pure metrics alone. If you can pad the metrics, is that really valuable? One can argue that padding them do not really give any of substance since a following is more valuable if they contribute to your business social media presence, and therefore one would be able to see that most of their large presence is not real, and therefore would not be of any value. 
+
+%Another discussion is however how metrics related to adds on web pages which could be harder to detect. Again, the discussion would evolve around how much revenue it would generate other than through pure profit through numbers, but this would most likely not be lucrative in the long run if you discard the initial profit one would get from the first click.
+
+%To the discussion on whether or not bots make metrics irrelevant, one needs to first be able to detect that these metrics are generated by bots, research we have presented in this paper might point to that this is not as straight forward as one would think. In \ref{botrunningfeed} we could read that the Twiitterbot was seen as reliable, and trustworthy, this might cause us to believe that advanced bot nets would be very difficult to detect, and one could argue that this type of purposebuilt botnet would be difficult to detect, in fact, if the scenario depicted in Symantecs example is correct, the data would also be correct, allthough not the bots own personality. \ref{Symantec:mockingbirds}
 
 
 \section{Conclusion}
