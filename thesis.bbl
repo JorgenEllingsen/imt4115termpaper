@@ -107,69 +107,108 @@ FBI. Department of Justice Provides Update on GameOver Zeus and Cryptolocker
 \newblock Available from:
   \url{https://www.fbi.gov/news/pressrel/press-releases/department-of-justice-provides-update-on-gameover-zeus-and-cryptolocker-disruption}.
 
+\bibitem{CrossPlatform2016}
+comScore. 2016 U.S. Cross-Platform Future in Focus; 2016.
+\newblock Available from:
+  \url{http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/2016-US-Cross-Platform-Future-in-Focus}.
+
+\bibitem{Zonouz2013215}
+Zonouz S, Houmansadr A, Berthier R, Borisov N, Sanders W.
+\newblock Secloud: A cloud-based comprehensive and lightweight security
+  solution for smartphones.
+\newblock Computers \& Security. 2013;37:215 -- 227.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S016740481300031X}.
+
+\bibitem{ISTR2016}
+Symantec. Internet Security Threat Report (ISTR); 2016.
+\newblock Available from:
+  \url{https://www.symantec.com/security-center/threat-report}.
+
+\bibitem{Kaspersky2014}
+INTERPOL KL. Mobile cyber threats, Kaspersky Lab \& INTERPOL Joint Report;
+  2014.
+\newblock Available from:
+  \url{https://securelist.com/files/2014/10/report_mobile_cyberthreats_web.pdf}.
+
 \bibitem{insight}
 Insights S. Global social media research summary 2016; 2016.
 \newblock
   \url{http://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/}.
 
 \bibitem{twitterbot}
-gov S. United States Securities and Exchange Commission - Form 10-Q - Twitter,
-  Inc.; 2016.
+{United States Securities and Exchange Commission} y. Form 10-Q - Twitter,
+  Inc.;.
 \newblock
   \url{https://www.sec.gov/Archives/edgar/data/1418091/000156459014003474/twtr-10q_20140630.htm}.
 
 \bibitem{ferrara15}
 Ferrara E, Varol O, Davis C, Menczer F, Flammini A.
 \newblock The rise of social bots.
-\newblock arXiv preprint arXiv:14075225v3. 2015;.
+\newblock arXiv preprint arXiv:14075225v3. 2015;Available from:
+  \url{https://arxiv.org/abs/1407.5225}.
 
 \bibitem{turing}
 Turing AM.
 \newblock Computing machinery and intelligence.
 \newblock Mind. 1950;59(236):433--460.
+\newblock Available from:
+  \url{http://www.loebner.net/Prizef/TuringArticle.html}.
 
 \bibitem{eliza}
 Weizenbaum J.
 \newblock ELIZA—a computer program for the study of natural language
   communication between man and machine.
 \newblock Communications of the ACM. 1966;9(1):36--45.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=365168}.
 
 \bibitem{boshmaf13}
 Boshmaf Y, Muslukhov I, Beznosov K, Ripeanu M.
 \newblock Design and analysis of a social botnet.
 \newblock Computer Networks. 2013;57(2):556--578.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S1389128612002150}.
 
 \bibitem{hwang12}
 Hwang T, Pearce I, Nanis M.
 \newblock Socialbots: Voices from the fronts.
 \newblock interactions. 2012;19(2):38--45.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=2090161}.
 
 \bibitem{mustafaraj10}
 Mustafaraj E, Metaxas PT. From obscurity to prominence in minutes: Political
   speech and real-time search; 2010.
+\newblock
+  \url{http://cs.wellesley.edu/~pmetaxas/Metaxas-Obscurity-to-prominence.pdf}.
 
 \bibitem{abokhodair}
 Abokhodair N, Yoo D, McDonald DW.
 \newblock Dissecting a social botnet: Growth, content and influence in Twitter.
 \newblock In: Proceedings of the 18th ACM Conference on Computer Supported
   Cooperative Work \& Social Computing. ACM; 2015. p. 839--851.
+\newblock Available from:
+  \url{http://www.pensivepuffin.com/dwmcphd/papers/Abokhodair.SocialBotnet.CSCW2015.pdf}.
 
 \bibitem{cassa}
 Cassa CA, Chunara R, Mandl K, Brownstein JS.
 \newblock Twitter as a sentinel in emergency situations: lessons from the
   Boston marathon explosions.
-\newblock PLOS Currents Disasters. 2013;.
+\newblock PLOS Currents Disasters. 2013;Available from:
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3706072.1/}.
 
 \bibitem{bollen}
 Bollen J, Mao H, Zeng X.
 \newblock Twitter mood predicts the stock market.
 \newblock Journal of Computational Science. 2011;2(1):1--8.
+\newblock Available from: \url{https://arxiv.org/abs/1010.3003}.
 
 \bibitem{gupta}
 Gupta A, Lamba H, Kumaraguru P.
 \newblock \textdollar 1.00 per rt \# bostonmarathon \# prayforboston: Analyzing
   fake content on twitter.
 \newblock In: eCrime Researchers Summit (eCRS), 2013. IEEE; 2013. p. 1--12.
+\newblock Available from:
+  \url{http://precog.iiitd.edu.in/Publications_files/ecrs2013_ag_hl_pk.pdf}.
 
 \bibitem{stringhini}
 Stringhini G, Wang G, Egele M, Kruegel C, Vigna G, Zheng H, et~al.
@@ -183,44 +222,56 @@ Douceur JR.
 \newblock The sybil attack.
 \newblock In: International Workshop on Peer-to-Peer Systems. Springer; 2002.
   p. 251--260.
+\newblock Available from:
+  \url{http://link.springer.com/chapter/10.1007/3-540-45748-8_24}.
 
 \bibitem{comparison}
 Viswanath B, Post A, Gummadi KP, Mislove A.
 \newblock An analysis of social network-based sybil defenses.
 \newblock ACM SIGCOMM Computer Communication Review. 2010;40(4):363--374.
+\newblock Available from:
+  \url{https://www.mpi-sws.org/~gummadi/papers/comm318g.pdf}.
 
 \bibitem{sybilguard}
 Yu H, Kaminsky M, Gibbons PB, Flaxman A.
 \newblock Sybilguard: defending against sybil attacks via social networks.
 \newblock In: ACM SIGCOMM Computer Communication Review. vol.~36. ACM; 2006. p.
   267--278.
+\newblock Available from:
+  \url{http://www.math.cmu.edu/~adf/research/SybilGuard.pdf}.
 
 \bibitem{sybilinfer}
 Danezis G, Mittal P.
 \newblock SybilInfer: Detecting Sybil Nodes using Social Networks.
-\newblock In: NDSS. San Diego, CA; 2009. .
+\newblock In: NDSS. San Diego, CA; 2009. Available from:
+  \url{https://www.internetsociety.org/sites/default/files/Sybillnfer%20Detecting%20Sybil%20Nodes%20using%20Social%20Networks%20(George%20Danezis).pdf}.
 
 \bibitem{sumup}
 Tran DN, Min B, Li J, Subramanian L.
 \newblock Sybil-Resilient Online Content Voting.
 \newblock In: NSDI. vol.~9; 2009. p. 15--28.
+\newblock Available from: \url{http://cs.nyu.edu/~lakshmi/nsdi09.pdf}.
 
 \bibitem{boshmaf11}
 Boshmaf Y, Muslukhov I, Beznosov K, Ripeanu M.
 \newblock The socialbot network: when bots socialize for fame and money.
 \newblock In: Proceedings of the 27th Annual Computer Security Applications
   Conference. ACM; 2011. p. 93--102.
+\newblock Available from: \url{http://dl.acm.org/citation.cfm?id=2076746}.
 
 \bibitem{fis}
 Stein T, Chen E, Mangla K.
 \newblock Facebook immune system.
 \newblock In: Proceedings of the 4th Workshop on Social Network Systems. ACM;
   2011. p.~8.
+\newblock Available from:
+  \url{https://css.csail.mit.edu/6.858/2012/readings/facebook-immune.pdf}.
 
 \bibitem{wangcrowd}
 Wang G, Mohanlal M, Wilson C, Wang X, Metzger M, Zheng H, et~al.
 \newblock Social turing tests: Crowdsourcing sybil detection.
-\newblock arXiv preprint arXiv:12053856. 2012;.
+\newblock arXiv preprint arXiv:12053856. 2012;Available from:
+  \url{https://arxiv.org/pdf/1205.3856.pdf}.
 
 \bibitem{botornot}
 Davis CA, Varol O, Ferrara E, Flammini A, Menczer F.
@@ -228,6 +279,7 @@ Davis CA, Varol O, Ferrara E, Flammini A, Menczer F.
 \newblock In: Proceedings of the 25th International Conference Companion on
   World Wide Web. International World Wide Web Conferences Steering Committee;
   2016. p. 273--274.
+\newblock Available from: \url{https://arxiv.org/abs/1602.00975}.
 
 \bibitem{synchrotrap}
 Cao Q, Yang X, Yu J, Palow C.
@@ -235,18 +287,24 @@ Cao Q, Yang X, Yu J, Palow C.
   networks.
 \newblock In: Proceedings of the 2014 ACM SIGSAC Conference on Computer and
   Communications Security. ACM; 2014. p. 477--488.
+\newblock Available from:
+  \url{https://users.cs.duke.edu/~qiangcao/publications/synchrotrap.pdf}.
 
 \bibitem{wang2013}
 Wang G, Konolige T, Wilson C, Wang X, Zheng H, Zhao BY.
 \newblock You are how you click: Clickstream analysis for sybil detection.
 \newblock In: Presented as part of the 22nd USENIX Security Symposium (USENIX
   Security 13); 2013. p. 241--256.
+\newblock Available from:
+  \url{http://people.cs.vt.edu/~gangwang/clickstream-usenix13.pdf}.
 
 \bibitem{yang2014}
 Yang Z, Wilson C, Wang X, Gao T, Zhao BY, Dai Y.
 \newblock Uncovering social network sybils in the wild.
 \newblock ACM Transactions on Knowledge Discovery from Data (TKDD).
   2014;8(1):2.
+\newblock Available from:
+  \url{https://www.cs.ucsb.edu/~ravenben/publications/pdf/sybil-imc11.pdf}.
 
 \bibitem{Computerworld:Ebay}
 Rosencrance L. Federal judge blocks Web bot from tapping into eBay; 2000.
@@ -298,12 +356,18 @@ Bialecki M, O’Leary S, Smith D.
 \newblock Available from:
   \url{http://www.sciencedirect.com/science/article/pii/S1044500516000159}.
 
-\bibitem{wiki:Oogieloves}
+\bibitem{emil:wiki:oogieacc}
 Wikipedia. The Oogieloves in the Big Balloon Adventure --- Wikipedia{,} The
   Free Encyclopedia; 2016.
-\newblock [Online; accessed 7-October-2016].
-\newblock
+\newblock [Online; accessed 5-November-2016].
+\newblock Available from:
   \url{https://en.wikipedia.org/wiki/The_Oogieloves_in_the_Big_Balloon_Adventure#Accolades}.
+
+\bibitem{Emil:change:Oogieloves}
+{Max C }. Prevent bots from giving hoax votes to The Oogieloves; 2013.
+\newblock [Online; accessed 05-10-2016].
+\newblock Available from:
+  \url{https://www.change.org/p/imdb-com-prevent-bots-from-giving-hoax-votes-to-the-oogieloves}.
 
 \bibitem{HyeonjeongShin2015}
 Shin H, Byun C, Lee H.
@@ -321,6 +385,14 @@ Lin Z.
 \newblock Decision Support Systems. 2014;68:111 -- 124.
 \newblock Available from:
   \url{http://www.sciencedirect.com/science/article/pii/S0167923614002486}.
+
+\bibitem{Emil:FM7090}
+Bessi A, Ferrara E.
+\newblock Social bots distort the 2016 U.S. Presidential election online
+  discussion.
+\newblock First Monday. 2016;21(11).
+\newblock Available from:
+  \url{http://firstmonday.org/ojs/index.php/fm/article/view/7090}.
 
 \bibitem{FB:stats}
 com F. {Stats}; 2016.
