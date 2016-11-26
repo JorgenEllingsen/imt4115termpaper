@@ -51,12 +51,13 @@
 \BOOKMARK [1][-]{section.4.7}{Self Evaluation}{chapter.4}% 51
 \BOOKMARK [0][-]{chapter.5}{Web Application vulnerabilities in 2016}{}% 52
 \BOOKMARK [1][-]{section*.25}{Management Summary}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.2}{Trending vulnerabilities and consequences}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.2.1}{Cross-Site Scripting \(XSS\)}{section.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.2.2}{SQL Injection}{section.5.2}% 57
-\BOOKMARK [2][-]{subsection.5.2.3}{Vulnerable JavaScript Libraries}{section.5.2}% 58
-\BOOKMARK [2][-]{subsection.5.2.4}{Exploit Kits}{section.5.2}% 59
-\BOOKMARK [1][-]{section.5.3}{Countermeasures and mitigation}{chapter.5}% 60
-\BOOKMARK [1][-]{section.5.3}{Self Evaluation}{chapter.5}% 61
-\BOOKMARK [0][-]{section*.31}{Bibliography}{}% 62
+\BOOKMARK [1][-]{section*.26}{Abstract}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.2}{Trending vulnerabilities and consequences}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.2.1}{Cross-Site Scripting \(XSS\)}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.2}{SQL Injection}{section.5.2}% 58
+\BOOKMARK [2][-]{subsection.5.2.3}{Vulnerable JavaScript Libraries}{section.5.2}% 59
+\BOOKMARK [2][-]{subsection.5.2.4}{Exploit Kits}{section.5.2}% 60
+\BOOKMARK [1][-]{section.5.3}{Countermeasures and mitigation}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.3}{Self Evaluation}{chapter.5}% 62
+\BOOKMARK [0][-]{section*.32}{Bibliography}{}% 63

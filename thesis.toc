@@ -52,16 +52,17 @@
 \contentsline {section}{Self Evaluation}{44}{section.4.7}
 \contentsline {chapter}{\numberline {5}Web Application vulnerabilities in 2016}{45}{chapter.5}
 \contentsline {section}{Management Summary}{45}{section*.25}
+\contentsline {section}{Abstract}{45}{section*.26}
 \contentsline {section}{\numberline {5.1}Introduction}{46}{section.5.1}
-\contentsline {subsubsection}{OWASP Top 10}{46}{section*.27}
-\contentsline {subsubsection}{Acunetix Web Application Vulnerability Report 2016}{46}{section*.28}
-\contentsline {subsubsection}{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}{47}{section*.29}
-\contentsline {subsubsection}{Symantec Internet Security Threat Report 2016}{47}{section*.30}
-\contentsline {section}{\numberline {5.2}Trending vulnerabilities and consequences}{48}{section.5.2}
+\contentsline {subsubsection}{OWASP Top 10}{47}{section*.28}
+\contentsline {subsubsection}{Acunetix Web Application Vulnerability Report 2016}{47}{section*.29}
+\contentsline {subsubsection}{Hewlett Packard Enterprise Security Research Cyber Risk Report 2016}{47}{section*.30}
+\contentsline {subsubsection}{Symantec Internet Security Threat Report 2016}{47}{section*.31}
+\contentsline {section}{\numberline {5.2}Trending vulnerabilities and consequences}{47}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Cross-Site Scripting (XSS)}{48}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}SQL Injection}{49}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Vulnerable JavaScript Libraries}{49}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Exploit Kits}{50}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Countermeasures and mitigation}{51}{section.5.3}
+\contentsline {section}{\numberline {5.3}Countermeasures and mitigation}{50}{section.5.3}
 \contentsline {section}{Self Evaluation}{51}{section.5.3}
-\contentsline {chapter}{Bibliography}{52}{section*.31}
+\contentsline {chapter}{Bibliography}{52}{section*.32}
