@@ -3,8 +3,9 @@
 % !TEX spellcheck = en-US
 %%=========================================
 \chapter[Web Application vulnerabilities in 2016]{Common vulnerabilities and attack surfaces for Web Applications in 2016}
-
-\subsection*{Management summary}
+\small{By J{\o}rgen Ellingsen}
+\addcontentsline{toc}{section}{Management Summary}
+\section*{Management summary}
 The web stack has evolved to serve feature rich and dynamic experiences within the browser by expanding on the legacy applications. The majority of cyber attacks are done at web application level, and most of the vulnerabilities are well known and documented - but alot of web applications fail to mitigate or counteract them.
 
 In this chapter several reports from security companies and non-profit organizations was analyzed to find some of the most common web application vulnerabilities with the possibility of severe consequences. The chapter focuses on Cross-Site Scripting, SQL Injection and vulnerable JavaScript Libraries to explain how they work and how they can harm the companies and their visitors/clients. It briefly looks at the rising usage of Exploit Kits, and how these vulnerabilities can compromize the web application and make it a part of an Exploit Kit infrastructure. It continues to look at possible mitigation techniqes and countermeasurements and discuss why so many sites are vulnerable to these well-known attack surfaces.
@@ -66,5 +67,6 @@ This raises the question: why are so many web applications still vulnerable to t
 
 The JavaScript Libraries on the other hand is harder to pervent, the easiest solution here is to stay on top of all libraries the site is using. Update or remove the library as soon as a bug or vulnerability is found. Another thing that is worth mentioning is that JavaScript libraries could be used in XSS attacks aswell, as seen with jQuery in the Twitter example above.
 
-
+\addcontentsline{toc}{section}{Self Evaluation}
+\section*{Self Evaluation}
 

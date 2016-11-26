@@ -1,5 +1,119 @@
 \begin{thebibliography}{10}
 
+\bibitem{Computerworld:Ebay}
+Rosencrance L. Federal judge blocks Web bot from tapping into eBay; 2000.
+
+\bibitem{ICWSM112850}
+Ratkiewicz J, Conover M, Meiss M, Goncalves B, Flammini A, Menczer F. Detecting
+  and Tracking Political Abuse in Social Media; 2011.
+\newblock Available from:
+  \url{http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/view/2850}.
+
+\bibitem{Cassa:Twitter}
+Cassa C, Chunara R, Mandl K, Brownstein J.
+\newblock Twitter as a Sentinel in Emergency Situations: Lessons from the
+  Boston Marathon Explosions.
+\newblock PLoS Currents. 2013;(JUNE).
+
+\bibitem{Observer:FakeTRAF}
+Holiday R. Fake Traffic Means Real Paydays; 2014.
+
+\bibitem{Singh2013}
+Singh A.
+\newblock Social Media and Corporate Agility.
+\newblock Global Journal of Flexible Systems Management. 2013;14(4):255--260.
+\newblock Available from: \url{http://dx.doi.org/10.1007/s40171-013-0043-8}.
+
+\bibitem{6601602}
+Yu S, Guo S, Stojmenovic I.
+\newblock Fool Me If You Can: Mimicking Attacks and Anti-Attacks in Cyberspace.
+\newblock IEEE Transactions on Computers. 2015 Jan;64(1):139--151.
+
+\bibitem{Symantec:Narang}
+Narang S. Uncovering a persistent diet spam operation on Twitter; 2015.
+\newblock [Online]. Available from:
+  \url{http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/uncovering-a-persistent-diet-spam-operation-on-twitter.pdf}.
+
+\bibitem{Oh2016}
+Oh C, Roumani Y, Nwankpa JK, Hu HF.
+\newblock Beyond likes and tweets: Consumer engagement behavior and movie box
+  office in social media.
+\newblock Information \& Management. 2016;p.~--.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0378720616300271}.
+
+\bibitem{Bialecki2016}
+Bialecki M, O’Leary S, Smith D.
+\newblock Judgement devices and the evaluation of singularities: The use of
+  performance ratings and narrative information to guide film viewer choice.
+\newblock Management Accounting Research. 2016;p.~--.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S1044500516000159}.
+
+\bibitem{emil:wiki:oogieacc}
+Wikipedia. The Oogieloves in the Big Balloon Adventure --- Wikipedia{,} The
+  Free Encyclopedia; 2016.
+\newblock [Online; accessed 5-November-2016].
+\newblock Available from:
+  \url{https://en.wikipedia.org/wiki/The_Oogieloves_in_the_Big_Balloon_Adventure#Accolades}.
+
+\bibitem{Emil:change:Oogieloves}
+{Max C }. Prevent bots from giving hoax votes to The Oogieloves; 2013.
+\newblock [Online; accessed 05-10-2016].
+\newblock Available from:
+  \url{https://www.change.org/p/imdb-com-prevent-bots-from-giving-hoax-votes-to-the-oogieloves}.
+
+\bibitem{emil:imdb:Oogieloves}
+IMDB. User ratings for The Oogieloves in the Big Balloon Adventure; 2016.
+\newblock [Online; accessed 05-10-2016].
+\newblock Available from:
+  \url{http://www.imdb.com/title/tt1520498/ratings?ref_=tt_ov_rt}.
+
+\bibitem{HyeonjeongShin2015}
+Shin H, Byun C, Lee H.
+\newblock The Influence of Social Media: Twitter Usage Pattern during the 2014
+  Super Bowl Game.
+\newblock International Journal of Multimedia and Ubiquitous Engineering, 2015.
+  2015;vol 10(3):109--118.
+\newblock Available from:
+  \url{http://www.sersc.org/journals/IJMUE/vol10_no3_2015/11.pdf}.
+
+\bibitem{Lin2014111}
+Lin Z.
+\newblock An empirical investigation of user and system recommendations in
+  e-commerce.
+\newblock Decision Support Systems. 2014;68:111 -- 124.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0167923614002486}.
+
+\bibitem{Emil:FM7090}
+Bessi A, Ferrara E.
+\newblock Social bots distort the 2016 U.S. Presidential election online
+  discussion.
+\newblock First Monday. 2016;21(11).
+\newblock Available from:
+  \url{http://firstmonday.org/ojs/index.php/fm/article/view/7090}.
+
+\bibitem{FB:stats}
+com F. {Stats}; 2016.
+\newblock \url{http://newsroom.fb.com/company-info/#statistics}.
+
+\bibitem{Edwards2014372}
+Edwards C, Edwards A, Spence PR, Shelton AK.
+\newblock Is that a bot running the social media feed? Testing the differences
+  in perceptions of communication quality for a human agent and a bot agent on
+  Twitter.
+\newblock Computers in Human Behavior. 2014;33:372 -- 376.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0747563213003129}.
+
+\bibitem{6959277120111201}
+Hutton G, Fosdick M.
+\newblock The Globalization of Social Media.
+\newblock Journal of Advertising Research. 2011;51(4):564 -- 570.
+\newblock Available from:
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=69592771&site=ehost-live}.
+
 \bibitem{jan-brewer}
 Brewer R.
 \newblock Ransomware attacks: detection, prevention and cure.
@@ -20,6 +134,13 @@ Kotov V, Massacci F.
   Exploit Kits. Berlin, Heidelberg: Springer Berlin Heidelberg; 2013. p.
   181--196.
 \newblock Available from: \url{http://dx.doi.org/10.1007/978-3-642-36563-8_13}.
+
+\bibitem{jan-ek-source}
+malwarebytes. Tools of the Trade: Exploit Kits;.
+\newblock
+  Https://blog.malwarebytes.com/cybercrime/2013/02/tools-of-the-trade-exploit-kits/.
+\newblock Available from:
+  \url{https://blog.malwarebytes.com/cybercrime/2013/02/tools-of-the-trade-exploit-kits/}.
 
 \bibitem{jan-mansfield-whitelist}
 Mansfield-Devine S.
@@ -48,6 +169,13 @@ Microsoft-Corporate-Blogs. Microsoft takes on global cybercrime epidemic in
   Http://blogs.microsoft.com/blog/2014/06/30/microsoft-takes-on-global-cybercrime-epidemic-in-tenth-malware-disruption/\#sm.00000dcwsbrzn9crgt7lpqod3cjdj.
 \newblock Available from:
   \url{http://blogs.microsoft.com/blog/2014/06/30/microsoft-takes-on-global-cybercrime-epidemic-in-tenth-malware-disruption/\#sm.00000dcwsbrzn9crgt7lpqod3cjdj}.
+
+\bibitem{jan-asia-europol}
+Darkreading. Asia Mulls Europol-Style Agency To Fight Cybercrime;.
+\newblock
+  Http://www.darkreading.com/vulnerabilities---threats/asia-mulls-europol-style-agency-to-fight-cybercrime/d/d-id/1326353.
+\newblock Available from:
+  \url{http://www.darkreading.com/vulnerabilities---threats/asia-mulls-europol-style-agency-to-fight-cybercrime/d/d-id/1326353}.
 
 \bibitem{jan-usenix-botnet}
 Cooke E, Jahanian F, McPherson D.
@@ -107,29 +235,13 @@ FBI. Department of Justice Provides Update on GameOver Zeus and Cryptolocker
 \newblock Available from:
   \url{https://www.fbi.gov/news/pressrel/press-releases/department-of-justice-provides-update-on-gameover-zeus-and-cryptolocker-disruption}.
 
-\bibitem{CrossPlatform2016}
-comScore. 2016 U.S. Cross-Platform Future in Focus; 2016.
+\bibitem{jan-krebs-goz}
+Krebs B. ‘Operation Tovar’ Targets ‘Gameover’ ZeuS Botnet, CryptoLocker
+  Scourge; 2014.
+\newblock
+  Http://krebsonsecurity.com/2014/06/operation-tovar-targets-gameover-zeus-botnet-cryptolocker-scourge/.
 \newblock Available from:
-  \url{http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/2016-US-Cross-Platform-Future-in-Focus}.
-
-\bibitem{Zonouz2013215}
-Zonouz S, Houmansadr A, Berthier R, Borisov N, Sanders W.
-\newblock Secloud: A cloud-based comprehensive and lightweight security
-  solution for smartphones.
-\newblock Computers \& Security. 2013;37:215 -- 227.
-\newblock Available from:
-  \url{http://www.sciencedirect.com/science/article/pii/S016740481300031X}.
-
-\bibitem{ISTR2016}
-Symantec. Internet Security Threat Report (ISTR); 2016.
-\newblock Available from:
-  \url{https://www.symantec.com/security-center/threat-report}.
-
-\bibitem{Kaspersky2014}
-INTERPOL KL. Mobile cyber threats, Kaspersky Lab \& INTERPOL Joint Report;
-  2014.
-\newblock Available from:
-  \url{https://securelist.com/files/2014/10/report_mobile_cyberthreats_web.pdf}.
+  \url{http://krebsonsecurity.com/2014/06/operation-tovar-targets-gameover-zeus-botnet-cryptolocker-scourge/}.
 
 \bibitem{insight}
 Insights S. Global social media research summary 2016; 2016.
@@ -137,8 +249,7 @@ Insights S. Global social media research summary 2016; 2016.
   \url{http://www.smartinsights.com/social-media-marketing/social-media-strategy/new-global-social-media-research/}.
 
 \bibitem{twitterbot}
-{United States Securities and Exchange Commission} y. Form 10-Q - Twitter,
-  Inc.;.
+Securities US, Commission E. Form 10-Q - Twitter, Inc.; 2016.
 \newblock
   \url{https://www.sec.gov/Archives/edgar/data/1418091/000156459014003474/twtr-10q_20140630.htm}.
 
@@ -306,113 +417,29 @@ Yang Z, Wilson C, Wang X, Gao T, Zhao BY, Dai Y.
 \newblock Available from:
   \url{https://www.cs.ucsb.edu/~ravenben/publications/pdf/sybil-imc11.pdf}.
 
-\bibitem{Computerworld:Ebay}
-Rosencrance L. Federal judge blocks Web bot from tapping into eBay; 2000.
-
-\bibitem{ICWSM112850}
-Ratkiewicz J, Conover M, Meiss M, Goncalves B, Flammini A, Menczer F. Detecting
-  and Tracking Political Abuse in Social Media; 2011.
+\bibitem{CrossPlatform2016}
+comScore. 2016 U.S. Cross-Platform Future in Focus; 2016.
 \newblock Available from:
-  \url{http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/view/2850}.
+  \url{http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/2016-US-Cross-Platform-Future-in-Focus}.
 
-\bibitem{Cassa:Twitter}
-Cassa C, Chunara R, Mandl K, Brownstein J.
-\newblock Twitter as a Sentinel in Emergency Situations: Lessons from the
-  Boston Marathon Explosions.
-\newblock PLoS Currents. 2013;(JUNE).
-
-\bibitem{Observer:FakeTRAF}
-Holiday R. Fake Traffic Means Real Paydays; 2014.
-
-\bibitem{Singh2013}
-Singh A.
-\newblock Social Media and Corporate Agility.
-\newblock Global Journal of Flexible Systems Management. 2013;14(4):255--260.
-\newblock Available from: \url{http://dx.doi.org/10.1007/s40171-013-0043-8}.
-
-\bibitem{6601602}
-Yu S, Guo S, Stojmenovic I.
-\newblock Fool Me If You Can: Mimicking Attacks and Anti-Attacks in Cyberspace.
-\newblock IEEE Transactions on Computers. 2015 Jan;64(1):139--151.
-
-\bibitem{Symantec:Narang}
-Narang S. Uncovering a persistent diet spam operation on Twitter; 2015.
-\newblock [Online]. Available from:
-  \url{http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/uncovering-a-persistent-diet-spam-operation-on-twitter.pdf}.
-
-\bibitem{Oh2016}
-Oh C, Roumani Y, Nwankpa JK, Hu HF.
-\newblock Beyond likes and tweets: Consumer engagement behavior and movie box
-  office in social media.
-\newblock Information \& Management. 2016;p.~--.
+\bibitem{Zonouz2013215}
+Zonouz S, Houmansadr A, Berthier R, Borisov N, Sanders W.
+\newblock Secloud: A cloud-based comprehensive and lightweight security
+  solution for smartphones.
+\newblock Computers \& Security. 2013;37:215 -- 227.
 \newblock Available from:
-  \url{http://www.sciencedirect.com/science/article/pii/S0378720616300271}.
+  \url{http://www.sciencedirect.com/science/article/pii/S016740481300031X}.
 
-\bibitem{Bialecki2016}
-Bialecki M, O’Leary S, Smith D.
-\newblock Judgement devices and the evaluation of singularities: The use of
-  performance ratings and narrative information to guide film viewer choice.
-\newblock Management Accounting Research. 2016;p.~--.
+\bibitem{ISTR2016}
+Symantec. Internet Security Threat Report (ISTR); 2016.
 \newblock Available from:
-  \url{http://www.sciencedirect.com/science/article/pii/S1044500516000159}.
+  \url{https://www.symantec.com/security-center/threat-report}.
 
-\bibitem{emil:wiki:oogieacc}
-Wikipedia. The Oogieloves in the Big Balloon Adventure --- Wikipedia{,} The
-  Free Encyclopedia; 2016.
-\newblock [Online; accessed 5-November-2016].
+\bibitem{Kaspersky2014}
+INTERPOL KL. Mobile cyber threats, Kaspersky Lab \& INTERPOL Joint Report;
+  2014.
 \newblock Available from:
-  \url{https://en.wikipedia.org/wiki/The_Oogieloves_in_the_Big_Balloon_Adventure#Accolades}.
-
-\bibitem{Emil:change:Oogieloves}
-{Max C }. Prevent bots from giving hoax votes to The Oogieloves; 2013.
-\newblock [Online; accessed 05-10-2016].
-\newblock Available from:
-  \url{https://www.change.org/p/imdb-com-prevent-bots-from-giving-hoax-votes-to-the-oogieloves}.
-
-\bibitem{HyeonjeongShin2015}
-Shin H, Byun C, Lee H.
-\newblock The Influence of Social Media: Twitter Usage Pattern during the 2014
-  Super Bowl Game.
-\newblock International Journal of Multimedia and Ubiquitous Engineering, 2015.
-  2015;vol 10(3):109--118.
-\newblock Available from:
-  \url{http://www.sersc.org/journals/IJMUE/vol10_no3_2015/11.pdf}.
-
-\bibitem{Lin2014111}
-Lin Z.
-\newblock An empirical investigation of user and system recommendations in
-  e-commerce.
-\newblock Decision Support Systems. 2014;68:111 -- 124.
-\newblock Available from:
-  \url{http://www.sciencedirect.com/science/article/pii/S0167923614002486}.
-
-\bibitem{Emil:FM7090}
-Bessi A, Ferrara E.
-\newblock Social bots distort the 2016 U.S. Presidential election online
-  discussion.
-\newblock First Monday. 2016;21(11).
-\newblock Available from:
-  \url{http://firstmonday.org/ojs/index.php/fm/article/view/7090}.
-
-\bibitem{FB:stats}
-com F. {Stats}; 2016.
-\newblock \url{http://newsroom.fb.com/company-info/#statistics}.
-
-\bibitem{Edwards2014372}
-Edwards C, Edwards A, Spence PR, Shelton AK.
-\newblock Is that a bot running the social media feed? Testing the differences
-  in perceptions of communication quality for a human agent and a bot agent on
-  Twitter.
-\newblock Computers in Human Behavior. 2014;33:372 -- 376.
-\newblock Available from:
-  \url{http://www.sciencedirect.com/science/article/pii/S0747563213003129}.
-
-\bibitem{6959277120111201}
-Hutton G, Fosdick M.
-\newblock The Globalization of Social Media.
-\newblock Journal of Advertising Research. 2011;51(4):564 -- 570.
-\newblock Available from:
-  \url{http://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=69592771&site=ehost-live}.
+  \url{https://securelist.com/files/2014/10/report_mobile_cyberthreats_web.pdf}.
 
 \bibitem{AcunetixCompany}
 Acunetix. Combating the Web Security Threat; 2016.

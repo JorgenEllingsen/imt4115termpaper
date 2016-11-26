@@ -1,25 +1,28 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian) The top-level auxiliary file: thesis.aux A level-1 auxiliary file: front.aux A level-1 auxiliary file: preface.aux A level-1 auxiliary file: acknowledgment.aux A level-1 auxiliary file: summary.aux A level-1 auxiliary file: jan.aux A level-1 auxiliary file: audun.aux A level-1 auxiliary file: fabian.aux A level-1 auxiliary file: emil.aux A level-1 auxiliary file: jorgen.aux The style file: vancouver.bst Database file #1: refs.bib 
- Warning--entry type for "jan-coc" isn't style-file defined --line 379 of file refs.bib 
- Warning--entry type for "jan-microsoft-no-ip" isn't style-file defined --line 397 of file refs.bib 
- Warning--entry type for "jan-fbi-GOZ" isn't style-file defined --line 416 of file refs.bib 
- Warning--entry type for "jan-fbi-GOZ2" isn't style-file defined --line 444 of file refs.bib 
- Warning--entry type for "jan-windows-applocker" isn't style-file defined --line 489 of file refs.bib 
- Warning--entry type for "jan-nsm-ransomware" isn't style-file defined --line 498 of file refs.bib 
- Warning--string name "prevent" is undefined --line 690 of file refs.bib I was expecting a `,' or a `}'---line 690 of file refs.bib : title = prevent : bots from giving hoax votes to The Oogieloves", I'm skipping whatever remains of this entry 
- Warning--string name "user" is undefined --line 697 of file refs.bib I was expecting a `,' or a `}'---line 697 of file refs.bib : title = user : ratings for The Oogieloves in the Big Balloon Adventure", I'm skipping whatever remains of this entry 
- Warning--I didn't find a database entry for "HyeonjeongShin2015" 
- Warning--I didn't find a database entry for "Lin2014111" 
- Warning--I didn't find a database entry for "FB:stats" 
- Warning--I didn't find a database entry for "Edwards2014372" 
- Warning--I didn't find a database entry for "6959277120111201" 
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian) The top-level auxiliary file: thesis.aux A level-1 auxiliary file: front.aux A level-1 auxiliary file: preface.aux A level-1 auxiliary file: summary.aux A level-1 auxiliary file: jan.aux A level-1 auxiliary file: audun.aux A level-1 auxiliary file: fabian.aux A level-1 auxiliary file: emil.aux A level-1 auxiliary file: jorgen.aux The style file: vancouver.bst Database file #1: refs.bib I was expecting a `,' or a `}'---line 148 of file refs.bib : : @misc{insight, (Error may have been on previous line) I'm skipping whatever remains of this entry 
+ Warning--entry type for "jan-coc" isn't style-file defined --line 402 of file refs.bib 
+ Warning--entry type for "jan-ek-source" isn't style-file defined --line 411 of file refs.bib 
+ Warning--entry type for "jan-asia-europol" isn't style-file defined --line 420 of file refs.bib 
+ Warning--entry type for "jan-microsoft-no-ip" isn't style-file defined --line 440 of file refs.bib 
+ Warning--entry type for "jan-fbi-GOZ" isn't style-file defined --line 459 of file refs.bib 
+ Warning--entry type for "jan-krebs-goz" isn't style-file defined --line 471 of file refs.bib 
+ Warning--entry type for "jan-fbi-GOZ2" isn't style-file defined --line 501 of file refs.bib 
+ Warning--entry type for "jan-windows-applocker" isn't style-file defined --line 546 of file refs.bib 
+ Warning--entry type for "jan-nsm-ransomware" isn't style-file defined --line 555 of file refs.bib 
+ Warning--I didn't find a database entry for "IMDB:Oogieloves" 
  Warning--empty author and editor in jan-nsm-ransomware 
  Warning--missing publisher in jan-nsm-ransomware 
  Warning--empty chapter in jan-kotov-ek 
+ Warning--empty author and editor in jan-ek-source 
+ Warning--missing publisher in jan-ek-source 
+ Warning--there's a month but no year in jan-ek-source 
  Warning--empty author and editor in jan-windows-applocker 
  Warning--missing publisher in jan-windows-applocker 
  Warning--there's a month but no year in jan-windows-applocker 
  Warning--empty author and editor in jan-microsoft-no-ip 
  Warning--missing publisher in jan-microsoft-no-ip 
+ Warning--empty author and editor in jan-asia-europol 
+ Warning--missing publisher in jan-asia-europol 
+ Warning--there's a month but no year in jan-asia-europol 
  Warning--empty booktitle in jan-usenix-botnet 
  Warning--empty pages in jan-usenix-botnet 
  Warning--empty author and editor in jan-coc 
@@ -32,10 +35,19 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian) The top-level auxiliary fil
  Warning--missing publisher in jan-fbi-GOZ 
  Warning--empty author and editor in jan-fbi-GOZ2 
  Warning--missing publisher in jan-fbi-GOZ2 
+ Warning--empty author and editor in jan-krebs-goz 
+ Warning--missing publisher in jan-krebs-goz 
+ Warning--empty author and editor in CrossPlatform2016 
+ Warning--missing publisher in CrossPlatform2016 
+ Warning--empty author and editor in ISTR2016 
+ Warning--missing publisher in ISTR2016 
+ Warning--empty author and editor in Kaspersky2014 
+ Warning--missing publisher in Kaspersky2014 
  Warning--empty author and editor in insight 
  Warning--missing publisher in insight 
  Warning--empty author and editor in twitterbot 
  Warning--missing publisher in twitterbot 
+ Warning--there's a month but no year in twitterbot 
  Warning--empty author and editor in mustafaraj10 
  Warning--missing publisher in mustafaraj10 
  Warning--can't use both volume and number fields in sybilguard 
@@ -50,17 +62,13 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian) The top-level auxiliary fil
  Warning--missing publisher in Observer:FakeTRAF 
  Warning--empty author and editor in Symantec:Narang 
  Warning--missing publisher in Symantec:Narang 
- Warning--empty author and editor in wiki:Oogieloves 
- Warning--missing publisher in wiki:Oogieloves 
- Warning--empty author and editor in change:Oogieloves 
- Warning--empty title in change:Oogieloves 
- Warning--missing publisher in change:Oogieloves 
- Warning--there's a month but no year in change:Oogieloves 
- Warning--empty author and editor in IMDB:Oogieloves 
- Warning--empty title in IMDB:Oo
-gieloves 
- Warning--missing publisher in IMDB:Oogieloves 
- Warning--there's a month but no year in IMDB:Oogieloves 
+ Warning--empty author and ed
+itor in emil:wiki:oogieacc 
+ Warning--missing publisher in emil:wiki:oogieacc 
+ Warning--empty author and editor in Emil:change:Oogieloves 
+ Warning--missing publisher in Emil:change:Oogieloves 
+ Warning--empty author and editor in FB:stats 
+ Warning--missing publisher in FB:stats 
  Warning--empty author and editor in AcunetixCompany 
  Warning--missing publisher in AcunetixCompany 
  Warning--empty author and editor in Acunetix2016 
@@ -84,4 +92,4 @@ gieloves
  Warning--missing publisher in TweetDeck 
  Warning--empty author and editor in Preuss2011 
  Warning--missing publisher in Preuss2011 
- Warning--empty chapter in Kotov2013 (There were 2 error messages)
+ Warning--empty chapter in Kotov2013 (There was 1 error message)
